@@ -1,0 +1,195 @@
+https://drive.google.com/drive/folders/1wHNIYKRAFDEcRPG9LsLbDTUBzuWV9Uop?usp=sharing
+
+
+tharindu.perera@ieee.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MacOS=>
+import Cocoa
+class WeatherCell:NSCollectionViewItem
+{
+	@IBOutlet weak var weatherCellImage:NSImageView!
+	@IBOutlet weak var cellData:NSTexxtField!
+	@IBOutlet weak var highTemp:NSTextField!
+	@IBOutlet weak var lowTemp:NSTextField!
+	override func viewDidLoad()
+	{
+		super.viewDidLoad()
+		self.view.wantsLayer=true
+		self.view.Layer?.backgroundColor=CGColor(red:0.69,green:0.85,alpha:0.5)
+		self.view.layer?.cornerRadius=5
+	}
+	func configureCell(weatherCell:Forecast)
+	{
+		weatherCellImage.image=NSImage(named:weatherCell.weatherType)
+		highTemp.stringValue="\(weatherCell.highTemp)"
+		lowTemp.stringValue="\(weatherCell.lowTemp)"
+		cellData.stringValue=weatherCell.date
+	}
+}
+
+	
+import Cocoa
+import CoreLocation
+@NSApplicationMain
+class AppDelegate:NSObject,NSApplicationDelegate,CLLocationManagerDelegate
+{
+	let statusItem=NSStatusBar.system.statusItem(withLength:NSStatusItem.variableLength)
+	let locationManager=CLLocationManager()
+	var currentLocation:CLLocation!
+	func applicationDidFinishLaunching(_ aNotification:Notification)
+	{
+		locationManager.delegate=self
+		locationManager.desiredAccuracy=kCLLocationAccuracyBest
+		locationManager.startMonitoringSignificantLocationChanges()
+		locationManager.distanceFilter=1000
+		location.startUpdatingLocation()
+		statusitem.button?.title="--"
+		statusItem.action=#selector(AppDelegate.displayPopUp(_:))
+		let updateWeatherDta=Timer.scheduledTimer(timeInterval:60*15,target:self,selector:#selector(AppDelegate.downloadWeatherData),userInfo:nil,repeats:true)
+		updateWeatherData.tolerance=60
+	}
+	func locationWeather(_manager:CLLocationManager,didUpdateLocations locations:[CLLocation])
+	{
+		currentLocation=location[location.count-1]
+		Location.instance.latitude=currentLocation.coordinate.latitude
+		Location.instance.longitudecurrentLocation.coordinate.longitude
+		downloadWeatherData()
+	}
+	func downloadWeatherData()
+	{
+		WeatherService.instance.downloadWeatherDetails
+		{
+			self.statusItem.button?.title="\(WeatherService.instance.currentWeather.currentTemp)"	
+			WeatherService.instance.downloadForecast(completed:
+			{
+				NotificationCenter.default.post(name:NOTIF_DOWNLOAD_COMPLETE,object:nil)
+				self.locationManager.stopUpdatingLocation()
+			})
+		}
+	}
+	@objc func displayPopUp(_sender:AnyObject?)
+	{
+		let storyboard=NSStoryboard(name:NSStoryboard.name(rawValue:"Main"),bundle:nil)
+		guard let vc=storyboard.instantiateController(withIdentification:NSStoryboard.SceneIdentifier(rawValue:"WeatherVC")) as? NSViewController else{return}
+		let popoverView=NSPopover()
+		popoverView.contentViewController=vc
+		popoverView.behavior=.transient
+		popoverView.show(relativeTo:statusItem.button!.bounds,of:statusItem.button!,preferredEdge:.minY)
+	}
+}
+
+
+import Cocoa
+extension NSButton
+{
+	func styleButtonText(button:NSButton,buttonName:String,fontColor:NSColor,alignment:NSTextAlignment,font:String,size:CGFloat)
+	{
+		let paragraphStyle=NSMutableParagraphStyle()
+		paragraphStyle.alignment=alignment
+		button.attributedString(string:buttonName,attributes:[NSAttributedStringKey.foregroundColor:fontColor,NSAttributedStringKey.paragraphStyle,NSAttributedStringKey.font:NSFont(name:font,size:size)!])
+	}
+}
+
+
+import Cocoa
+classs WeatherVC:NSViewController
+{
+	@IBOutlet weak var dateLbl:NSTextField!
+	@IBOutlet weak var tempLbl:NSTextField!
+	@IBOutlet weak var locationLbl:NSTextField!
+	@IBOutlet weak var weatherImage:NSImageView!
+	@IBOutlet weak var weatherConditionLbl:NSTextField!
+	@IBOutlet weak var coolectionView:NSCollectionView!
+	@IBOutlet weak var poweredByBtn:NSButton!
+	@IBOutlet weak var quitBtn:NSButton!
+	override func viewDidLoad()
+	{
+		super.viewDidLoad()
+		collectionView.dataSource=self
+		collectionView.delegate=self
+	}
+	override func viewDidAppear()
+	{
+		NotificationCenter.default.addObserver(self,selector:#selector(WeatherVC.dataDownloaddedNotif(_:)),name:NOTIF_DOWNLOAD_COMPLETE,object:nil)
+		self.view.layer?.backgroundColor=CGColor(red:0.29,green:0.72,blue:0.98,alpha:1.00)
+		updateUI()
+		quitBtn.styleButtonText(button:quitBtn,buttonName:"Quit",fontColor:darkGray,alignment:.center,font:"Avenir Next",size:11)
+		poweredByBtn_styleButtontext(button:poweredByBtn,buttonName:"Powered by Map",fontColor".darkGray,alignment:.center,font:"Avenir Next",size:11)
+	}
+	override func viewDidDisappear()
+	{
+		NotificationCenter,default.removeObserver(self,name:NOTIF_DOWNLOAD_COMPLETE,object:nil)
+	}
+	@objc func dataDownloadedNotif(_notif:Notification)
+	{
+		updateUI()
+		print("Notification to update UI")
+	}
+	@IBAction func poweredByBtnClicked(_sender:Any)
+	{
+		let url=URL(string:API_HOMEPAGE)!
+		NSWorkspace.shared.open(url)
+	}
+	@IBAction func quitBtnClicked(_sender:Any)
+	{
+		NSApplication.shared.terminate(nil)
+	}
+	@IBAction func poweredByBtnClicked(_sender:Any)
+	{
+		let url URL(string:API_HOMEPAGE);
+		NSWorkspace.shared.open(url)
+	}
+	@IBAction func quitBtnClicked(_sender:Any)
+	{
+		NSApplication.shared.terminate(nil)
+	}
+	func updateUI()
+	{
+		let weather=WeatherService.instance.currentWeather
+		dateLbl.stringValue=weather.date
+		tempLbl.stringValue="\(weather.currentTemp)"
+		locationLbl.stringvalue=weather.cityName
+		weatherConditionLbl.stringValue=weather	.weatherType
+		weatherImage.image=NSImage(named:NSImage.Name(rawValue:weather.weather.weatherType))
+		collectionView.reloadData()
+	}
+}
+extension WeatherVC:NSCollectionViewDelegate,NSCollectionViewDataSource,NSCollectionViewDelegateFlowLayout
+{
+	func collectionView(_collectionView:NSCollectionView,itemForRepresentedObjectAt indexPath:IndexPath)->NSCoollectionViewItem
+	{
+		let forecastItem=collectionView.makeItem(withIdentifier:NSUserInterfaceItemIdentifier(rawValue:"WeatherCell"),for:indexpath)
+		guard let forecastCell=forecastItem as? WeatherCell else{return forecastItem}
+		forecastCell.configureCell(weatherCell:weatherService.instance,forecast[indexPath.item])
+		return forecastCell
+	}
+	func numberOfSection(in collectionView:NSCollectionView)->Int{
+		return 1
+	}
+	func collectionView(_collectionVieew: NSCollectionView,numberOfItemsInSection section:Int)->Int{
+		return WeatherService.instance.forecast.count
+	}
+	func collectionView(_collectionView:NSCollectionView,layout collectionViewLayout:NSCollectionViewLayout,sizeForItemAt indexPath:IndexPath)->NSSize{
+		return NSSize(width:125,height:125)
+	}
+}
+

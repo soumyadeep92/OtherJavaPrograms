@@ -1,0 +1,358 @@
+from django.db import models
+class Post(models.Model):
+	title=models.CharField(max_length=50)
+	body=models.TextField(max_length=1000)
+	def __str(self):
+		return self.title
+
+
+
+from django.db import models
+from .models import Post
+admin.site.register(Post)
+
+
+from django.shortcuts import render
+from .models import post
+def postlist(request):
+	post_list=Post.objects.all()
+ 	template_name='post/list.html'
+	context={'post_list':post_list}
+	return render(request,template_name,context)
+def post_detail(request,pk):
+	post_list=Post.objects.get(pk=pk)
+ 	template_name='post/detail.html'
+	context={'post_detail':post_detail}
+	return render(request,template_name,context)
+
+
+
+from django.urls import path
+from .views import post_list,post_detail
+app_name='post'
+urlpatterns=[path('',post_list,name='post_list'),
+path('<int:pk>',post_detail,name='post_detail')]
+
+
+
+from django.contrib import admin
+from django.urls import path,include
+urlpatterns=[path('admin/',admin.site.urls),path('blog/',include('post.urls',namespace='blog')]
+
+
+
+<h1>PostList</h1>
+{% for post in post_list%}
+<h3><a href="{%url 'blog:post_detail' post.pk">{{post.title}}</h3>
+{%end_for%}
+
+
+
+<h1>Post Detail</h1>
+<h3>title: {{post_detail.title}}</h3>
+
+
+
+
+from flask import Flask
+app=Flask(__name__)
+@app.route('/potato')
+def welcome():
+	return 'This ismy first Flask app! Yay!'
+@app.route('/')
+def rootpage():
+	return 'THIS IS MY ROOT PAGE!'
+@root.route('/bob')
+def bobpage():
+	return "Yo Bob What's happening now
+
+app.run()
+
+
+
+from flask import Flask,request
+app=Flask(__name__)
+@app.route('/potato')
+ def welcome():
+	return 'This ismy first Flask app! Yay!'
+@app.route('/')
+def rootpage():
+	return 'THIS IS MY ROOT PAGE!'
+@root.route('/bob')
+def bobpage():
+	return "Yo Bob What's happening now
+@app.route('/method',methods=['GET','POST'])
+def method():
+	if request.method=='POST':
+		RETURN "You've used a POST request!"
+	else:
+		return "I reckon you're probably using a GET request!"
+
+
+app.run()
+
+
+
+<!DOCTYPE html>
+<head>	
+	<title>Welcome Flask App</title>
+</head>
+<p>THIS IS MY ROOT PAGE!!<p>
+<p>THIS IS THE PROOF..I'm not lying..</p>
+
+from flask import Flask,request,render_template
+app=Flask(__name__)
+@app.route('/potato')
+ def welcome():
+	return 'This ismy first Flask app! Yay!'
+@app.route('/')
+def rootpage():
+	return render_template("index.html")
+@root.route('/bob')
+def bobpage():
+	return "Yo Bob What's happening now
+@app.route('/method',methods=['GET'])
+def method():
+	if request.method=='POST':
+		RETURN "You've used a POST request!"
+	else:
+		return "I reckon you're probably using a GET request!"
+
+
+app.run() 
+
+
+
+<!DOCTYPE html>
+<head>	
+	<title>Welcome Flask App</title>
+	<link rel="stylesheet" type="text/css" href="{{ url for ('static', filename='style.css')}}">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+</head>
+<h1>THIS IS MY ROOT PAGE!!</h1>
+<body class="main">
+	<p>THIS IS THE PROOF..I'm not lying..</p>
+</body>
+
+from flask import Flask,request,render_template
+app=Flask(__name__)
+@app.route('/potato')
+ def welcome():
+	return 'This ismy first Flask app! Yay!'
+@app.route('/')
+def rootpage():
+	return render_template("index.html")
+@root.route('/bob')
+def bobpage():
+	return "Yo Bob What's happening now
+@app.route('/method',methods=['GET'])
+def method():
+	if request.method=='POST':
+		RETURN "You've used a POST request!"
+	else:
+		return "I reckon you're probably using a GET request!"
+
+
+app.run() 
+
+h1
+{
+	text:align:center;
+}
+.main
+{
+	padding-left:100px;
+	padding-right:100px;
+	text-align:left;
+	border:10px solid blue;
+}
+
+
+from flask import Flask,request,render_template
+app=Flask(__name__)
+@app.route('/',methods=['GET','POST'])
+def rootpage():
+	name=''
+	if request.method=='POST' and 'username' in request.form:
+		name=request.form.get('username')
+	return render_template("index.html",name=name)
+
+app.run() 
+
+
+
+
+h1
+{
+	text:align:center;
+}
+.main
+{
+	padding-left:100px;
+	padding-right:100px;
+	text-align:left;
+}
+
+
+<!DOCTYPE html>
+<head>	
+	<title>Welcome Flask App</title>
+	<link rel="stylesheet" type="text/css" href="{{ url for ('static', filename='style.css')}}">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+</head>
+<h1>THIS IS MY ROOT PAGE!!</h1>
+<div>
+	<p>Please enter your name.</p>
+	<form class="pure-form" method="POST" action="/">
+	Name:<br/>
+	<input type="text" name="username"><br/>
+	<button type="submit" class="pure-button pure-button-primary" value="Submit">Submit</button>
+	</form>
+</div>
+{{name}}
+</body>
+
+
+
+
+from __future__ import unicode_literals
+from django.db import models
+class Post(models.Models):
+	title=models.CharField(max_length=120)
+	content=models.TextField()
+	updated=models.DateTimeField(auto_now=True,auto_now_add=False)
+	timestamp=models.DateTimeField(auto_now=False,auto_now_add=True)
+
+	def __unicode__(self):
+		return self.title
+	def __str__(self):
+		return self.title
+
+from django.contrib import admin
+from .models import Post
+class PostAdmin(admin.ModelAdmin):
+	list_display=["title","updated","timestamp"]
+	list_display_links=["updated"]
+	list_editable=["title"]
+	list_filter=["updated","timestamp"]
+	search_fields=["title","content"]
+	class Meta:
+		model=Post
+admin.site.register(Post)
+
+
+
+
+from django.shortcuts import render
+from django.http import HttpResponse
+def posts_home(request):
+	return HttpResponse("<h1>Hello</h1>")
+
+
+from django.conf.urls import url
+from django.contrib import admin
+urlpatterns=[r'^admin/', 
+admin.site.urls), url(r'^/posts/$', "posts.views.post_home"),
+#url(r'^/posts/$', "<appname>.views.<function_name>"),]
+
+
+from django.conf.urls import url,include
+from django.contrib import admin
+urlpatterns=[url(r'^/posts/', include("posts.url")),
+#url(r'^/posts/$', "<appname>.views.<function_name>"),]
+
+
+
+from django.conf.urls import url,include
+from django.contrib import admin
+urlpatterns=[url(r'^$', "posts.views.post_home"),
+#url(r'^/posts/$', "<appname>.views.<function_name>"),]
+
+
+
+
+from django.shortcuts import render
+from django.http import HttpResponse
+def posts_create(request):
+	return HttpResponse("<h1>Create</h1>")
+def posts_detail(request): #retrieve
+	return HttpResponse("<h1>Detail</h1>")
+def posts_list(request): #list items
+	return HttpResponse("<h1>List</h1>")
+def posts_update(request):
+	return HttpResponse("<h1>Update</h1>")
+def posts_delete(request):
+	return HttpResponse("<h1>Detail</h1>")
+
+
+
+from django.conf.urls import url,include
+from django.contrib import admin
+from . import views
+urlpatterns=[url(r'^/$', "posts.views.post_list"), url(r'^create/$', "posts.views.post_create"),url(r'^detail/$', "posts.views.post_detail"),url(r'^update/$', "posts.views.post_update"),url(r'^delete/$', "posts.views.post_delete"),
+#url(r'^/posts/$', "<appname>.views.<function_name>"),]
+
+
+
+<!--DOCTYPE html -->
+<html>
+<body>
+<h1> Template is woring </h1>
+</body>
+</html>
+
+
+
+from django.shortcuts import render
+from django.http import HttpResponse
+def posts_create(request):
+	return HttpResponse("<h1>Create</h1>")
+def posts_detail(request): #retrieve
+	return HttpResponse("<h1>Detail</h1>")
+def posts_list(request): #list items
+	return render(request,"index.html",{})
+	#return HttpResponse("<h1>List</h1>")
+def posts_update(request):
+	return HttpResponse("<h1>Update</h1>")
+def posts_delete(request):
+	return HttpResponse("<h1>Detail</h1>")
+
+
+
+from django.conf.urls import url,include
+from django.contrib import admin
+from .views import (post_list,post_create,post_detail,post_update,post_delete)
+urlpatterns=[url(r'^/$', "posts.views.post_list"), url(r'^create/$', "posts.views.post_create"),url(r'^detail/$', "posts.views.post_detail"),url(r'^update/$', "posts.views.post_update"),url(r'^delete/$', "posts.views.post_delete"),
+#url(r'^/posts/$', "<appname>.views.<function_name>"),]
+
+
+
+from django.shortcuts import render
+from django.http import HttpResponse
+def posts_create(request):
+	return HttpResponse("<h1>Create</h1>")
+def posts_detail(request): #retrieve
+	return HttpResponse("<h1>Detail</h1>")
+def posts_list(request): #list items
+	#if request.user.is_authenticated():
+		#context={"title":"List"}
+	#else:
+	context={"title":"List"}
+	return render(request,"index.html",context)
+	#return HttpResponse("<h1>List</h1>")
+def posts_update(request):
+	return HttpResponse("<h1>Update</h1>")
+def posts_delete(request):
+	return HttpResponse("<h1>Detail</h1>")
+
+
+
+<!--DOCTYPE html -->
+<html>
+<body>
+<h1> {{title}} is woring </h1>
+</body>
+</html>
+
+
+

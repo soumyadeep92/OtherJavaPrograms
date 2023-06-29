@@ -1,0 +1,6612 @@
+
+Transcript
+well good afternoon to
+all the participants who have joined the
+through 78th course learning program of
+iirs
+i welcome all of you to this special
+course
+organized on geospatial technology
+for archaeological and cultural heritage
+studies
+earlier we had this planned discourse
+for about two weeks
+and had planned to conduct
+very detailed lectures and also some
+demonstrations
+related to archaeological studies
+and cultural heritage studies uh
+monitoring and management
+documentation of heritage built heritage
+especially
+through geospatial technology however
+due to the prevailing situation that we
+have at our end
+and all over the country and the world
+related to the pandemic
+all of us are facing a very difficult
+situation
+and due to that we had to compress the
+course to one week
+we shall try our best to convey all the
+technology the methods and the case
+examples
+in this one week in a compressed format
+i welcome you all once again i'm happy
+to announce that we have about 9000
+participants from about eight
+more than 800 850 plus institutes that
+have
+been able to join us i hope you have a
+very fruitful learning experience in
+this one week
+with this i will begin the first lecture
+which is the introductory lecture
+on geospatial technology for cultural
+heritage
+use and archaeological studies we will
+have an overview of
+the technologies that are available also
+we i will take you through
+the basics of all the technologies what
+their advantages are
+what how they help us to
+go about mapping monitoring documenting
+heritage structures
+and how it helps us in archaeological
+studies
+and then i will take you through the
+case examples of each of them some of
+them
+from the international and national uh
+researchers and some of them are
+the studies that have been done at iirs
+so with this i will start
+the lecture
+so as i said i'll tell you about
+heritage
+what heritage is and its importance
+the earth observation and geospatial
+techniques that are available to us in
+the current scenario
+how these techniques and methods are
+useful
+for archaeological applications
+together with their advantages we will
+also highlight the limitations
+and how we can use an integrated
+approach you can club
+different technologies different data
+from different sensors
+and also club different types of image
+processing and gis techniques to
+come up with a very comprehensive
+documentation plan
+and also a plan for
+mapping monitoring and management of
+these
+heritage sites in the current
+course that we have planned we will only
+be taking you
+through methods and techniques for
+cultural heritage there are also the
+same technology can also be used for
+natural heritage
+however right now we don't we are not
+highlighting any examples of the natural
+heritage
+studies right and
+so as we can say that heritage can be
+seen
+as a bridge or arch between what we
+inherit from our ancestors through time
+and what it is that we will leave behind
+for the future generations
+so it is an arch or a bridge and a very
+important bridge that we pass on from
+generation to generation
+the importance of the cultural and
+natural heritage documentation
+is very well recognized at the
+international level
+and there is an increasing pressure on
+all the scientific community and the
+archaeological
+scientists and the historians to
+document and preserve
+heritage as well as possible and
+currently to use the digital methods
+available to us
+the precise documentation of cultural
+heritage status
+is now essential for its protection and
+scientific studies
+that are carried out during the
+restoration and the renovation processes
+now to summarize the heritage types
+types of heritage could be
+basically classified into cultural
+property
+or you know something which is physical
+physical or tangible cultural heritage
+like monuments
+temples forts all these kind of built
+heritage structures or even written
+manuscripts that you have paintings and
+so on
+so these would be property something
+which is physical and can be seen and
+held
+the next category would be intangible
+culture
+so these are non-physical aspects of the
+culture
+our heritage for example it could be
+folklore
+four dances songs so on and so forth
+some some
+customs that are passed on and so on and
+so forth so these are non-physical
+aspects
+intangible cultural heritage this is
+also this also forms a very important
+part of the
+heritage that we sold that is
+term the term that is heritage or
+culture then comes natural heritage
+which refers to diversity that is
+available
+so you know you like your the value of
+flowers in
+uttarakhand so it's a biodiversity uh
+heritage or geo biodiversity like the
+yellowstone national park in the united
+states and several other
+the uluru rock in australia and so on
+and so forth there are several such
+natural
+heritage the road bridges in the
+northeast so there are several such
+examples of natural heritage
+which geospatial technology
+can play a very important role in
+documentation
+and management and monitoring of such
+natural heritage features as well
+currently as i said in this one week
+program we will only be focusing on the
+first
+type that is the physical or built
+heritage to be
+very precise uh we are going to be
+taking up heritage sites as
+monuments etc and how to document them
+manage them and monitor them how to
+assess damage that may have happened and
+then
+for reconstruction etc what steps may be
+taken
+for protection of the monuments how we
+can use
+earth observation data how we can club
+uh satellite data observation data with
+say aerial data or uav data augment
+that with uh ground-based data
+collection like from terrestrial laser
+scanner
+or ground-based photographs
+these days even crowd-sourced data forms
+a very very important part
+of a data collection process and
+we get very valuable information from
+the crowd source data
+heritage structures heritage monuments
+etc can be reconstructed
+using uh data from crowd sourced
+examples similarly there are
+say several kinds of remotely sensed
+data like
+laser data uh microwave data and so on
+and so forth so we can club the i will
+show you examples and also in the
+forthcoming lectures you will see
+examples that will help you to
+see how this integrated approach gives
+us a very
+detailed set
+parameters to document the cultural
+heritage
+so the rapid advancement in new
+technologies has
+you know made available this practice of
+recording heritage sites and monuments
+and it has made it easier
+digital tools and media also offer new
+or sophisticated means for the user to
+be able to collect
+analyze and disseminate this information
+about heritage sites
+when i say heritage science i am
+specifically referring to built
+heritage structures
+new technologies and a growing need to
+document
+and preserve information and objects
+related to cultural heritage
+is also expanding at a very rapid rate
+so people have realized that these
+advanced technologies can help us
+and augment our process of documentation
+and the preservation for that can be
+used for reconstruction
+later so 3d recording
+we can also collect not information not
+just in two dimensions
+but as we will discuss later by using
+means of photogrammetric
+data collection we can do a three
+dimensional recording
+consequently documentation and
+management of the cultural heritage
+and this provides the necessary details
+and information for constructing
+heritage inventories
+these inventories can be used for
+assessing damage
+risk management and the overall
+management and monitoring of the
+heritage assets
+now earth observation we will begin with
+earth observation from the satellite
+platform
+and how we can use geospatial techniques
+like
+uh image processing
+methods of gis deep learning and so on
+and so forth
+to extract maximum information about the
+heritage
+structures and put them in a
+virtual heritage management system
+so earth observation as you know can be
+applied to the study of cultural and
+natural heritage
+and also archaeological studies this
+would include documentation
+site management and monitoring damage
+detection
+change detection so if i have
+satellite data for a considerable period
+of time
+say from say the 1970s till
+date i can see how the area around the
+heritage structure has changed
+what anthropological aspects have
+affected it
+how it has changed over time and what
+are its
+imprints on the landscape so these
+things can be studied
+also we can study not just the features
+or manifestations that we see on the
+surface
+but with techniques like microwave data
+or ground penetrating radar we can also
+have a
+idea or have information about the sub
+surface features so
+varied information for
+possible excavation etc or buried
+ancient varied cities or sites or
+artifacts etc can be
+excavated with the help of such
+techniques
+in this week we have also tried to
+incorporate
+the basics of such technology for you
+now this technique provides extremely
+useful information for researchers
+decision makers and planners and also
+for the
+very common man like you and me so that
+we are able to see and appreciate
+and visualize this heritage uh it
+becomes especially important in
+times such as these that we are going
+through where going out to
+a museum or to a site becomes very very
+difficult
+such techniques will help us to make
+virtual museums
+and people can make use of those
+researchers can make use of such
+facilities and study and appreciate
+the heritage aspects that we have
+through such means so earth observation
+as we know
+encompasses different types of sensors
+which could include
+microwave sensors or laser sensors could
+be optical
+sensors operating in the optical
+wavelength
+this would be multi-spectral sensors
+that is
+sensors which give us data in multiple
+regions of the electromagnetic
+spectrum they could also be
+hyperspectral sensors that is
+which very high spectral resolution
+narrowband wavelength
+and uh especially useful for studying
+features which are
+which can be deciphered only in a very
+small narrow continuous band
+we could have varying platforms as well
+for example
+we could study get data through
+satellite based platforms
+air aerial data aerial photographs
+or uavs unmanned aerial vehicles
+with these we could do either two
+dimensional studies
+or if we are applying um
+using techniques like sar or lidar
+or photogrammetry then we could also
+generate three dimensional views and
+club them with
+other ancillary data like the image
+interpreted data
+classified data and so on and come up
+with a comprehensive
+documentation of the entire heritage
+site
+it could also be augmented information
+extraction
+is augmented and aided by
+use of image processing methods and then
+it can be incorporated into an
+information system like the gis
+so we could call it call it a heritage
+information system
+now these kind of intelligent systems uh
+will
+enable monitoring and modeling of
+heritage structures
+over different regions at different
+scales and in which ground observations
+may not be possible due to physical or
+political constraints
+so as i said in any such situation where
+we are actually not able to get
+uh go physically due to any constraint
+like
+um regions like syria or war-torn
+afghanistan and so on and so forth
+uh where people are not able to go but
+there are considerable heritage
+structures
+so earth observation data from a space
+based platform
+helps us to get an idea and do mapping
+and
+you know to monitor such heritage sites
+without actually having to or to with
+minimum
+groundwork such structures can be
+monitored and modeled and monitored
+the other big advantage of earth
+observation data
+is that it provides high spatial
+temporal and spectral resolution data
+so i can get very high spatial
+resolution data which will help me to
+see
+the features at different levels of
+detail
+i also get temporarily varying data that
+is at different time periods so that
+we are able to
+monitor it at different times
+so and do a change detection kind of
+study
+spectral resolution as i said especially
+with hyper spectral data
+if there is a feature which is
+present only in a very narrow region of
+the spectrum
+then we will be able to use this high
+spectral resolution data
+and interpret those kind of or similarly
+reflecting features
+one will be able to make a very detailed
+mapping of that area
+stereo mapping or three-dimensional
+mapping
+is also possible with
+photogrammetric processing
+and sensors like the sar or microwave
+sensors are all weather imaging have all
+weather capabilities
+uh we can do day and night imaging since
+they are active sensors they
+also have penetrating capabilities so
+cloud
+etc will not smoke fog etcetera will not
+matter so much
+and these give us an all-round ability
+to be able to
+club and complement information from
+all of these sources together and come
+up with a very comprehensive and
+detailed
+methodology to map and monitor
+these heritage sites also
+improved satellite and sensor
+technologies with
+increased frequency of satellite
+measurements that is increased temporal
+resolution
+and easier access these data are now
+easily accessible
+and interpretation of the eo data have
+all contributed
+immensely to the increased demand for
+satellite
+eu data for these kind of studies
+so earth observation data combined with
+complementary
+data sets from say terrestrial
+observation and with physical models
+or as i said from crowd sourced data
+these have been now widely used for
+heritage and archaeological studies
+revolutionizing the methods of
+management monitoring and
+documentation so with the examples that
+i
+will present before you you will see how
+these have become very very
+useful in such studies
+so just to do a recap of all the
+advantages that geospatial technology
+offers
+for archaeological studies
+the first one being that it can
+efficiently survey
+large areas of land and pinpoint the
+most promising locations for
+the conventional examination so because
+one is able to see it it gives us a
+synoptic
+view right and this offers clues
+that cannot be perceived from the ground
+so if you
+see if on the ground when we go and do
+physical examination
+our field of view becomes very limited
+and we are not able to
+see things in relation or context to
+each other
+which forms a very very important part
+of
+archaeological uh interpretation or
+heritage
+management but earth observation data
+offers us a synoptic view and enables us
+to see
+large areas of land and therefore we are
+also able to see
+not just the monument or the area that
+we of interest
+but also other features in its vicinity
+and what relationship they may have
+with the monument for example if you
+look at taj mahal
+if you take a satellite image of the
+area
+and get a vertical view of that
+place you will see that it is surrounded
+by several
+industries now if you locate those
+industries in relation to the monument
+and if you also add information like
+wind direction etc we will be able to
+you know come up with a plan of how
+these the pollutants from the industry
+may be
+you know maligning the uh marble etc
+and what the effect is on the monument
+so these kind of studies can be done
+very easily the synoptic view
+of earth observation data is an
+advantage in this thing advanced remote
+sensing technologies allow
+landscapes to be viewed so the entire
+landscape can be viewed
+in light which is invisible to
+humans that is humans are sensitive to
+seeing
+only through the visible portion that is
+the vibro
+only these wavelengths 0.4 to 0.7
+micrometer
+wavelength region human beings are
+sensitive only to this region that is
+the visible portion of the spectrum
+we are not able to see through the other
+wavelengths that is the shorter
+wavelengths like the ultraviolet
+or the longer wavelengths like infrared
+and even longer ones like microwave
+so these wavelength regions also offer
+very critical information about
+certain features which the remote
+sensors
+are able to give us otherwise as human
+beings through our eyes
+we will not be able to perceive this
+therefore
+we a new light is shed upon
+these features and this permits
+investigators
+to discover features that are too
+obscure
+maybe under soil or vegetation cover and
+they cannot be otherwise
+detected so these kind of features will
+be
+seen by the infrared sensors or the
+microwave sensors or the laser sensors
+laser sensors will give us a three
+dimensional view it can penetrate
+through vegetation cover so can
+microwave sensors and so on
+and this will give us additional
+information which otherwise through
+visible
+or optical region of the spectrum
+through human eyes we would not have
+been able to perceive
+this is an added advantage now remote
+sensing can also be used to construct 3d
+models of the terrain as i said earlier
+through photogrammetric technique and by
+taking two images of the same area
+thereby this allows investigators to
+search for clues among the topographical
+features
+so if there are mounds we may see
+we may investigate that what could be
+under the mound
+also the pattern of vegetation or the
+pattern of soil
+how there is an anomaly from the normal
+if that can be studied
+then what we can do is that the
+detecting the
+unknown and seeing the context so we can
+look at what we is not visible to
+the apparent apparently discipline and
+then we can also see the context
+and do a very enhanced interpretation
+and go for investigation or examination
+in detail of the
+site in question
+so as i said the natural and cultural
+heritage is the common wealth of human
+beings
+and it is very important in
+understanding of the evolution of the
+planet
+and for social development the
+protection
+and conservation of these natural and
+cultural heritage
+is our common responsibility
+it's the common responsibility of all
+mankind and therefore it becomes very
+very important
+spatial information technology provides
+a tool
+for the protection and utilization of
+these
+natural and cultural heritage features
+how that it will efficiently and
+accurately record complex structures
+remotely so it is not going to invade
+into that structure right it is
+non-invasive
+digital information systems are evolving
+for the presentation that is
+visualization
+and archival of heritage documentation
+also production of multi-purpose nd
+models
+like 3d models it can be if i add
+different dimensions like time etc so it
+becomes an nd model
+and these can be used for more than just
+visualization so we can use them for
+visualization
+and also for uh you know higher terms of
+analysis and
+archival of the the heritage now
+integration of the 3d model into a 3d
+gis
+for further management and analysis is
+also
+enabled through these systems so
+potential users here could be
+you know right from planners like the
+archaeological survey of india
+or the department of culture and tourism
+to open planners
+to researchers students of history and
+archaeology and so on and so forth and
+even common people
+who wish to analyze the
+common heritage and that we have
+so the overall methodology would be
+that you acquire data through any of
+suitable means
+or you can even club or complement multi
+data from multiple sources
+and it is analyzed in a heritage
+information modeling system
+and then 3d gis analysis can be done to
+come up with
+a heritage information system
+so reconstruction entire reconstructions
+can be
+enabled and the heritage structures can
+be
+modeled using these techniques
+now i'll quickly take you through the
+historical aspect
+of how this has progressed the
+geospatial technology for archaeological
+applications
+so in the early 90s that is 93 to 95 say
+roughly
+the arrival of the gps for civilian use
+made it very useful we were able to now
+take precise coordinates and assign
+coordinates to our
+mapping work then in the second half of
+the 90s
+digital photography was introduced into
+the global market
+and here aerial prospection you know
+simplified the photography process both
+on both the aircraft and also after
+flights
+so uh immediate image processing and
+large scale digital applicability became
+possible then in the late 90s
+the launch of the first high resolution
+satellite system for civilian use that
+is the iconos
+produced images of very high spatial
+resolution
+both in biochromatic and multispectral
+domain this became extremely important
+for regions where there was a prevalence
+of small features for example wherever
+there were small
+pits or small sunken huts at buried
+prehistoric and early medieval
+settlements so this could be
+earlier when sub meter level satellite
+data was not available
+the only uh course left was either
+fly or an aircraft over it
+right so that was not always possible so
+with the launch of this
+high resolution earth observation system
+these kind of studies became very
+easily achievable
+then in the mid 2000s free access via
+google earth
+to continuous global ortho photo
+coverage was uh
+was an advantage that opened up new
+aspects for researchers so you could
+look at high resolution data
+via a free access portal and this gave
+us
+immense amount of data which could be
+used for such
+studies uh the next phase from
+the mid 2000s from 2005 to 2010
+approximately
+saw the beginning of the application of
+airborne laser scanning this was also a
+watershed
+marking the in the study of
+archaeological features etc
+perhaps it was the most revolutionary
+aspect post the second world war impact
+on
+effective detection and mapping of
+archaeological landscape heritage
+because it is fast very quick precise
+and it gives us three dimensional
+information and it also gives us digital
+information
+so a three-dimensional digital
+information
+which is available to us as very precise
+and
+quickly acquired data
+so this was very very useful for uh
+archaeological studies as well apart
+from being very useful in other
+application areas so especially for
+you know areas like the heritage site in
+which are covered under vegetation uh
+which could not be studied via
+optical remote sensing uh the aerial
+laser
+sensors made this uh
+possible for example the
+ancient site of angkor wat so this
+was hugely vegetation covered and was
+uh the aspects of this heritage site
+were not known
+the area laser scanning you know brought
+forth all the the
+very varied uh aspects of the
+heritage site through the laser scanning
+sensors
+then the late 2000 onwards the period
+saw
+intensified application of image
+spectrometer
+that is using air and spaceborne sensors
+hyperspectral data and experimentation
+with
+automated object detection from remotely
+sensed imagery
+so now advanced data sets like
+hyperspectral data
+and people started experimenting with
+automated systems like deep learning
+machine learning etc for automating the
+classification process or future
+extraction of
+archaeological origin using remotely
+sensed
+imagery
+now the next section we will see how
+different kinds of data
+are required and how these will be
+useful to us in which
+application areas for in the area of
+archaeological or heritage studies these
+can be
+used uh so remote
+sensing sensors could be space based
+they could be aerial sensors aircrafts
+or uavs
+and they could be terrestrial sensors
+these continually provide us with data
+sets
+with different spatial and spectral
+characteristics
+then we need to do a series of pre and
+post processing techniques
+for the calibration purpose also
+big data cloud platforms uh will allow
+us to deal with an
+extensive number of data sets uh please
+remember that when we use data sets like
+sar data or laser data and combine it
+with images or terrestrial laser
+scanning data
+it becomes huge amount of data and then
+big data processing techniques will have
+to be
+applied to these data sets even crowd
+source data if it is
+in huge volumes then we will need to be
+using
+such big data processing techniques so
+as you can see
+space bond remote sensing could be
+active or passive
+so it could be through the microwave
+sensors
+or the optical sensors or the infrared
+sensors we also have airborne
+remote sensing through platforms such as
+balloons
+aircrafts or uavs
+and ground remote sensing like
+mounting it on
+certain platforms we can use
+laser scanners terrestrial laser
+scanners
+cameras in fact we have done some
+studies using
+the cameras on the mobile phones
+and have been able to generate stereo
+pairs with those and have
+of heritage structures as well as urban
+structures and we have seen that for
+certain applications especially like
+if you need quick data near real time
+data
+and for visualization these form a very
+good
+uh means of
+collecting data and the 3d models that
+are
+generated probably my colleagues will
+show them to you in the coming lectures
+are of a quality which is
+suitable for such applications
+so with this let us see a few examples
+of how these data sets can be used for
+heritage mapping and monitoring now once
+the corona images were
+declassified so these were spy images in
+taken by the united states in the 1960s
+and 70s and well into the 80s
+these have now been declassified their
+high resolution pantramatic images
+and also aerial photographs
+so the first one is an aerial photograph
+in the
+from 1945 now this is the walled city
+of bleaching so through historical
+photographs
+people have mapped the area
+of the ancient world beijing old city
+so here you will see that
+there were certain features that have
+been mapped
+right the circles indicate the location
+of
+the z main gate the yellow ellipses show
+the extension of the
+avenue and the pink and blue boxes
+indicate the landscape transformation so
+if we are able to take a look at these
+the features over time you see that the
+landscape
+has changed so much so much built up
+area has come up
+many many changes have happened but
+how these features have evolved and how
+they have left an
+imprint on the landscape surrounding
+them this is the map
+of the through the time series
+so in 1945 then in 1967
+some changes have happened and this is
+2018
+so google earth imagery and this is the
+map the layout of the beijing old city
+then here is an example of utilizing
+medium resolution pan chromatic images
+this is satellite data a study done by
+dr mb rajani and her associates
+so you will see this
+we will see this uh through
+this is the nalanda mahabhijar they have
+studied
+and they have also marked out paleo
+channels and
+here is the heritage area so the
+excavated site of nalanda and the
+environment
+along with the 10 kilometer long paleo
+channel
+that drew water from the river panchana
+to
+the site and this is seen in the
+cartosat
+imagery of 2008.
+another very detailed map has been
+prepared here
+so to show you the spread of the
+identified archaeological remains around
+nalanda
+and this is a world heritage site unesco
+world heritage
+site so the core and buffer
+zones of the site have been also mapped
+so you can see
+the this is the core zone and this is
+the buffer zone
+also the other features like the temple
+and the monasteries
+the water bodies surrounding them etc
+have also been mapped
+the green dotted boundary shows us the
+extent of the entire archaeological site
+then we come to the next very important
+aspect that is called spectral
+archaeology
+uh meaning how we use spectral imaging
+for
+archaeological prospection now since
+varied remains can change the chemical
+physical and biological properties of
+the local
+soil their presence might be
+expressed by phenological differences
+that we see
+as a manifestation of the spectral
+reflectance or
+growth of vegetation so height of the
+vegetation may change
+so there may be an anomaly that we
+notice on the surface
+so variation in the spectra
+will be keys to detecting the
+archaeological marks
+so these marks are called soil marks or
+vegetation marks right so in specific
+cases
+where the dominant land cover type over
+archaeological sites is known
+then the optimal spectral range can be
+selected
+in order to improve the efficiency of
+archaeological observations
+using this remotely sensed data what i
+mean to say
+is that if we are looking at the image
+and there are some varied structures
+underneath say like a wall that is
+buried or some
+other feature that is buried inside the
+color of the soil on the top may be
+different from that of the surrounding
+so this will this will be an anomaly
+that we need to look for and which will
+be made
+clear with the help of interpretation
+techniques
+also there may be changes in the normal
+vegetation so maybe height of the
+vegetation may be very less or very high
+there may be an anomaly with the normal
+surrounding
+area so if we are able to mark these
+changes
+we will might be able to pinpoint an
+area
+which might give us a clue of something
+to go for in excavation studies etc
+so with multi-spectral remote sensing
+uh we capture digital images of the area
+in different spectral ranges by sensors
+on board a remotely remotely placed
+satellite platform
+and we call it multispectral because
+different regions of the spectrum
+form channels or bands and each band
+gives
+us unique information in that spectral
+region
+now these spectrum regions can be
+studied in terms of
+the percentage reflectance from the
+feature
+in particular wavelength bands now if
+you plot this data
+we come up with a signature set called
+a plot like this which is called the
+spectral reflectance curve
+and for different features these are
+standard curves
+any anomalies that happen can be mapped
+and
+can be studied through these spectral
+reflectance curves these will give us
+signatures
+to study uh the manifestations of
+features on the
+ground which we see on the image
+right so as i was telling you about
+soil marks and you know
+clues that these proxies will give us
+crop
+so here you see remote sensing images
+that are depicting
+features of varied archaeological
+remains mostly
+most of them through the above means
+these these proxies spectral spatial
+radiometric and temporal proxies
+or clues such as crop or soil marks so
+if you see here there is a varied ditch
+here
+and there is a buried wall here so with
+these you see
+this is here there is vigorous growth of
+vegetation
+this is the normal growth and here there
+is a
+stressed growth so that these two are
+anomalies
+and if we are able to map these and see
+the
+reflectance variations here due to the
+vigorous growth because of the varied
+pitch
+and the stress growth due to the buried
+wall we will these
+reflectance variations if they are
+we are able to pinpoint on the image
+then we will be able to
+get an idea of where to start the
+exclamation mark
+right then similarly as you see
+this is an enhanced portion so the very
+ditch can be seen and the buried wall
+can also be seen here
+and this is a diagrammatic
+representation of the
+electromagnetic spectrum and its
+behavior
+as we service the
+anomalies
+similarly here we see this is another
+site in the czech
+republic central european country
+from 2006 to 12 to 15 and then
+16. so here we it can also be seen on
+this portal
+so crop marks of about 200 pins
+can be seen here in this
+in these images of four different dates
+now this is an image from syria
+and here vandalism has been studied so
+they have tried to display and detect
+changes
+due to looping here so if you see this
+is very high resolution satellite data
+and the mapping has been done of
+areas that have been visibly
+you know changed
+through the time period
+these are ground photographs of that
+area so there are some
+pits small locations here
+so here this was a renewed phase of
+severe war related looting
+and which fresh fits clearly visible in
+the same area
+so here we can see in the ground
+photographs also
+now this is world view 3 multi-spectral
+data
+this has allowed the researchers here to
+discover varied archaeological remains
+near the roman
+port city in tunisia so they have
+worked with different kinds of
+image processing techniques fused data
+sets have been
+used then pc has been done uh
+filtering techniques have been also
+applied
+and then certain crop marks you know
+certain
+orthogonal equations have been applied
+to get
+orthogonal uh to get information about
+vegetation crop mark and soil mark
+and then these have all been clubbed
+together in decision rule
+and this interpretation has been done
+these are corroborated by ground
+photographs of the
+area
+then another study by dr rajni so again
+here mapping has been done
+this shows the extent and direction of
+floods
+this is done through list four study
+done in 2007
+simulated 3d perspective views have also
+been shown
+so the advantage of photogrammetry can
+also be seen
+similarly another similar study
+then hyperspectral remote sensing also
+forms as i said very important
+part because it lets us see
+a continuous spectrum narrow continuous
+and therefore we get very detailed
+spectral information high resolution
+surface
+spectral information which becomes very
+useful for such
+studies this is an example of detecting
+crop marks
+through airborne hyperspectral remote
+sensing this is a study done
+in austria and
+ultimately the mapping was done for this
+area
+the data processes were implemented in
+the matlab based
+toolbox
+then we come to microwave remote sensing
+the advantage of microwave remote
+sensing is that
+it is time independent weather
+independent so because some areas are
+persistently cloud covered
+and then we will not be able to do any
+sensing there
+this also penetrates vegetation dry soil
+and dry snow
+so any heritage structures buried under
+such
+features we will be able to study those
+these are also sensitive to soil
+moisture
+vegetation and snow and it also has the
+ability to collect data which are
+further away from the flight path so
+several advantages
+the microwave data has
+so as you can see optical data there are
+clouds microwave data
+the it has penetrated through the clouds
+and therefore we get tearing
+information very important for studying
+you know buried features under
+vegetation or under the soil and so on
+so here you see
+this is a sar and gpr based detection
+over time so enzh and hv polar
+polarized images have been used
+okay so sub surface scattering this
+is from the roman
+forum current tool now here again
+spot images they have revealed the radar
+images have revealed
+this is the optical image and elos
+and l band and ctp brand images
+so these images reveal varied and
+previously unknown
+paleo drainage channels which were
+afterward also confirmed by field
+studies
+so this is the pulsar based detection
+so ground penetrating radar data can
+also be validated with this
+so in the this is the study area in the
+sahara desert and all the varied
+features are very well visible
+similarly we can also do very detailed
+gpr based
+investigations of course
+the instrument is it is not very easy to
+operate it for very large
+areas however for small when we combine
+it with
+uh you know the interpretation done
+through
+uh earth observation data narrow down to
+a prospective site and then
+use the gpr or terrestrial laser scanner
+etcetera
+we will be able to do very detailed
+mapping of varied structures as can be
+seen in the examples here
+then with photogrammetry we get 3d
+information so quickly take you through
+the concept
+we need to image an object from
+two different locations right as we do
+with
+in everyday life the eyes image an
+object
+twice and a three dimensional model is
+formed
+so it could be done from ground based
+platforms
+uav platforms aerial platforms or space
+based platforms
+we will show you examples in the coming
+week how these techniques have been used
+how close range photogrammetry has been
+used how
+uav bone based data has been used and
+also from aerial and satellite
+photogrammetry how it has been plugged
+with the other data sets
+so these are the broad or we can get an
+automotive digital surface model
+contours and topographic maps
+of the study area so here we see a uav
+derived
+3d model image has been drained over it
+these are ground photographs where we
+see very small structures
+like artifacts so pottery fragments etc
+so since it is a uav image it will be
+very high resolution probably
+the tune of centimeters or millimeters
+and therefore we are able to see
+these in the mound here these mounds
+were
+interpreted and the area must have been
+pinpointed
+similarly this is an example to show you
+integrated data set management
+through this is space based data
+this is a study that we did on the
+naland
+so contours have been generated 3d
+models have been generated
+all the information has been
+complemented with each other put into a
+rule set
+and
+it can be used as a visualization tool
+now here you see 3d models from
+ground-based technique
+laser scanning and
+terrestrial laser scan and close range
+photogrammetry have been done
+and these have been incorporated onto
+the satellite image
+or on the geoportal so this can be used
+for visualization
+similarly a time series analysis land
+use land cover maps were made
+for different time periods again the 3d
+models have been put here
+you can also see how the area has
+changed over time
+this is another area in new delhi
+humayun which is also a unesco world
+heritage site so you see a real 3d
+realistic model which
+can give you very precise measurements
+has been
+generated this was generated using
+combined data from terrestrial laser
+scanning
+and close range photographs so
+these were clubbed together and this
+detailed 3d model was made
+very detailed descriptions of these will
+be shown and discussed with you in the
+coming
+lectures okay
+so this is my instrument the same in a
+zoomed out
+portion so cartosat and list4
+data has been used for visualization
+contours have been generated from this
+very high resolution
+lulc map of the area this is where the
+site is
+so now you see on the lunc map
+the monument the 3d model
+which was generated
+has been put this this model was
+generated using ground based techniques
+of
+laser scanning and photogrammetry
+terrestrial
+photogrammetry similarly another example
+from the kutub
+the same technique was followed
+terrestrial laser scanning
+and close range photogrammetry combined
+to give us
+very high resolution 3d model
+of the monument and measurements can be
+taken very precisely on this this is
+metric data
+it has now we have club satellite data
+and put it on top of that land use land
+cover
+map on the side the
+dam superimposed with the satellite data
+on those very high resolution controls
+so these were examples that i wanted to
+share with you and this
+is now for lidar remote sensing laser
+techniques are
+which is also an active technique laser
+platforms can be ground based
+air based or space phone so this is the
+terrestrial laser scanner
+you can put a laser scanner on a uav you
+can mount it on a vehicle and
+move there are space-based platforms as
+well
+basically what is happening is that
+lidar is a non-imaging technique it's a
+range based technique
+the laser sensor sends laser pulses
+which strike the object and return to
+the
+sensor to the receiver and this
+measurement gives us x y and z
+information or vertical profile of the
+scene
+this is also able to penetrate to some
+extent into water
+and through vegetation canopies so this
+like the sar
+microwave sensors is also very useful
+to study features which are buried under
+vegetation
+especially archaeological features so
+here you see
+this is the kind of 3d model very dense
+point cloud is provided
+this is a study demonstrating the mayan
+architecture which were buried under
+forest cover so you see this is the
+forest cover
+and through laser scanning one was able
+to reconstruct
+the shape of the structure even here
+under vegetation this is the area in
+optical data
+in the image so all of it is covered
+under vegetation
+but through the laser sensor we are able
+to see these
+features under the canopy
+then comes uav remote sensing uav is a
+platform on which you can mount
+different kinds of sensors it could be a
+hyper spectrum sensors
+sensor it could be a laser sensor a
+microwave sensor and so on
+uavs are useful because they are
+lightweight and easy to transport
+and they give us high spatial and
+temporal resolutions
+it also provides us quick availability
+of raw data
+now there are also some challenges that
+is you know
+which we have it is limited
+you know by flight time depending on the
+model or the camera weight and so on and
+so forth
+and it gives us a small footprint data
+and
+numerous images so we end up with a
+large amount of data
+so these are a few examples of the uav
+studies that we have done this is the
+bagan heritage site in myanmar
+these are two pagodas that we studied
+and this is the sula mani temple pagoda
+these
+have been this is a 3d model
+superimposed on the
+jio portal google earth
+and a very detailed model of the pagoda
+is seen here through uav images
+similarly this is the other pagoda the
+yar hong ki
+now you can see the amount of detail
+there was an earthquake in 2015
+and the pagoda was damaged this entire
+heritage site was
+subjected to great damage now you can
+see the detailed
+information that is available all the
+broken portions can be seen very easily
+here this is the 3d model
+this is the textured model on top of the
+3d model
+the image has also been drained this
+data was captured through
+uad so you see
+this is the damaged portion and certain
+study here satellite data versus the uav
+data was
+done what we see here is that satellite
+data had some areas under shadow
+so those could not be studied whereas
+but they were damaged
+whereas in the uav data those areas
+because of the view and 360 view
+those areas can also be studied easily
+at much higher
+spatial resolution so if you see here
+these portions were under shadow in the
+satellite data here so these are some of
+the advantages that we
+have in using uav data now we
+i have been able to give you hope i have
+been able to give you an
+overview of all the techniques the
+methods of image processing etc
+in the coming lectures we will focus on
+each technique one by one
+ground based techniques and how to
+detect damage
+and how to document these through
+laser scanning photogrammetry and
+other such data sets
+an association
+uh question answer query session i have
+received quite a few questions in the
+chat box i will take them up one by one
+um has asked
+why google map of london provides 3d
+images but google of delhi does not
+provide 3d images
+now mr saura this
+is specifications put up by google so
+on those or it may be a government
+policy that you know high resolution in
+data for
+certain areas uh should not be shared
+on such public platforms so these are
+all
+policy related matters uh those who
+agree to share such data
+with google and they sign agreements and
+then such data is shared so you will
+also notice that for certain areas
+the high resolution data is also not
+provided so though they may be sensitive
+areas or strategic areas or any other
+kind of
+policy matter may be there so uh that
+solely rests with the
+platform and with the policy that they
+have
+adopted so that may be the reason
+then we have aman mishra who wants to
+know how
+processing in how to process i think you
+want to know how
+image processing can be done after it is
+the image is captured via satellite
+uh mr raman i would like to point out
+that
+the
+this explanation would be
+a little difficult to give here because
+it would be out of scope of this
+course however i would suggest to you
+that you follow
+the basic course on remote sensing which
+has the first module as remote sensing
+and digital image processing
+uh through the iirs digital platform
+uh you will find several introductory
+videos
+which will or lectures which will tell
+you how basic image processing is done
+there are several courses which also
+give you uh advanced image processing
+techniques
+uh and webinars also these will all be
+available on through this
+platform you can go through them one by
+one and see which ones
+uh you would like to go into detail
+then we have radha indra who wants to
+know is there a detailed online material
+that explains how a 3d image is created
+yes
+again you could go to the same platform
+the
+dlp channel and there are several
+courses that
+we have done on photogrammetry satellite
+photogrammetry
+digital elevation model generation laser
+lidar data processing and examples
+demonstrations etc they are all
+available there both image processing
+remote sensing microwave data processing
+etc
+all these basic courses and advanced
+webinars
+advanced courses are all available there
+so you could go through the material
+there
+through this platform
+underground water so like aquifers or
+underground rivers
+these can be done very easily as you be
+i have also shown you several examples
+in the case examples that i showed you
+that underground features are easily
+detected through
+gpr or earth observation systems like
+microwave data and so on so and
+depending upon at which scale you want
+to do the interpretation
+you can use these data sets to look at
+underground
+features paleo channels etc there were
+several studies that i showed you in the
+previous examples that we
+went through
+mishra has asked to define buffer and
+core zone
+actually these are areas specified
+by management authorities for
+features like heritage sites or national
+parks and so on
+so a specified area is taken up as the
+core zone and
+another specified area is taken as the
+buffer zone so these are
+areas marked out as per specifications
+of the
+management authority so these are the
+specifications
+okay i've already answered this about
+the 3d information on google
+why google map of london provide real
+images
+where we can zoom in and traverse inside
+buildings but google map does
+delhi does not that's the same reason
+the kind of data that
+the platform puts up in agreement with
+the local authority or the government
+that is the kind of data that is shared
+on the public platform
+so if such data was put up for delhi we
+would have been able to do that
+in fact there are several other
+platforms or even on google
+360 that you platforms like google 360
+which let you see crowd source data and
+mapped as 3d for 3d models for
+visualization
+can ash deposits of ancient sites be
+identified
+definitely um
+we can use high resolution hyper
+spectral data to do this
+if you google you will see certain
+research results related
+studies but you will need high spectral
+information
+so it is advised to use uh hyperspectral
+data of very high spatial resolution so
+you could probably go for
+ua hyperspectral sensor mounted on uav
+platform
+vivek kumar why we don't use lidar
+sensing for navigation
+i am not able to understand fully what
+you want to know
+but for navigation purposes we use gps
+or gnss data
+so that gives us coordinates so if we
+want to attach what real
+map coordinates to our data set we use
+gps
+or gnss data laser sensor is used for
+high resolution 3d mapping
+or where the feature is under vegetation
+neema open source freely available data
+sets with respect to photogrammetry and
+later data sources etc
+which we can use in such studies uh yes
+in the forthcoming lectures you will be
+told about
+uh both open source data sets as well as
+open source uh tools that are available
+to process these data sets a few tools
+have been
+developed at iirs so the faculty will
+make you aware and show you them as a
+little
+make you aware of those also so they
+will come in the forthcoming lectures
+this question was already taken up can
+we detect underground water bodies
+how underground excavations are possible
+through uav without disturbing the
+residential and vegetative
+areas i think you have misunderstood
+uh with the help of these geospatial
+techniques either through uav or
+space-based platforms or ground-based
+platforms we are not doing actual
+excavation
+what we are doing is that we are
+pinpointing these suitable sites for
+such
+excavations now excavations if it is
+residential etcetera meditative areas if
+you need to dig
+deep inside then they will obviously
+disturb
+but through these techniques it is that
+we are only doing mapping
+and we are trying to pinpoint the
+possible areas for such
+activities
+anurag yadav says how deep can we
+laser scan a surface by terrestrial
+laser scanner
+it yes it depends on the wavelength
+however
+the terrestrial laser scanners are not
+very advisable to
+you know do a surface scan a deep
+surface scan
+they are more suitable laser scanners
+are usually more
+suitable for studying area under
+vegetation etc or where you require
+very high resolution height information
+what is the difference between uav data
+and lidar data now uav
+is a platform on which you can mount
+a lidar sensor or any other kind of
+sensor
+like a sar sensor or a optical sensor or
+a hyperspectral sensor
+so a uav that is an unmanned aerial
+vehicle is a platform
+and lidar is a sensor
+it was a very nice session thank you uh
+what about detection of oceanic
+complexities or life below deep water
+yes this is this forms a very
+interesting aspect of heritage studies
+or archaeological studies that is marine
+archaeology and we can study by taking
+cameras etc
+underground or doing sonar studies
+we can look at features that are buried
+under water however we have not been
+able to include that here those examples
+here
+um since we had to compress the course
+we focused on very limited aspects but
+yes this forms a very very important
+part
+and in maybe coming sessions later on
+when things become more normal and we do
+a more detailed course we could take
+this up
+several shipwrecks uh cities buried
+underneath like the dwarka
+vet dwarka in off the coast of gujarat
+have been studied through these
+this technique
+is a great session thank you mr noob
+will there be
+any difference in future if we use irnss
+in space of gps these are both used for
+navigation and
+calculating coordinates so these are
+different systems
+uh we are working in the you know
+wherever you need to establish
+high resolution precise coordinates we
+will be you
+need to use these gps systems or the ir
+ss system
+3d viewing how does it help in
+construction of heritage
+how can we gain information by
+how is it helpful uh well actually
+creating information will
+give you an idea of the
+terrain on which the heritage structure
+is
+so this will help you to you know
+generate mapping potentials
+for the heritage site
+this is mr vijay kumar patil also
+already answered that
+measurements of a buried or outside
+structure using sensor so
+my colleagues will also be taking up
+lectures on microwave remote sensing and
+gpr
+and there i think your doubts will be
+cleared better so
+these kind of sensors can be used for
+studying varied structures
+okay i thank everybody for the
+appreciation that you have given
+and i hope you have a very fruitful
+learning time in the
+coming week thank you very much
+you 
+
+
+
+
+
+
+
+
+Transcript
+okay
+good afternoon everyone i welcome you
+all in the second session
+of the second session of the course
+on geospatial technologies for
+archaeological
+applications the topic for today's
+session
+is ground based optical remote sensing
+for archaeological
+studies i am dr namaste
+and i will be dealing with what are the
+ground-based optical remote sensing
+technology
+and their application for archaeological
+studies
+so yesterday uh you have been told
+about how uh remote sensing can be used
+for
+archaeological studies and ah
+you have seen that uh the
+optical as well as microwave hyper
+spectral remote sensing can be used for
+identification of sites archaeological
+sites
+they are mapping the landscape of the
+archaeological
+area also they are used for
+exploring the new uh sites
+which are which would be useful for uh
+archaeological exploration
+or they are the on the remote sensing
+technology is also
+used for making buffer zones
+so as to protect the heritage
+area now once these archaeological sites
+are
+identified and they are
+they are means known to us
+the heritage that we discuss
+we have some built monuments
+also and we have some certain artifacts
+built monuments in these archaeological
+areas
+and our technology the ground-based uh
+technology would be mainly focusing on
+uh how to uh create a 3d model of these
+monuments
+of archaeological importance also
+how to
+how to know what was there
+previously um doing the damage
+assessment of the monuments
+of uh of the heritage monuments
+how we can automatically
+the damage detection how we can create
+the uh the digital documentation
+of these archaeological monuments now as
+you already know
+that for any building for any monument
+for any building we require a 3d uh
+autocad drawing so for these monuments
+we don't have such type of drawings
+available with
+us because these monuments were built
+we don't have these drawings so now if
+we create
+a very high quality 3d models of
+external as well as interior of the
+monument
+we can create the 3d
+digital blueprint of these monuments
+and these 3d digital blueprints of the
+monuments can be used for
+restoration purpose of these monuments
+if
+there is some calamity or if they
+require certain
+restoration so that would be the topic
+for
+tomorrow's class today we will be seeing
+what are the techniques of ground based
+remote sensing
+which can be used for archaeological
+applications
+and in this technology in this
+session we will be talking about
+the 3d mapping techniques ground-based
+3d mapping techniques
+now because as i have already told you
+that our basic idea
+is to generate 3d models dense 3d models
+of these monuments
+and um for
+generating the 3d monument and 3d
+3d models we will be utilizing certain
+techniques
+and one by one i we will be discussing
+these techniques and how these
+techniques can be used
+for uh heritage uh documentation
+so first of all you must have heard
+about the technology photogrammetry
+technology technique
+so this photogrammetry is an image based
+technique
+in which the images are captured from
+multiple
+angles from various directions the
+images are captured
+and the dents or sparse 3d point cloud
+is generally
+the photogrammetry when we are using the
+camera on the
+ground we call it as terrestrial
+photogrammetry
+so i will be explaining the procedure of
+terrestrial photogrammetry as well as
+how this technology is being used for
+monument for creating 3d models of the
+monuments so this terrestrial
+photogrammetry is
+quite cheap but
+it requires the expertise
+of the operator is required
+now the next technique is range based
+techniques
+now in this range based technique as you
+must be aware that we
+have these laser scanners so laser
+scanners can be used
+and these laser scanners they generate
+very dense 3d point cloud
+they are very fast very easy to use
+but naturally the instrument of the
+laser is quite expensive some of the
+instruments are bulky also
+but there are a new fewer models that
+are now available in the market
+which are not so bulky and they are
+handy also
+to generate the 3d
+point cloud or 3d
+database we can also use surveying
+methods
+which are classical surveying methods
+such as total station
+gps but these surveying methods they are
+only able to give us
+very sparse point cloud and these uh
+sparse points will have very low density
+very very low
+resolution and uh and they are quite
+time consuming also
+so we will be focusing on the first two
+methods that is image based method that
+is terrestrial photogrammetry
+and reach range based method that is
+laser scanning so one by one we will be
+looking at this technology what is the
+basic concept of this technology
+and how this technique can be used for
+3d documentation of cultural heritage
+sites
+now going into a little bit more detail
+about
+the range based 3d modelling and image
+based 3d modelling what are the benefits
+and what are the
+disadvantages of these technologies
+so in the range-based 3d modeling that
+is terrestrial laser scanner we
+are able to get very high vertical
+accuracy that means
+uh height or depth accuracy is very high
+these are very easy to use you can only
+set up the
+instrument and it does the scanning of
+the entire area
+itself there are certain scanners which
+provide
+us the full waveform data also instead
+of discrete points it
+gives us full waveform data also and
+this full waveform
+samples the return signal very rapidly
+and stores the entire back scattered
+energy of the
+emitted pulse so in this
+full waveform data apart from range so
+apart from
+depth we are able to get other physical
+properties
+such as the width the amplitude of the
+returning wave and these properties can
+be used to
+identify the material also okay
+so um these this
+was about the range-based 3d modeling
+the terrestrial photogrammetry in
+terrestrial photogrammetry
+we can have instantaneous or rapid image
+acquisition
+if you have a camera you can use that
+camera and
+capture the photographs then in there
+now
+what we have observed and we have
+experimented also here at iis is that
+any type of camera can be used for
+terrestrial photogrammetric
+applications even the mobile phone
+cameras
+can be used after a certain um
+after a certain procedure is followed
+you can use even your mobile phone
+cameras
+so and that procedure is also very
+simple that procedure would be the
+calibration of your
+camera so after calibration of the
+camera any type of camera can be used
+for
+photogrametric application for
+terrestrial photography
+now because the camera is with you
+so the cost of acquisition processing
+and analysis is
+very less compared to the other
+technique compared to the range based
+technique
+it is also the terrestrial
+photogrammetry is also providing
+high accuracy and it is very portable
+and flexible because you can use any
+camera you can
+take it anywhere whereas in case of
+laser scanners the instrument
+sometimes is bulky you have to set up
+that instrument
+and ah take the 3d model
+so one by one we will be looking into
+these techniques so starting with
+terrestrial photogrammetry
+now photogrammetry as we understand
+is the science of quantitative analysis
+of measurements from the photographs
+so making precise
+three-dimensional measurements from the
+photographs is the method
+is the technique of photogrammetry now
+photographs are two-dimensional
+from this two-dimensional photograph how
+we can derive and derive the third
+dimension also and this third dimension
+is the
+depth in case of terrestrial
+photogrammetry in case of aerial and
+satellite photogrammetry it becomes as
+height also okay so how we are able to
+do this
+is is very simple we are observing
+this photogrametric uh visualization in
+our day-to-day life
+we all are having uh we are
+all are able to visualize which object
+is closer to us and which object is far
+away from us
+and this we are able to do because we
+are having two eyes and these two eyes
+are situated at two different positions
+so the photograph or the image is
+captured from first eye image is
+captured from second eye of the same
+object
+in the brain the stereographic
+processing is
+carried out and we are able to generate
+the 3d model of the
+area similarly in for photogrammetry
+what we do
+is we capture the photograph of that
+object
+from multiple positions multiple view
+angles we
+are capturing the uh
+photograph of the object and then we
+perform certain operations by which we
+recreate the same condition as it
+existed at the time of photography that
+means we are recreating
+the conditions at what distance the two
+photographs were captured
+what was the orientation of photograph
+one what was the orientation of
+photograph two
+and so on like this ah certain
+mathematical equations have to be
+solved but the computer does it the
+software does it
+itself so this is how
+we are able to generate 3d models and
+once we have the 3d model
+we can make precise measurement over
+this 3d model
+this 3d model using certain ground
+control points we can correlate its
+coordinates to the ground coordinates
+also
+and once we have done that we can make
+the
+precise measurements on this 3d model
+so based on where the camera has been
+placed the photogrammetry can be of
+three different
+types that is aerial
+satellite and terrestrial photometry in
+aerial and satellite photogrammetry the
+distance between the
+object and the camera is quite high
+that is why these are also called as far
+range photography the terrestrial
+photogrammetry is also
+termed as close range photogrammetry
+because the distance between the camera
+and the object is less
+so this is the basic principle of
+photogrammetry
+as you can already see the object
+is captured from two different positions
+the same object is captured from uh
+position a o a and position
+o b from o a image a
+is created from the position
+using these photographs when we recreate
+the same conditions
+as it existed at the time of photography
+that means when we find out the
+camera position and the camera
+orientation
+at the time of photography then we are
+able to generate
+a 3d model of the object
+the entire
+procedure or the processing of
+in which we calculate the camera
+position and camera orientation
+is called as orientation of the
+photograph so in the orientation of the
+photographs the location of each
+camera's perspective center
+perspective center means the position of
+camera at time of photography
+and the rotation of camera about its
+axis
+are generated and once that is done
+if by using image matching we can
+generate
+the dense point cloud we will be not
+going into the details of photogrammetry
+here
+if you wish to understand uh in depth
+about the photogrammetry you can go to
+our
+other lectures on 3d modelling
+so that has complete details about
+terrestrial photogrammetry and even
+aerial and satellite photochemistry in
+the previous lectures in the previous
+courses we have discussed it in detail
+here in this course we are dealing only
+we will be dealing only with the
+application of the technology in the
+area of
+archaeological excavation and monitoring
+and studies
+okay so now terrestrial photogrammetry
+has been used um extensively
+for archaeological studies so i am here
+showing
+you a few examples where
+around the world the terrestrial
+photogrammetry was used for
+creating 3d models of important
+archaeological artifacts and boilings
+so this one this slide explains
+the uh 3d model generation of
+beyond buddha tower in angkor wat in
+cambodia
+as you can see here the uh multiple
+photographs to be precise 16 number of
+photographs were captured
+from all around the buddha tower
+as you can see the position of the
+cameras is listed out here
+position one two three four you must be
+seeing that
+in all the position of the camera the
+cameras are placed in such a way so that
+the optical axis of the camera
+is oriented towards the center of the
+uh monument or center of the object
+so this is required when we are doing
+terrestrial photogrammetry when we are
+taking
+multiple photographs so it should take
+the photographs in such a manner so that
+the optical axis
+is converging so that is why terrestrial
+photogrammetry is sometimes known as
+multi-station convergent photography
+okay i will again repeat it multi
+station
+convergent photography multi station
+because
+you can you can capture the photograph
+from multiple
+stations from multiple positions as here
+in this particular slide we have they
+have
+taken the photograph from 16 different
+positions
+and it is convergent photography
+convergent in the sense that
+all the optical axis should be
+converging at the center of the
+object so once this
+is done you can do the orientation of
+these photographs now i have shown you
+the photographs also
+you can see these are this is the
+photograph for the buddha tower
+this is the photograph and the 3d model
+has been generated just once again
+this is the 3d model for buddha tower
+of cambodia okay you can
+display it in a real color
+you can give the color from the
+photographs also
+or what you can do is in form of ram
+color
+ramp also you can display it now
+once you have created this 3d model i
+will show you in
+the studies that were done in iaers that
+how these 3d models can be used for
+various other applications this creation
+of 3d model is one thing
+using this 3d model you can do a proper
+documentation of this monument
+you can do damage detection of the
+monument if there are a certain cracks
+there are missing portions
+you can do a damage detection there are
+other applications also which i will be
+discussing
+by the end of this lecture okay
+so another example of utilization of
+terrestrial photogrammetry for creation
+of
+3d model of archaeological sites
+this is made gorgeous church this church
+as you can see
+you can see here it is you know
+it is in a gorge
+that is why the name has been given here
+okay
+okay it is in ethopia then ah
+here again we have shown you the
+position of camera
+at the time of photography and the
+position of camera so you can see
+so many photographs were captured all
+along the church okay and
+this 3d model was generated this is
+another church
+done by university of hanover this is a
+byzantine church
+these are all of archaeological
+importance
+okay so you can see here the camera
+has been placed here and it is being
+captured
+the photographs are captured and
+ultimately the dense 3d model is
+generated
+okay i think all of you must be knowing
+about this bamiyan
+buddhas bamiyan buddhas
+were very tall buddha statues
+made a carved out of stone in
+afghanistan
+the militants the talibanis they
+put bombs here and exploded and they
+destroyed these bamiyan buddhas
+so this was a unesco um
+world heritage site and what uh
+later on after the destruction what
+after that only people
+realize that we should try to protect
+our
+uh archaeological heritage and first of
+all we should first of all
+do the documentation absolute
+documentation of our
+monuments and uh suppose there is
+because of some earthquake because of
+some calamity
+war some monument gets destructed then
+something can be done for restoration of
+these
+monuments also so using the
+this was a big project at that time
+using the
+um using the
+pieces of the bamiyan buddha
+multiple the terrestrial photogrammetry
+was carried out and
+virtually they were reconstructed the
+bamiyan buddha statues were
+reconstructed but virtually
+so this is the area of bamiyan bunda
+this is there were two statues one was a
+larger one
+called as great buddha and one was
+smaller one which was called as
+small
+destroyed the act okay
+so a terrestrial photogrammetry
+utilization of
+terrestrial photogrammetry for
+documentation
+we gained momentum from this project
+okay now as you must be aware that early
+man he
+they used to draw some drawings on the
+stone on the caves where
+they resided so these are called as
+petrographs and not only the monuments
+these petrol
+glyphs also can be
+documented can be the 3d monument
+or 3d uh documentation can be done for
+these also so this was done for palpa
+area in india also we are also having
+lot of petroglyphs petroglyphs are
+the drawings on the stones
+done by early man
+as you can see here this is a very um
+well this is some carving on the
+on a church or some monument
+so five images were captured for this
+particular
+um for this particular carving
+and what i want to show you is that even
+in the photographs
+the details are not very clear whereas
+in the 3d model
+the exact details are clear
+okay because in the 3d model we also
+have the depth information
+okay so such type of work can be very
+very useful for
+restoration for further
+work in monument area a very small
+uh buddha statue just 50 centimeter by
+30 centimeter
+and was captured from
+the terrestrial photographs were
+captured you can see
+the buddha statue has been reconstructed
+okay so these are some examples by which
+you can understand that how terrestrial
+photogrammetry can be used for
+uh ident for for
+creating 3d models and these 3d models
+now this 3d
+model is not the ultimate thing this 3d
+model can be
+used for various other applications
+a few of the applications we will be
+discussing in course of today's and
+tomorrow's lecture
+some of the case studies that we did at
+iars i am going to show you
+these are all done using
+okay so uh sorry for that interruption
+there was some
+technical issue there was some lagging
+in this slide show so i will try to take
+care and
+now these are the cultural heritage
+that were carry uh these studies were
+carried out at iirs using terrestrial
+photogrammetry
+so clock tower indoor gillespie's
+monument as you can see
+um the every monument has been
+captured from multiple camera locations
+then the wireframe model can be
+generated for every monument you can see
+wireframe model is generated after that
+shaded model is generated and later on
+the texture from the photograph is
+pasted here
+and the photorealistic texture is
+generated
+now this is another monument here in
+their
+doom that is buddha temple so this is
+a very huge monument
+and multiple photographs were captured
+for this monument and as you can see
+here
+the camera stations our list are given
+here
+the shaded model and the point cloud
+3d point cloud is generated after
+giving the texture to this texture model
+i wanted to show you
+how much detailing can be done using
+terrestrial photogrammetry
+so you can see the top collage
+of the monument that is placed on the
+top of the
+lotus flower that is also clear
+the single means the petals of the
+lupus flower even though this monument
+is very
+tall very high then also
+everything was clearly picked up by the
+3d model
+another structure
+of heritage importance in ia in their
+doom is forest research institute
+a very a huge building
+mavic houses the forest research
+institute
+so um a total of 56 photographs were
+captured
+throughout um from all around that uh
+building
+and this building was also the 3d model
+was
+generic okay so these are certain
+studies
+to show you how terrestrial
+photogrammetry can be used for
+3d model generation
+this is the realistic reconstruction of
+iirs campus there are various buildings
+in iaers campus
+so multiple buildings were created the
+trees were created
+so you can see a complete reconstruction
+of the
+campus was carried out so like this and
+this was done using terrestrial
+photogrammetry
+and very low
+instruments was were used okay
+these are different buildings within the
+iars
+campus
+now uh to carry out
+the
+open source photogram terrestrial
+photogrammetry iaers has come up with
+the
+open source application which is called
+as thriving
+premium utilizes only um
+only the camera or smartphones and
+generates the geo reference 3d models
+so
+the inputs that are required for trivium
+are
+overlapped sequence of photograph
+location of camera
+transistor and footprint of building
+and some sort of 3d models can be
+generated
+using premium privem is an open source
+freeware application and it
+it is available at india iirs
+site so the output that is
+generated here is georeference 3d model
+and the beauty of this geo reference 3d
+model is that
+it contains the database also so suppose
+um in one building there are
+multiple floors are there so you can
+slice the building into various floors
+and
+put the database accordingly or what you
+can do within one floor different shops
+are there different apartments are there
+so you can put the database of
+individual apartments also the database
+is
+can be the structure of databases
+can be done using the operator whoever
+wants to create
+whatever database they can input that
+type of database so someone can be
+interested in
+how many people are residing what is the
+socioeconomic condition of that
+of the people in that building or
+someone can be
+interested in any other database so
+this type of uh low cost solution
+can be used for uh can be used for
+augmented reality for spatial data
+infrastructure
+for urban governance for potential tax
+estimation for property management
+it can be also used by department of
+tourism ministry of culture
+for so many applications are
+there okay now
+coming to the next technology that is
+laser
+lidar light detection and ranging
+so lidar is laser based remote sensing
+technology a small point a
+small laser at a surface and measures
+the time it takes for the laser to
+return
+to it so so what is done is laser is an
+active sensor now there are two types of
+sensors
+passive sensors are the one which take
+the energy of the sun
+okay which uses utilizes the energy of
+the
+sun the active sensors are the one which
+give out their own energy this energy
+is sent towards the object
+towards the target it strikes the target
+and it comes back to
+the sensor the time of flight between
+the
+between the sending and receiving of
+this energy
+is noted down and based on certain other
+parameters
+the precise information about the target
+or terrain can be
+generated the advantage of active remote
+sensing
+is that it can be done during day or
+night
+it can compare the energy sent and
+energy received so we can also know
+uh how much energy has been reflected
+how much is
+absorbed so we can know what is the type
+of
+target and it makes mapping possible
+through the vegetation
+in low contrast situations or shadow
+areas
+as you must have been told in
+yesterday's session that
+in highly vegetated areas laser scanning
+can be done
+to know what lies beneath the
+canopy
+laser is gives us a discrete data
+and it provides the precise details of
+the
+scene the complete vertical profile of
+the
+scene can be generated it can also
+penetrate into
+water and a canopy
+the
+as you already know that we can have
+multiple returns from the laser
+or we can also have first return last
+return or
+a complete waveform from the laser data
+laser as a sensor can be put on any type
+of platform you can put it on
+satellite you can put on aerial
+a drone you can put it on moving vehicle
+or you can put it on make it as
+static laser scanner also what we will
+be doing is
+using terrestrial laser scanner the
+static one for
+archaeological applications
+so now coming to terrestrial laser
+scanner
+the laser emitted from the scanner hits
+the object
+and is reflected back so as you can see
+here in the figure
+in the diagram the laser scanner
+is emitting the laser it
+strikes the object and it comes back and
+it is reflected back towards the
+sensor now the sensor catches this
+reflected energy
+the time of flight is calculated how
+much time
+has been taken in going and coming back
+of the laser
+and xyz coordinates are calculated using
+that
+terrestrial laser scanner is a
+non-contact surveying method
+of gathering thousands and thousands of
+points in few minutes
+using terrestrial laser scanner entire
+region both
+inside and outside the defined window
+can be scanned in minutes
+also the laser scanner gives us the
+accuracy of the points
+in centimeter and millimeters in
+range of millimeters this
+diagram shows what are the steps of
+laser data processing the laser data
+processing and data acquisition it
+starts with planning of the project
+how because you have to plan properly
+from where you are going to place the
+laser scanner what
+positions laser scanner would be placed
+so as you can get the most
+efficient data acquisition
+from these number of
+laser positions
+so once the data the data has to be
+collected using tls
+gps photographs anything then
+because one single monument or one
+single building would not
+be covered in one scan so multiple scans
+would be required for
+covering one particular object
+so to
+stitch these scans together
+you require registration or geo
+referencing of scans from
+single campaign once you have done that
+there would be certain noise elements
+also which have come
+so such as any noise that you don't
+require
+so you can do the editing and cleaning
+of that point cloud data
+once this point cloud is ready
+you can export it into any type of
+format
+and you can do any type of
+processing or any type of application
+using
+this particular point cloud you can
+integrate it with other data
+effects you can do photorealistic
+modeling
+you can do surface modeling you can do a
+combination of scan data from multiple
+companies for mult
+for time series analysis and so on
+okay we will not once your
+data is collected as you can see here
+the terrestrial laser scanner data
+is something like this in this black and
+white form
+okay so uh later on you would like to
+incorporate the color or the texture
+from your photographs
+onto this point cloud so for that
+you there is a camera that is put
+along with the terrestrial laser scanner
+and
+using that photographs of that camera
+the
+point cloud xyz coordinates or each
+point
+has been is given the rgb values the red
+green and blue values so that
+you feel that the
+point cloud is colored now
+so these are the raw point cloud for
+some of the iirs buildings as you can
+see here
+what i want to show you here is that
+the detail the level of detail that can
+be taken from terrestrial laser scanner
+so we have taken one scan and from
+there was a porch in front of the
+burning a
+door was there the glass door is there
+and inside the door there is a veranda
+and
+after that the stairs are there so you
+can see when i have zoomed
+show you a magnified view even the
+stairs are so clearly
+visible similarly in the second image
+when we zoom it in an area
+whether the window panes are open closed
+each and every detail
+is seen here okay at this moment we have
+not incorporated the
+colors to the um to the
+tls scan
+okay so now this how uh this
+terrestrial laser scanner can be used
+for
+digital documentation of cultural
+heritage site
+so but we have carried out certain
+studies so i will be showing you
+this is uh saint mary's church in
+lansdowne area
+it was constructed in the year 1895
+very old churches there so data
+acquisition was carried out
+the tls scan was
+taken from outside as well as
+inside of the church once this tls
+scan was done you can see all the scans
+were co-registered
+and a complete 3d model of the church
+was generated
+this 3d model was also provided color
+from the photograph you can see the
+color is
+seen here now for documentation
+and easy access the point cloud was then
+unrolled in so that the distortions are
+not
+there the point cloud was also
+rasterized at different resolutions as
+you can see here
+five millimeter 10 millimeter 20
+millimeter this was all
+done so that because the point cloud is
+very very heavy
+so many lags and lots of points so
+the file becomes very heavy so the
+display of the data becomes
+very difficult and when we want to
+identify when we want to apply
+any image processing application on this
+supposed to
+find out where are the cracks in this
+building okay
+so if we apply it on the highest
+possible resolution
+it becomes very very difficult for the
+computer to operate
+because the data is so heavy so what we
+do is we do it on
+the lowest resolution if we find
+something
+then we go on
+simply the display of the
+point cloud also becomes difficult uh
+when it is very heavy point cloud
+on the web environment now the
+same buddha temple that i have shown you
+or which we have done using terrestrial
+photogrammetry
+the same one we have done using
+terrestrial laser scanner also
+so you can see this is the buddha statue
+i have shown
+a magnified view of the stairs and
+this is a buddha sorry buddha temple and
+buddha statue this is a huge buddha
+statue
+in the same complex and we have not
+we have kept the terrestrial laser
+scanner on the ground itself
+still you can see even on the top of the
+statue at the head of um
+[Music]
+head of the deity also is
+showing all the details the each and
+every carving everything is
+so clearly seen here
+similarly for clock tower the one i have
+shown you
+the using uh terrestrial photogrammetry
+the same thing was done using
+terrestrial laser scanner also okay
+so terrestrial is a scanner as you must
+be observing is
+able to give us very dense point cloud
+okay but
+then again terrestrial laser scanner
+is expensive not available for everyone
+to
+use like we have
+created premium for terrestrial
+photogrammetry
+we have come up with a new application
+for digital health assessment using
+range and optical data for heritage
+and archaeological restoration how we
+can utilize this uh
+tls point cloud for archaeological
+applications so this application is
+called as dharohar
+and it has it is basically
+done uh it is basically developed for
+uh visualization of point cloud using
+terrestrial laser scanner
+how if we have two different point
+clouds we can co-register
+the entire methodology that we have
+developed in the uh
+for our application we have brought this
+methodology here
+so how the point cloud can be how
+damages can be detected
+so all that is done it can be done using
+this application
+and dharohar stands for digital health
+assessment
+using range and optical data for
+heritage and archaeological restoration
+so prototype framework for damage
+detection using point clouds
+and multi-scale representation for
+assessment and
+reconstruction
+now with that background work that we
+have done
+iaers has done one
+project on 3d digital documentation
+damage assessment and reconstruction of
+cultural heritage sites
+what we have done is we have taken up
+unesco world heritage sites of mayans
+tomb
+kutub complex in delhi area and nalanda
+mahavihar
+in bihar these three sites were taken up
+for detailed
+um analysis using
+the terrestrial laser scan and we
+the study was focused on comprehensive
+3d digital documentation
+architectural primitive extraction 3d
+digital blueprinting
+damage detection and virtual
+reconstruction and conjectural
+reconstruction
+so 3d modelling is not the only
+thing that can be done using periscope
+laser scanner once this 3d model is
+generated
+you can use that 3d model for variety of
+application which can be used for
+archaeological studies
+and these are few of the applications
+that we have carried out
+so i will show you the results of this
+uh these are the
+study sites that we have taken up
+this is mindstrome in delhi
+complex again in delhi and within this
+complex as you must be aware
+there are multiple buildings out there
+and we have done
+the 3-d modeling of the entire complex
+area 3d digital document
+of entire area
+and myostome has been done in tomorrow's
+lecture we will be disc
+we will be showing you how this
+automatic 3d documentation
+and digital blueprinting of the
+monuments as well as damage detection
+was carried out using
+3d point cloud generated through
+terrestrial laser scan
+now this is the final
+3d point cloud using uh terrestrial
+laser scanner this is for kuthum
+this is for humayun's tomb and for
+nalanda mahavira
+these are individual uh individual
+objects individual monuments within the
+various complexes so uh in the
+complex these are the broken arches as
+you must be aware there are two sets of
+arches one in front of iron pillar and
+one in front of
+me so we have done certain other study
+also on these broken arteries
+so these are the the 3d models 3d point
+cloud
+collected using terrestrial laser
+scanner
+okay these are the within the
+complex uh there are a lot of pillars
+are there a
+pillared gallery is there so this is
+a pillar from that gallery this is
+alaimina which is an incomplete miner
+within the
+complex this was also supposed to be
+similar to kutum
+but was never completed this is a tomb
+of imam's army
+in the complex area
+these are nalanda mahavira within that
+there are various monasteries so this is
+the
+3d point cloud of monastery one so
+this there are various monasteries and
+various temples
+so these 3d point cloud we have uh
+placed on 3d models have been
+placed on the satellite data
+satellite derived in ulc information
+so
+for various applica areas these are the
+textured point clouds
+okay i will show you
+one virtual
+just i'm really sorry that file is not
+opening
+now i will show you this video
+okay so this is the point cloud of the
+entire
+complex area okay now such type of
+coin clouds can be used for virtual
+tourism also okay virtual tourism
+in the sense these suppose in this time
+because of the current scenario we are
+not able to
+move around we are not able to go to
+other places
+okay so such type of 3d documents or 3d
+models can be generated off for a
+particular area
+and virtual tourism can be done in this
+model
+i we have not done a lot of editing and
+some blank areas you can see
+but this can this is doable it is
+it can be easily done so this is you can
+see this is
+you can move around also what you can do
+is you can add certain documentary also
+here
+okay such as when it was created
+and create a complete um
+virtual look okay
+so this was the pillar gallery that i
+was talking about
+these are the pillars that i was talking
+about the pillared gallery
+um in the coming slides i will
+be telling you that how these okay that
+is alive in our
+the incomplete minar
+within the complex area
+this is alaimina
+okay now coming to the other part
+there are various other buildings here
+okay you can just walk around
+and do a commentary and
+the entire thing can be
+it can come up as a virtual
+tour
+okay you can see the carving of on the
+top
+the pillars the carving on the pillars
+this is the iron pillar which never
+rusts
+these are the broken arches that i was
+talking about
+okay
+now because the
+movement is so fast that is why um
+at some places you are feeling that the
+number of points are
+less but the number of points are very
+high
+and you can have the exact x y
+the beauty is that you can have exact x
+y z coordinates of
+each and every point here for each and
+every
+point xyz coordinates now i will show
+you the detailing that can be obtained
+using
+the terrestrial laser scan you can see
+you can see each and every carving is
+visible
+okay like this you can generate
+a virtual tour of the entire area so
+what i will do is i will stop it here
+and we will continue with our
+presentation
+because
+i i want to show you the other
+applications also
+okay now since you have seen the virtual
+tour
+what now this point cloud was
+used for various other applications also
+now one of this application is
+conjectural reconstruction
+conjectural means we are assuming that
+this should have been ah like this
+okay so now what we have done we have
+seen that in the
+area we have found these broken arches
+okay
+they were not broken from always at some
+point of time
+they they were when they were
+constructed they were
+in charge so at that time how they were
+okay so how to see that so what we have
+done is we have
+um we have looked into the previous
+literature and got a very old map
+of that complex area this map was
+is can be has been taken from a book
+which is the world heritage complex of
+puttu
+and this map was created in
+um 1316. so in this 1316 map
+the the extra the complete
+arches are seen here i have shown it in
+with a red box you can see here so in
+1316 these arches were complete now
+these are broken
+so what we have done is use we have a
+geo reference to this map
+scaled this map and
+scaled it with respect to our 3d model
+of today okay and then what we have done
+is we have because this map
+has a complete
+arches so what we have done is at what
+angle we have
+identified we have calculated the angle
+dimension and angular measurement of the
+complete
+arts were done using the geo-referenced
+map
+after that we have established a
+mathematical relationship between these
+arches the angular measurement of the
+arches and
+the angular measurements of our broken
+arches
+a simile was a mathematical relationship
+was estimated
+and finally the dimension and shape for
+reconstruction was
+that so you can see here this was
+conjecturally
+restored virtually only so these
+are the broken arches the black line
+depicts the broken arches that are
+standing at
+the complex in today's time
+and sorry sorry and this red
+line is the uh conjecturally
+reconstructed based on the
+map of 1316 once this was done in the
+form of the line diagram a 3d model was
+also created you can see a 3d model was
+created
+and this 3d model was textured also
+textured based on the texture of the
+today's pillar and this is the actual
+ground scenario you can see here
+if any one of you have visited kutum
+this is a very iconic photograph of
+kutum
+uh taken from in between these broken
+arches
+so this is the actual ground scenario
+and this is
+this should have been the scenario in
+1316.
+this is conjectured scenario okay
+so you can see how this once we have
+this 3d model
+this 3d model can be used for various
+applications so this is one of the
+application
+similar thing was again done as i was
+showing you in the in the walkthrough
+model i was showing you
+the pillared
+so the same map was used for
+reconstruction of this
+pillared gallery you can see the gallery
+was
+uh in 1316 the entire
+area was having this type of gallery
+okay now only a small portion is
+remaining
+so what we have did what we did is
+conjecturally we have restored the
+entire
+um entire this
+pillared gallery
+okay so this entire area has been
+conjecturally reconstruct and you can
+see here
+this is the zoomed in version of the of
+a part of
+the pillared in gallery
+from which i have shown you in the
+walkthrough also
+and this is the when we put
+texture also on it
+now another thing that we have done in
+our studies was
+estimation of tilt off and this all
+was done using pls point cloud so tls
+point cloud was taken as the base for
+all these studies so uh what we have
+done is because
+asi they reported that
+is getting tilted in the southwest
+direction so what we did was we have
+i think we have this entire um
+point cloud of the complete um
+so what we did and you must be knowing
+that this
+has various stories okay one two three
+four
+and then top uh is there okay so what we
+did was we have
+visualized the point cloud from the top
+you can see this is
+the top the top point was taken and we
+have
+marked the circle for every uh story
+because at every story there is a
+gallery
+okay so we have
+made that done certain calculations and
+what we found
+is that the certain
+amount of tilting is there we have
+identified the plumb line of straight
+minar
+and plumb line of tilted miner how much
+angle of tilt is there
+and then we correlated it with the asi
+document
+asi document was done was carried out in
+the year 1964. they have done the
+calculation and i think in
+the year 80s or something
+they have done certain restoration so
+after that restoration work in the
+southwest direction uh
+after that the tilting has stopped now
+it is no more tilting but
+till that time till the um there was
+some
+channel of yamuna flowing from below
+something was there
+because of which it was tilting so we
+have done
+all the calculations and correlated with
+the asi measurements
+so asi measurements were done on the
+ground
+we have done the measurements on the
+point cloud so
+this is the advantage of having the
+point cloud
+now another application is virtual
+relocation of the statues now this is
+this was done in the nalanda mahabharata
+so as you must be aware that
+was a university in which there were
+certain temples there were certain
+monasteries and
+in the monasteries the students used to
+stay
+there were rooms in the monasteries for
+the students lodging
+was there and in the temples
+while the excavation was done uh there
+a lot of statues were also excavated
+okay um but these statues were taken out
+from their
+uh position and they were kept in the
+museum
+so that they are protected from the
+weather and
+from some other killer so now
+but for these statues the exact position
+from where they have been
+excavated is known to us so what we did
+was
+we have created the 3d model of the
+temple
+okay this is the 3d model of the temple
+we
+went to the museum and in the museum we
+have
+taken the 3d model of these statues also
+now two virtual things we have placed
+this statue
+exactly on the position from which it
+was
+excavated this we have done for various
+statues in
+now once we have placed these statues
+and once and
+now we create a walk-through model so it
+will appear that the statues are
+sitting there and at the time of
+excavation how they were
+looking so you can see here these
+for all these nagraj statue for standing
+buddha for bodhisattva statue
+all for all of them we have done the
+relocation virtual
+relocation of these statues so this is
+another application that can be
+done we can also generate
+3d model of various artifacts that are
+available that are present after the
+excavation
+in the museum so these are some of the
+artifacts which we have taken from the
+museum so this is the nalanda seal
+[Music]
+when the excavation was carried out
+after uh
+many years we the archaeologists were
+able to
+say that this is nalanda side when the
+seal of the university was found at that
+site
+then only they were able to confirm that
+this site is
+the university okay these are the
+vessels
+huge vessels are there because i as i
+already told you in the monastery
+the students used to stay so they are
+these are the cooking vessels which were
+found from the monasteries
+okay so the relocation virtual
+relocation of all these statues all
+these artifacts was
+carried out was done virtually using the
+3d model
+so these are few of the applications
+which can be done
+using once we have the 3d model so these
+are
+just some of ones that i have shown you
+there can be others also
+um we will be two of them we will be
+discussing tomorrow
+especially on the damage detection how
+to
+know how much damage is happening uh
+estimating the damage the cracks and all
+those
+identification of cracks and the second
+one is as i have already told
+the complete digital documentation blue
+printing of the
+monument okay so today i have told you
+how to
+generate 3d model how to generate
+virtual tour of the model
+and some other applications of these 3d
+models the
+main application of the 3d model that is
+the digital blueprinting we will be
+discussing
+tomorrow so thank you all
+uh for attending this session
+you can post your questions we will be
+taking up your
+questions in adjust strive for now
+thank you so much
+question answer session so we have uh
+some questions
+if you have any further doubt you can
+post your question in the chat box
+so um one of our colleagues he wants to
+uh ask can we reconstruct damaged
+heritage
+using 3d pin printing technology in
+future
+yes theoretically it is possible but
+pd printing can be done for small
+artifacts only
+for the entire monument it will be
+difficult at this moment because
+we don't have such big 3d printers
+small even the small parts of the
+monument also
+will be very huge okay but theoretically
+it is possible for artifacts you can
+easily do at the moment
+then what are the softwares used for
+processing data from
+space or airborne based scanning
+can trivium be used here as well no
+freemium has been
+developed only for terrestrial
+photogrammetry not even for
+laser scan for laser scanning for
+archaeological application we have
+developed so there are various
+applications
+there are various processing softwares
+for uh space
+and laser satellite and aerial laser
+scanning
+lidar analyst is there there are various
+for every because what happens is
+the um sensor that you are using along
+with the sensor you get the
+software otherwise there are some
+softwares such as
+leica has one software arcgis
+s3 also has one software for laser
+analysis
+okay and then we have can we use
+remote sensing to analyze present day
+buildings
+from just
+from like we did in case of monuments to
+prevent accidents and reconstruction of
+building yes definitely why not
+it can be done for any type of buildings
+okay
+what is difference between video and 3d
+models in virtual tour
+now video is only
+for visualization you cannot do the
+measurement on the visual
+video whereas in the 3d model you can do
+a 3d pin pointing means
+exact x y and z coordinates also can be
+can be noted down can be measured so
+the applications that i have shown you
+for
+3d models cannot be done using videos
+okay
+can we use ground-based remote sensing
+for minor detail of constructed building
+yes we i will be uh discussing it
+tomorrow
+uh how we can
+how we can identify minor cracks in
+these structures
+so damage detection will will be doing
+tomorrow
+uh we have a question related to trivium
+software can we
+use the software for drone images no at
+this moment we have not developed it for
+drone
+but we will update it for drone
+at this moment it is only a thriving was
+developed only for
+terrestrial photogrammetric for images
+okay what percentage of india's
+archaeological sites have been preserved
+through this technique
+in india we are not preserving our
+archaeological sites
+using any uh advanced techniques
+very few only very few studies only have
+been
+done and these are only studies
+this is not in operational mode
+how can we do 3d model virtual tour is
+there any software map
+there are when you create a 3d model
+in the same software you can create the
+virtual tour also
+what is difference between tls point
+cloud measurement
+and ground based measurements now tls
+point cloud measurement means you have
+gone to the field you have collected the
+tls point cloud
+okay come back to your laboratory
+and do the measurements on that
+ground-based measurement means
+i should be knowing before going to the
+ground what exact measurements i have to
+make okay and i have to do the
+measurement on the actual
+site itself okay whereas later on
+when i do it on my tls model i can
+do it sitting in my laboratory
+okay so uh these are some of the
+questions that we
+have got i think all the questions we
+have taken
+okay these were the only questions
+okay so thank you everyone for uh
+joining in this session
+tomorrow we will be having another
+session and that would be focusing on
+utilization of this tls point cloud
+for digital documentation and
+uh damage detection okay so do join for
+that session also
+so thank you all
+you
+
+
+
+
+
+
+
+
+Transcript
+good afternoon
+and welcome to this third session
+on the short course on
+archaeological and heritage studies
+using geospatial technology
+the third session will focus on use of
+use of geospatial techniques
+and methods for documentation and damage
+detection
+of built heritage in the previous two
+sessions
+we had an overview of all the technology
+and methods
+that were available and the second
+session dealt with
+ground based techniques particularly
+focusing on
+terrestrial laser scanner and close
+range photogrammetry
+another ground-based technique will be
+dealt with in the next
+coming session on microwave
+microwave data analysis for heritage
+studies and archaeological applications
+their gpr
+ground penetrating radar will be dealt
+with
+today we will look at how to use all
+these techniques and methods
+uh data acquire how to acquire data for
+documentation and after documentation
+how to do damage detection uh i am dr
+hina pandey
+i will be dealing with the first part
+that is the digital documentation
+and my colleague dr poonam estibari will
+be following it up with
+the damage detection section
+now we've already gone through all this
+introduction however just to summarize
+again quickly we know now that cultural
+heritage refers to the physical and
+cultural assets
+both tangible and non-tangible
+such which have been passed on to us by
+our previous generations these
+historical structures are one of the
+most
+significant elements of cultural
+heritage
+therefore in this session we focus on
+built heritage
+so and these reflect history lifestyle
+traditions of a country
+and society at large cultural heritage
+is
+threatened by various factors
+that is why documentation becomes so
+important
+and finally after documentation we can
+do
+damage assessment of this these built
+heritage structures
+so the various factors which threaten
+cultural heritage or build heritage
+specially are
+natural hazards vandalism
+anthropological activities like
+development of cities
+etc and natural aging
+since these are all structures which
+have been there for
+a long period of time right from right
+from the ancient times they have been
+there so they have been exposed to the
+elements
+and due to natural aging they are
+affected
+and damaged the built heritage
+refers to structures like monuments
+so these have suffered significant
+damage
+and especially in a country like india
+which has such diversity
+and so many conditions prevailing
+that it is majorly our large population
+also
+so this here it is majorly due to human
+activity and population pressure
+so anthropological activities become
+very important in this
+damage assessment part
+so proper mapping damage detection and
+digital documentation of these
+cultural heritage sites or
+archaeological assets
+thus becomes very essential for their
+preservation and protection
+so approaches for comprehensive digital
+documentation need to be
+developed so that these cultural
+heritage sites are properly monitored
+and
+managed now we can do this by employing
+techniques and instruments
+which are capable of providing
+multi-dimensional information
+in a quick and easy manner we discussed
+these
+methods and techniques
+uh what data to use what techniques in
+image processing etc and how to utilize
+that
+in the previous two sections with the
+applications
+of these data and techniques focusing on
+documentation and on damage detection
+these two sections will be discussed
+today
+now once a documentation has been done
+this will enable
+effective monitoring and conservation of
+the monuments and heritage sites
+a comprehensive documentation of a
+structure
+has to be able to unders it is done to
+be
+so that we are able to understand its
+condition better
+so data may be in the form of detailed
+descriptions
+or engineering drawings photographs 3d
+models
+or archival historical records we can
+club all these together
+use complementary information from each
+and
+in a synergistic manner we can do a very
+comprehensive digital documentation
+the added advantage it is an added
+advantage if the documentation
+is in the digital format so storage
+analysis and dissemination of this
+information becomes
+infinitely easier as compared to the
+classical forms of
+or the traditional methods of
+documentation in which we
+only had hard copy paper
+related documents so digitizing these
+documents
+will be helpful to us and will give us
+an edge
+in managing and monitoring the heritage
+structures and science
+now looking at all these points 3d
+digital documentation
+is and would be a very effective way of
+monitoring structures
+over a long period of time
+so geospatial techniques and methods
+play a very important role in this
+documentation of heritage structures and
+archaeological monuments
+development of new sensors data
+capturing technologies and methods
+processing approaches all of these
+together contribute
+very significantly to the 3d
+documentation
+conservation and digital representation
+or visualization of these
+structures and sites methods that we can
+use in recording and documentation of
+the heritage buildings
+since we are focusing mainly on built
+heritage structures here
+could range from surveying techniques
+uh digital photogrammetry terrestrial
+laser scanning
+ground penetrating radar space born data
+satellite data which could be from the
+optical wavelengths it could be
+hyperspectral data microwave data
+thermal data and anything that suits us
+for
+the particular application data from uav
+platforms etc
+anything or club everything together
+use complementary information from each
+technique and use it in a synergistic
+manner
+combined format the state of art
+approach for 3d documentation and
+modeling of
+large and complex sites use
+and integrate multiple sensors and
+technologies
+so we could use photo inventory scanning
+topographic surveying
+uh spaceborne data microwave gpr data
+etcetera
+all together to do a very comprehensive
+uh documentation documentation
+of various aspects of the heritage site
+integration of these technologies would
+enable exploitation of the individual
+techniques
+and would also compensate on their
+patients
+so for example laser scanning is an
+active technique and it
+is range data so we only have point data
+and not
+image data automatically
+so combining it with image related data
+we could enhance the
+limitation the the objectives of the
+individual techniques capturing data at
+different geometrical levels of detail
+will also become possible and this can
+be done with more accurate
+precisely and a complete 3d geometrical
+model
+with interpretation and representation
+can be achieved
+multi-scale data through multiple
+sensors
+integration of these will provide the
+best 3d
+results the most comprehensive results
+in terms of geometric detail and
+visualization so a very complete and
+augmented comprehensive
+3d digital documentation would be
+possible if the integration of all these
+available technologies is
+effectively done efficiently done
+so just to recapitulate these are the
+techniques and
+remote sensing data that are available
+the
+passive sensors give us optical data in
+optical wavelengths
+or infrared wavelengths data could be
+multispectral or hyperspectral
+could be in the thermal wavelength the
+active
+sensors will give us microwave data
+could have laser data
+altimetric data the platforms on which
+these sensors are installed could be
+satellite based air based aircraft
+aerial data
+unmanned aerial vehicles that is uav
+based or it could be ground-based data
+we could also use multi-temporal data
+for doing change analysis
+so we could monitor the structure over a
+period of time
+at various dates and see how it has
+changed
+or how the anthropological activities
+are affecting the
+structure or what imprints these are
+leaving on the
+landscape around it so
+the laser data both aerial or uav or
+terrestrial laser data this can be used
+to refine the spectral results
+and the spectral information that we get
+from
+optical or multispectral and
+hyperspectral data
+by including surface morphology that is
+the elevation information it gives us
+very high
+level of detailed information about the
+height so this can be integrated and
+either a digital elevation model which
+includes all elevated surfaces
+or a digital elevation model which has
+only ground elevation
+can be derived from this data also
+taking the difference of pre-event
+and correlating it and the pre and post
+event correlation
+the areas affected by the damage can be
+identified we will show you examples of
+these in the
+forthcoming presentation
+now i will begin with 3d digital
+documentation
+now the entire workflow has been
+arranged in three parts documentation
+damage assessment and then
+reconstruction of the heritage sites
+so uh first the in data acquisition
+techniques
+and integration of multi-source and
+multi-platform data
+to enable improved 3d documentation of
+the heritage site
+then in the documentation section
+architectural primitives have been
+extracted so some
+sample primitives have been extracted
+and put into a digital library
+so that if you know these are broken or
+if
+they are lost then we can reconstruct
+them based on these
+these samples that are available in the
+primitive library
+and digital group linking of the
+heritage sites has also been
+attempted then in the next section
+damage assessment using image processing
+techniques
+uh by using both point cloud data or
+height data
+and image data has been done and finally
+once
+the damage has been detected techniques
+for reconstruction
+or virtual reconstruction have been
+proposed
+so the entire procedural workflow
+temptatively could be that you acquire
+data
+so here it could also have your data
+earth observation data here
+then preprocessing of the data is done
+from both of these
+3d point clouds are obtained image data
+could also be obtained
+and data is integrated so this forms a
+very
+crucial part of the workflow how to
+integrate data from multiple sources
+and to best possibly augment the final
+3d model once the data has been
+integrated and the 3d model has been
+generated
+you can extract architectural primitives
+based on samples that are available
+then damage detection and assessment
+studies could be done
+using the primitives a 3d blueprint
+could be
+generated for the heritage site or the
+monument
+reconstruction and virtual relocations
+could be done
+of artifacts of entire buildings etc
+these were also showcased yesterday in
+pre yesterday's
+presentation and by combining all the
+information together
+with ancillary data or archival
+information that we may have
+a conjectural visualization may be done
+to see
+how it must have been in ancient times
+when it was not damaged
+so digital documentation
+now i will begin with an example of a
+unesco world heritage site in new delhi
+this is the
+kudu complex in delhi
+so the entire complex has several
+monuments
+in various stages of
+damage
+so out of in the complex we worked on
+these four
+structures the kubatool islam mosque the
+ali the bazaar
+both imam zamin and the minar itself
+so the terrestrial laser scanner was
+used here
+so the entire workflow was done
+so an integration of the data was also
+done point clouds were generated
+with close range photographs and damage
+was detected finally reconstruction was
+done
+so a workflow was developed to overcome
+the various
+challenges that we would face in the
+data acquisition using terrestrial laser
+scanner and crt
+data that is close range photogrammetry
+data
+then data was processed so the
+integrated data of
+a framework had to be generated for
+processing this data
+and combining it together then
+the alignment of the point clouds from
+tls and
+the photogrammetry images
+so now you see since this is uh the
+minar wasn't
+high monument yes it had considerable
+height
+so the laser scanner gave us very dense
+point cloud in the lower parts
+but was not so successful in giving us
+data there were lots of gaps in the
+higher stories the top stories
+so lots of gap in the laser scanning
+data even though the instrument is
+capable of giving us very dense point
+cloud
+so missing point clouds loss of details
+and
+very improper textures were here so this
+was a challenge
+now this was overcome so angular shape
+the other
+aspects were that the angular shapes of
+the
+structure so if you put the scanner may
+be here very proper field planning had
+to be done so a very
+detailed field planning has been done as
+to where and how and how many
+places the scanner has to be put so that
+appropriate
+overlap between scans is properly done
+and there are also complex patterns here
+so which obstruct the views it's not a
+simple structure
+so all these aspects formed very
+you know limitations as to how we had to
+plan the field
+right so this was the field planning
+for the tls scan now if you see
+the lower portions
+have very detailed dense this is not an
+image please note
+it is only the point cloud from the
+laser scan
+so the lower portion is quite proper
+however the upper stories
+have considerable gaps now this was
+compensated by
+using photographs from the close range
+photography
+grammar technique so these were done
+from a near range and from a far
+range again the proper field planning
+had to be done
+because near range photograph did not
+cover the full extent of the miner
+and the photographs from the far range
+could not cover major parts of the lower
+portion due to obstructions because
+there were trees and other monuments in
+the
+line of sight so to avoid occlusions the
+camera stations had to be placed far
+away
+now if multiple images are stitched then
+distortions were
+observed so all these challenges had to
+be addressed
+and one had to take care of this so that
+the augmented 3d model could be
+generated so
+after uh proper field planning we were
+able to see that the
+we were able to analyze that certain
+locations would be
+done from a far range and the detailed
+photographs had to be for detailed 3d
+models the the detail
+to be extracted had to be done from a
+near range
+now here are the results of the
+integration of the crp
+data and the laser scanner data
+these are this is the far range near
+range images these are two image
+related models and this is the laser
+scan
+now after integration of all the three
+data types we you are now able to see
+that the integrated 3d models gives us a
+comprehensive detailed
+model with enough point density
+to see even the after documentation of
+this we would be able to extract even
+the minded
+minute cracks or broken parts etcetera
+as we will show you
+in the next section so if you see here
+look at the gaps that are there
+right now after integration
+all the gaps have been filled up
+and we see a detailed structure so these
+were
+similarly we have done it for other
+sites as well
+after the 3d model has been generated
+architectural elements can be extracted
+so here what you do is we work with a
+sample that is available to us
+right now with historical data and
+document from literature
+one was able to identify the types of
+arches in that period
+of the sultanate period and if you see
+one you you will be able to see which
+kind of arch
+would be most suitable so by studying
+the angles and other things
+one was able to do we made architectural
+elements for
+arches and for domes so
+the primitive formation was done then
+shapes were fitted
+and dimensions were estimated for
+these two structures
+so it was decided that this
+sample arch would fit the structures
+that we had at hand
+most appropriately
+so a fitting algorithm was developed and
+shapes were extracted
+and then dimensions were estimated so
+all these were taken as samples these
+were data collected from the field
+and this was the data from the
+literature
+so this algorithm was built up from the
+tls point clouds horizontal sections
+were taken
+each small detail was fit in with
+vertical primitives and horizontal
+primitives and then they were integrated
+along the cross section
+then radius length etc was calculated
+and a shape
+simplified shape fitting same algorithm
+was done
+and then dimensions were estimated
+similarly a similar approach was done
+for
+dome like structures so again from
+literature
+sample structures were identified
+the type of dome which most nearly
+fitted
+the structure in the site was identified
+and a similar approach
+so this this is this type of dome this
+one is this stone
+right and then again
+coordinate structural geometry was
+fitted
+they were sliced cross sections were
+extracted at regular increments along
+the z axis
+and at regular angles radially
+primitives were formed along each cross
+sections as you can see
+both this way and this way
+and then a simplified shape denoting the
+hemisphere was obtained
+and it was then refined to fit
+the exact structure
+precisely
+now you see the this is the point flow
+so this is the inner view and after that
+measurements were taken so that to see
+how
+uh properly had it been extracted so
+the radius and the circumference
+etcetera were calculated and
+validated with field measurements and
+also compared with
+data in literature from the published
+data by asi
+and other authentic historical sources
+so these primitives then can be used for
+further analysis or can be kept in a
+digital library and
+then used later for reconstruction
+damage assessment
+or uh
+then the next part of the documentation
+would be
+digital blueprinting so after these
+primitives have been extracted
+they can be used for digital
+blueprinting now
+printing here would be very important
+because they would form
+detailed maps of the entire heritage
+structures or the heritage complex
+because such for such ancient monuments
+these maps would not be available unlike
+recent structures like bridges and
+other buildings in case of damage we
+would be able to use this digital data
+for our digital blueprint for damage
+reconstruction etc so as you can see
+each
+small the the entire structure is
+divided into small parts
+each primitive and each element is then
+extracted by image processing methods
+so edge extraction has been done here to
+get the first primitive
+for different kinds of structure so you
+can see that even the very detailed
+carvings
+on the tomb have been we have been able
+to extract them with
+the high resolution laser scanner data
+combined with
+high resolution images and applying
+image processing
+techniques to them so the edited
+and refined shape primitive would be
+like this
+and with that the dome was extracted
+separately
+and then the jalis were extracted
+the patterns of the jali and
+on the parapet different types of
+carvings are there
+the top spire of the
+dome pillars etc
+they have all been done separately first
+primitives were extracted like
+the example shown in the previous slide
+and then they were all done individually
+later combined this is the point cloud
+the interior was also mapped similarly
+and this is the
+exterior so this is the front elevation
+with
+very very precise measurements also
+available so if on this model we make
+measurements we will be able to
+get very precise measurements very
+accurate
+measurements so the final integrated
+blueprint of
+this tomb of imams are mean in the gutu
+complex area
+similarly digital blueprints were
+generated for kutum the first floor
+and the front gate here this is the gate
+which has been blue printed here small
+parts
+just to show you that each carving can
+also be done
+and carvings on the front and gated so
+just to highlight that even very small
+minute portions can be
+very precisely extracted digitally and
+archived
+in the digital format this is another
+example
+of different study area which we began
+as a case study
+this is a church of the british period
+in ukrachan and again similar method
+methodology was applied
+for the interior and exterior scans were
+taken photographs were taken
+data was integrated and detailed floor
+plans
+front elevation the back elevation
+the left view has been taken and in
+detail
+uh the blue printing has been done with
+very precise
+measurements that can also be taken and
+these are digital
+prints maps so that they can be used
+modified
+or used for planning and monitoring
+purposes
+similarly and another approach was
+applied for
+a slightly different approach was done
+for
+multiscale hierarchical documentation
+now here
+the data was
+unrolled the point cloud was unrolled
+and then
+rescaled to different pixel sizes
+and at each pixel size it was stored
+in the archive as hierarchical data set
+so the
+the purpose of this was that if it was a
+big
+damage that is a large crack a major
+crack
+this could be used at a certain scale
+and if the data if the crack or the
+damage was very minute
+then only a small tile would have to be
+used so one need not display the entire
+data
+instead of that one could use only that
+particular tile which had the damage
+and the user could
+process data for that section only
+so a database which was hierarchical and
+multiscale
+as you can see at different scales was
+generated
+so that one need not
+open and process the entire big data
+each time one had to do some processing
+now
+we will take a two minute gap
+and then my colleague will dr poonam
+up the section on damage detection and
+reconstruction
+a very quick gap and then we will
+meet again
+in this session and in this session we
+will be discussing
+damage detection and reconstruction
+so as you have been told earlier earlier
+also that using the ground-based systems
+we were able to generate
+the 3d models and these uh
+3d models with dense point cloud
+can be used for damage detection and
+reconstruction
+now in heritage
+structures we encounter damages because
+of various reasons and various type of
+damages are encountered
+so as you can see that there are there
+can be various types of
+structural damages in the cultural
+heritage and basically what we are
+dealing with
+is built monuments is the buildings the
+monuments in the heritage
+so in the uh there can be
+broken patterns because as you already
+know that
+in a monument in a heritage
+structure generally there are repeated
+patterns
+and those patterns the in the carvings
+the
+features on the monuments they can be
+broken because of several reasons
+there can be some cracks minor as well
+as
+major which have developed in the
+monument
+buildings because of the failure of
+building material
+you can have certain issues certain
+problems can be there
+then out of plum walls if you remember
+in yesterday's session i have discussed
+about
+the tilting of and
+how using this three-dimensional model
+we were able to
+measure the amount of tilt in
+the monuments can also show
+discoloration
+vegetative growth and vandalism etc
+so these are few of the damages which
+can be observed
+in the building heritage so what we
+have studied here is the broken patterns
+and cracks these were the two major
+damages that are encountered nearly in
+most of the
+monuments so we uh
+try to develop a methodology using which
+automata in a semi-automated method the
+broken patterns
+and cracks can be identified and once
+the broken pattern are identified
+we have also developed the methodology
+using which
+the broken pattern can be virtually
+reconstructed also okay so
+we will talk about this
+so for uh for this broken pattern
+for detecting the missing patterns we
+have utilized the fractals
+fractal dimensions now fractal
+dimensions are
+a feature of image processing or a
+feature of image processing
+which appear at the same which appears
+same at different scale
+so if you uh visualize them at a smaller
+scale then also the feature is same
+the shape is same when you
+zoom it then also the feature is same
+so this fractals exhibit similar pattern
+at its
+increasingly smaller scales and this
+property is also called as
+self similarity also known as unfolding
+similarity or expanding similarity
+so ah if you i'll give you a very
+very uh simple example if you look at
+the coast
+line okay so if you look at
+a coastline from a very uh from a very
+so
+for a very small scale map then also the
+coastline has a zigzag pattern when you
+zoom in
+into that coastline at a regional level
+then also it shows similar type of
+pattern
+you further zoom it you again see
+similar type of pattern
+so uh these natural features they
+exhibit
+a lot of self similarity similar thing
+is there in the
+trees also so a tree canopy
+a lot of leaves are there you just go
+zooming and zooming in and you go on
+seeing the
+similar pattern so that fracta
+that quality of
+the images that quality has been
+utilized for
+uh detecting these uh missing patterns
+so as you must be aware that in the
+patterns
+then when the patterns are created in a
+monument be it the
+the patterns carving patterns or
+designs anything so there is a
+similarity
+so same pattern there is an elemental
+pattern and that elemental pattern
+is repeated at a regular interval so
+that
+entire pattern entire structure is
+generated
+the same thing you must have seen in the
+previous um
+session when we were when our colleague
+was discussing about extraction of
+architectural primitives
+and once that architectural primitive
+has been extracted
+that architectural primitive was copied
+at different scales so as to complete
+the entire structure
+so the similar thing has been done here
+what we have done
+is we have extracted the fractal
+dimensions of sample and convolution
+window
+so i will show you
+this so this was the pattern
+and you can see uh the upper layer in
+the upper layer
+the carving is complete whereas in the
+lower layer
+two of them is com are complete and two
+of them are
+broken so like this ah throughout the
+monuments we were finding a lot of such
+type of broken patterns
+so what was done is we have identified
+the
+ah smallest element that can be
+uh the elementary part so
+and that for that elementary part the
+fractal dimensions
+were calculated now this these fractal
+dimensions were calculated using a
+convolution window
+convolution window is one which
+takes a small area of the image does
+some operation
+then moves ahead does the same operation
+on the second area of the image moves
+ahead
+you can see here that is the black
+square window
+okay so using that convolution window
+the similar win patterns were identified
+and the potential sides were detected
+which could be used as
+the element so once these elements were
+elemental area
+so once this elemental area was
+identified the fractal dimension of
+the elemental area was calculated
+for all the elemental areas throughout
+the image were calculated
+and these fractal dimensions were
+compared with each other
+this comparison of fractal dimensions
+led
+us to detection of sides which were
+broken or in which the patterns was
+missing okay so as you can see here
+so windows with similar patterns were
+identified so these are the windows with
+similar patterns
+using the convolution method and
+potential sides the fractal dimensions
+were
+compared and the potential sides
+were identified okay
+and how these fractal dimensions were
+compared there are various parameters of
+these fractions
+fractal dimensions i am not going into
+the details of these
+dimensions so as you can see there is
+a marked difference in the values of
+capital m small m and mu so
+therefore the areas in which the pattern
+is similar the values would be similar
+whereas wherever the values are
+different
+the pattern would be missing okay so
+finding the anomalous values we would we
+had tried to find out
+what are the broken areas
+okay similar thing was done here also as
+you can see
+the this was the input image and
+the elemental pattern that i was
+discussing so this was the
+elemental pattern okay so using that
+elemental pattern the subsets were
+created
+and fractal analysis was done now
+fractal analysis
+was done and the comparison of fractal
+dimensions parameters of fractal
+dimension was
+carried out and if the
+if the change in if there is a change in
+fractal dimensions we say that the
+area is damaged and if it is not if the
+fractal dimensions are similar we say
+that the area is
+not damaged so you can see they damaged
+the class classified result showed us
+what areas are damaged
+and yellow depicts what areas are
+not damaged once this we have identified
+that these areas are damaged so
+virtually what was done is the damaged
+part
+the of the image was removed from here
+and this damaged part was replaced by
+an undamaged pattern
+that we have taken as elemental patterns
+so elemental pattern was
+replicated everywhere everywhere where
+the
+classification shows that it is damaged
+so a virtually reconstructed area was
+image was created okay
+similarly here also you can see
+this was the full pattern okay the
+pattern of flower we have selected that
+this is a complete pattern
+and that pattern was the fractal
+analysis
+for the complete pattern was ch was
+carried out
+fractal dimensions were checked and the
+classification was done what all areas
+are
+um they're damaged or not damaged the
+damaged areas were removed from
+the original image and they were
+replaced by the
+uh by the elemental area
+okay so as the virtually reconstructed
+image was
+created okay
+here what we have done is in the
+previous one um
+the same pattern is there but the
+elemental area was the complete
+flower now because the uh there is a lot
+of symmetry in the
+in the
+in the pattern so what we have done is
+we have
+identified we have taken ah one fourth
+of that
+area and tried to rotate it and find out
+what all
+areas are damaged and undamaged because
+what we have observed is that the in
+some part
+especially in the third damaged area the
+entire area was not damaged only
+a very small portion was damaged so
+by two change the entire area so
+small elemental area was was taken
+so that also can be done
+now that was about how we can identify
+the broken pattern
+then uh what we have observed is that
+uh if there are changes in material
+because
+in one of the site in the church that i
+have shown you yesterday
+yesterday which was built somewhere in
+1895 so there were
+not many cracks as you can see in the
+second image
+this is an optical image lot of cracks
+are visible and
+what during the restoration work what
+they have done they have
+filled up those cracks with some
+material so that
+so as to give it a structural strength
+but this material is different from the
+original material that was
+used for construction of the church
+construction of the building
+so this change of material we
+never expected it but it was picked up
+by the tls point cloud so as you can see
+here this change of material
+is has been picked up by ah
+picked up by the terrestrial laser
+scanner so we were able to identify the
+areas in which
+the
+and the material is different from the
+original material
+so that also is one thing that can be
+taken up using
+telstra laser scanner data
+also as you can see here
+this is the broken uh part broken part
+also was
+was being picked up by terrestrial laser
+scanner and later on
+i will show you how we can reconstruct
+this broken part
+using the intact part
+in different area okay
+now um to identify the cracks of any
+dimensions
+um be it smaller cracks minor cracks or
+major cracks what we have done is we
+have tried to use the
+um the intensity image as well as the
+um depth and the
+range data also so rgb image that is the
+normal photograph
+and the depth data from the terrestrial
+laser scanning
+we were able to generate this depth data
+as i was
+discussing yesterday that these teres
+tls
+laser beams are very minute they are
+very
+small and they can penetrate they can
+go inside the clock and from there also
+some return is coming back to us
+so what we are able to get is from the
+crack
+for that crack area the depth of the
+points is more than
+ah when the point is coming from the
+surface the depth is less when it is
+coming
+from inside the crack the depth is more
+so
+the what we tried to do is we used the
+rgb image that is normal photograph
+and we did uh track detection using
+automated methods this these are all
+automated methods
+so we did crack detection only using the
+photograph what we found is that
+uh the crack was getting uh identified
+was
+getting detected but along with the
+crack not many other features because uh
+were also getting uh
+highlighted because what is happening in
+the build in the
+monument there are various carvings
+there are various
+patterns written over there there's some
+scriptures also written over there so
+not many things are there
+so only the photograph cannot
+be used for automated craft detection so
+what we did was
+we utilized the photograph as well as
+depth information
+so when we combined both of them and
+then did the crack detection so only the
+crack
+part was getting highlighted and
+automatically this was
+all was done automatically so
+this was how the cracks can be
+identified similar study was done
+for uh clock tower indira boon also so
+you can see this is rgb data
+this is depth data and the crack portion
+was
+identified okay suppose
+there is um a damage has happened in
+an area and because of
+that damage some part has broken
+something has happened so if you have
+the pre
+damage and post damage uh data then
+by comparing the pre damage and post
+damage data you
+can detect the broken portion also
+ah if you remember i have shown you in
+the
+so there was one option for registration
+of different point cloud so
+you can co register point clouds of two
+different dates one pre
+damage
+okay similar thing was done here you can
+see very minute crack was there in
+so that crack also we were able to
+identify using the
+image processing methods okay
+so again this uh the same methodology
+applied on
+a different uh area and this we have
+applied on different areas so as to
+check whether the methodology is
+is valid or can be applied for different
+areas or not
+okay so the broken part also can be
+identified by comparing the pre-damage
+and post damage data as i have shown you
+for one railing
+and this again is for one for
+another area okay so you can see this
+part was damaged
+and the damaged portion was identified
+so automatically you can understand you
+can find out
+how much damage is there in the monument
+so
+you need not go and zoom into each and
+every part of the monument and check it
+so you run the algorithm and it will
+identify where
+are the damages where are the cracks
+where are the broken portions so all
+those can be
+done so as i have told you
+by yesterday that virtual reconstruction
+of the
+statues we have done relocation of the
+statues were done
+so similarly in some portions in some
+monuments what was observed that
+the some part is damaged
+whereas on the other side because of the
+symmetry
+the actual design is there and that
+actual
+design is intact so when we have this
+intact design so using that intact
+design we can
+remove the damaged section and
+reconstruct it from the
+intact area from the actual area okay so
+you can see
+the reconstruction was carried out
+using the adjoining area
+so we cannot i just want to highlight
+here that we cannot fix
+any one methodology for all these
+structures for all the areas
+as and when the requirement is there you
+can change the methodology slightly so
+that it fits into your area
+and deals with the problem that you are
+having in your
+area of interest as you can see here
+this was a
+statue in which one part was
+intact and the other part was broken so
+what we have done is
+virtually we have removed this broken
+part
+taken the intact part from the other
+side
+created a mirror replica
+mirror image and then attached it here
+integrated it and this all was for
+virtual reconstruction so these all
+are virtually done so later on
+once virtually they are done you can
+later on if you want to
+do the restoration work that also can be
+done now
+previous uh discussion was regarding how
+the ground-based systems
+especially tls and can be used for
+damage detection the damage detection
+can also be
+done using the satellite and uav data
+because uh if you want to do a damage
+detection in a larger area
+or instantaneous damage detection you
+want to do
+just after the calamity has happened
+then
+the satellite images the uav data can be
+very very helpful so if you remember
+there was a very
+very uh big earthquake
+in kathmandu uh
+in 2015 so
+and that happened and um the entire
+area of the
+the entire
+area was means lot of buildings were
+destruct or damaged in that particular
+earthquake so as you can see here the
+first
+image
+the first image is the intact image uh
+when the pre-disaster image pre
+earthquake image
+are taken on october 25th uh
+2014 and later on after the earthquake
+has happened on april
+2015 the image has been captured
+and you can see that these
+structures the tower
+this all area has been damaged you can
+see in the second image also
+i have highlighted it uh use with the
+yellow circles you can see the vasala
+durga temple
+that all got damaged
+so this plaza in front of royal palace
+of bhaktipur kingdom it is also a unesco
+world heritage site
+so some study we have done using only
+the satellite images
+how this is bharara tower which also got
+collapsed
+only the base got means the earthquake
+was very
+extensive 7.8 was the magnitude
+so what we did was we utilized these
+satellite images and applied
+the image processing operations because
+when
+what happens when in case of such
+disaster such as
+earthquake the time is of utmost
+important you want to know
+exactly where the damage has happened
+you don't have
+time for
+for visualization of the image means
+you don't have that much time so what
+can be done is because
+because of this international charter
+gets activated the
+data is freely available data for the
+disaster site is freely available to
+everyone to all the
+um especially to the country that is
+affected
+so ah once that data is available
+with us within the i think a few hours
+the data gets available
+so once the data is available what we
+can do is
+we can apply automated image processing
+methods and find out where exactly the
+major damage has happened once we have
+identified that
+we can concentrate our residue
+operations into that area so even though
+such type of
+methodology that is developed that can
+be useful for
+heritage monuments that can also be used
+for
+disaster mitigation and rapid disaster
+rather damage assessment okay so as you
+can see here we have
+utilized the image textures for
+earthquake
+related damage assessment and please
+just for your information applying these
+texture measures
+calculating glcm parameters it is just
+by
+a click of button in the image
+processing software so once you
+put the image click on that you can
+generate these
+texture measures dlcm parameters so as
+you can see here
+this was uh the first image if you see
+this was the pre-disaster and this is
+the post-disaster image
+in the pre-disaster these this building
+has a sloping roof so the
+boundary of the roof is clearly seen
+whereas in the post disaster the entire
+boundary everything
+is gone so if you have such type of data
+just by simple comparison you can
+the software itself will tell you that
+these are the areas which have
+changed and you can um focus your
+relief work in such areas so there are
+other
+uh glc cm parameters
+which can be used for damage assessment
+okay so there are various applications
+out there now
+here you can see that was done using
+texture parameters we can also use rgb
+ihs
+transforms to find out what are the
+areas which got damaged so as you can
+see here this is this was pre-event
+uh saturation intensity hue and
+saturation
+rgb we have converted into intensity
+and saturation and saturation for
+pre-event and posting
+even so in the post even saturation
+image you see that
+all the buildings that got damaged they
+were getting highlighted
+okay because ihs model preserves color
+irrespective of the intensity
+similar study was done um
+for rapid damage assessment in uh
+bagan area of myanmar okay
+in a violent earthquake measuring 6.8
+hit the central
+myanmar on 24th august 2016 and
+because of this earthquake
+the 14th century archaeological site of
+bagan
+got severely damaged and as you can see
+i have shown you a ground photograph of
+a pagoda so not many pagodas pagodas are
+uh but this site of
+buddhist temples you can say okay so
+and these were 14th century pagodas
+so and that entire area this bhagavan
+area is full of such type of
+pagodas so this sulawani pagoda
+was one very big pagoda which got
+damaged in this particular
+um earthquake as you can see here the
+ground photograph shows that the entire
+front portion of this
+got damaged so what we have done
+is we try to develop methods for damage
+assessment
+and we utilize pre and post date data
+also what we after the disaster has
+happened the uav flight was
+taken up in the damaged area
+to assess the damage so we had that
+uav data also grown data and we tried to
+process and
+develop methodology on that data also
+now later on i will be discussing uh the
+uav data
+but at this moment what i would like to
+show you is that
+in the in the
+in the damage post even data you can see
+that half of the portion is going in the
+shadow area so in the satellite image
+now
+that particular area the shadow portion
+is um means the whatever damage has
+happened we cannot
+be sure about that just by using the
+satellite image
+so other methods are also there so
+just a very simple method what we have
+done was
+because time was very important in that
+sense so what we have done once we
+receive the data
+we have created just a
+line transfers line transact line from
+one point to another point
+the and we have seen how the pixel
+values are changing
+okay in the pre event and post event you
+can see a marked difference because in
+post event because
+lot of material has gone down as rubble
+so the reflectance has increased
+when the reflectance has increased you
+can see
+the the pixel values they show
+a very haphazard manner ok
+so you can identify in one instance that
+what where all the damage has happened
+similarly we can carry out
+the classification and change detection
+so object is analysis and change
+detection was carried out
+so as to find out how much damage has
+happened
+we also utilize the glcm texture
+parameters
+utilizing our knowledge from nepal
+earthquake
+time so we use that knowledge and we
+apply
+the glcm textures first order and second
+order and try to find out how much
+damage is there so we found that these
+textures
+glc and textures are very very useful
+for detecting damage on a larger
+on larger area the finer
+damages such as cracks and broken
+patterns for such type of damages
+the ground based instruments were
+required
+so again you can see we have also used
+fractals
+for this and variograms also
+okay so all the image processing
+operations we have used and we have
+utilized and
+tried to find out using which
+which application using which
+algorithm we are able to get better
+results
+okay so these are variogram results of
+variogram
+and it is also able to show us the
+where the damage area in both the
+regions both
+in the shadow area as well as
+in sunlit area
+you can see this was the shadow area in
+the shadow area
+also variogram is able to give us the
+data the information
+for the same area we have used the
+satellite image also as you can see this
+was
+the first image is uh satellite ortho
+image
+so as i have already discussed that some
+part of the building some part of the
+monument is going in the
+shadow part whereas when we use the uav
+image
+we don't have such issues and the entire
+area
+is is visible to
+us for and for analysis okay
+so they sat in the satellite image the
+damages were detected and in the
+uav image the damages were detected so
+we found marked improvement
+in uav image okay because uav mounted
+sensor was a multi-directional view
+and it enabled clear visualization of
+damage and
+debris so this was
+the photorealistic 3d model using
+um using uav data okay
+you can see this is the uav data the
+damaged points were classified
+and these are the damaged you can see
+this
+all in the 3d point cloud you can see
+this all
+is the damaged area okay
+this is the damaged area
+so this is all from my side after
+five minutes break we will take up the
+questions
+whatever questions you have you can
+post it in the chat box thank you
+welcome in the question answer session
+so we have
+many questions from you all and
+just by looking at your questions i can
+see that
+you all are working in the archaeology
+archaeological domain so priyanka
+prakash
+wants to ask that can we do
+reconstruction of prehistoric site or
+settlement by
+3d documentation now priyanka first of
+all documentation documentation means
+when
+whatever is existing you want to
+document it okay so document is
+making a note or making a
+digital library or something of that
+sort
+of whatever is available okay in a 3d
+form
+so once means if
+it is even in a prehistoric site
+prehistoric site if
+the things are not available we cannot
+do the documentation
+and reconstruction of prehistoric site
+then again is a very vague thing
+a lot of information from ancillary data
+has to be
+incorporated then only we can do
+reconstruction of that area okay and
+that also would be only our
+visualization okay we are not very sure
+whether
+the same thing was there or not okay
+then ashirawad verma is
+asking what type of problems
+archaeologists suffer while working at
+rani ki wow
+because that is very damaged well
+heritage what technologies we are using
+to reconstruct rani kiba
+okay now i think you are asking about
+the step when the step wells
+are have means
+when you go down the area is very less
+so
+in setting up any instrument and
+taking the data in that area becomes
+difficult
+secondly you cannot get the proper
+sunlight in that area
+so that is one issue and uh
+the we at iaers we are only developing
+the methodologies
+so uh the conservation of the heritage
+is um is under uh
+survey of india so they must be taking
+necessary steps for doing the
+reconstruction and
+conservation
+okay shashank kumar wants to
+ask which tools are used to identify
+cracks through
+automation mainly image processing
+methods are being used for
+identification of cracks
+automatically okay what gadget is used
+to take radiography of built heritage we
+have not taken radiography we have taken
+the terrestrial laser scanning data
+okay
+there are other technologies also which
+can be used
+so how time it takes how much time it
+takes to get the data processed
+for mitigation so it depends on
+the amount of data
+that is there but
+for one satellite image i don't think it
+takes a lot of time
+and in for disaster mitigation
+the time is very very time is life in
+fact
+if we say so once you get the data
+you can simply process it within 5-10
+minutes
+okay but once that data is processed you
+have to look into the area to find out
+the anomalies
+i wish to use the the
+damage detection techniques for
+ecological afforestration programs to
+detect
+if trees that were planted have been
+vandalized
+what is the open source software and
+data that i can use
+the data is not available in
+for such type of things you can go for
+um
+because for identification of vandalized
+trees you require a very high resolution
+data so such high resolution data
+open source is not available okay
+and once you have the data you can
+there are not many image processing
+softwares that can be
+used okay then what is the ultimate aim
+of getting this heritage data
+other than damage detection so damage
+detection
+is one thing then we have told you about
+the
+3d blueprinting or digital documentation
+of the monuments
+then we have told you about virtual
+tourism
+then we have told you about site
+specific issues such as
+thrifting of kotominar uh in
+uh children of kotominar was there then
+relocation of statues in nalanda area
+was there
+so so many other applications are there
+which can
+the data can be used for so many other
+archaeological studies
+how artificial intelligence technology
+has helped us in retrieving and
+reconstructing 3d structures digitally
+so artificial intelligence
+is very very helpful and
+but we have not used here
+artificial intelligence and artificial
+intelligence mainly is used for
+data classification data
+feature extraction from the data it is
+not
+currently being used in uh 3d structures
+in reconstruction of 3d structures
+at least not by us
+okay even after having such a great
+detection tool why many monuments are
+not reconstructed
+at the faulty point we are there as
+as academicians we are there to develop
+the methodologies it is up to the
+authorities to take up these data sets
+and these methodologies
+and work on them
+that does it detects the lanes of
+taj mahal due to acid rain yes
+due to acid rain whatever discoloration
+is there in taj mahal it can be
+detected using image processing methods
+which software is used for blue printing
+and texture analysis for texture
+analysis
+any uh any image processing software can
+be used
+and for blue printing and testing laser
+scanner
+data processing the softwares
+received along with the terrestrial
+laser scanners were
+used can we use the damage detection
+method for steel structure
+yes and reinforced concrete structure
+also yes there are lot many
+uh studies if you search on where you
+will find lot many
+studies are there in which the building
+crack
+assessment or crack detection structural
+analysis of
+the dam and all those things are done so
+that also
+are there the methods are same the
+building can be either
+your house or it can be the monument
+can we deceive damage under land
+through satellite under land what type
+of damage are the means i can't
+understand
+and if we can then we are we able to
+know that the earthquake is coming
+no only some presumptions are done and
+there are certain indicators
+for earthquakes
+how can we detect the damage detection
+in minimum time using terrestrial laser
+scanners so
+we are developing on the same
+methodologies so these
+automated methods for damage detection
+using tns so
+it is it
+we are doing that only in case of
+kuthuminar where all the pictures were
+collected through ground-based camera
+only or
+some uav was also used no uav was not
+taken
+only ground-based cameras and
+terrestrial laser scanning was done
+okay how damage detection is done in the
+same way can we make a 3d image of
+location of things such as cars
+yes definitely so
+i think last year we have done a course
+on 3d modeling
+uh terrestrial photogrammetry so
+in that we have explained in detail how
+terrestrial photogrammetry can be used
+for
+creating 3d models of cars for
+accident sites and so on okay so
+it can be very easily done and it is
+being done
+in many places for knowing uh
+for investigation also for the accident
+and for the crime scene
+so many things are being done using
+terrestrial photography
+so i think these were the questions so
+further if you have any doubts you can
+write to us on our email ids we have
+given the email ids in the
+in the presentation and thank you all
+for joining in this session
+so now i sign off thank you all
+thank you one and all
+you
+
+
+
+
+
+
+
+Transcript
+[Music]
+uh
+foreign
+good afternoon everyone and welcome in
+this fifth
+session of the course on geospatial
+technologies for
+archaeological applications today we
+have with us
+dr mb rajni dr rajni conducted
+doctoral research at national institute
+of advanced studies bangalore
+and was awarded phd by the university of
+maisour
+she taught at niit university nimrana
+and was a fellow of nalanda university
+she was also the guest faculty of iit
+gandhinagar
+she has joined niya's as a faculty
+member in 2015.
+dr rajni's research has two interrelated
+facets
+number one is analyzing cultural
+landscapes using geospatial data
+to identify new features of
+archaeological
+interests and advancing the usage of
+such analysis for
+preserving built heritage in the face of
+rapidly growing infrastructural
+development
+and urbanization so
+today she will be giving us a talk on
+her recent
+book that is patterns in past
+settlements geospatial analysis of
+imprints of cultural heritage on
+landscape
+so now i invite dr mb rajni from
+niya's to deliver her talk
+dr rajni
+thank you dr poonam i hope i am audible
+am i audible yes uh dr rajdi you are
+audible
+thank you okay okay then i'll start
+thank you very much for this wonderful
+opportunity
+uh it's very nice to be here and i'm
+really thrilled that you have a course
+on archaeology
+and that there is a good participation
+for it
+um i look forward to interacting with
+all of you
+for participating here so this is a book
+that i have spent a lot of
+several years planning and writing and
+it's finally out
+just a few months back uh this book was
+planned
+in order to sort of um uh
+try and help people who are studying
+cultural heritage
+uh conservation of heritage archaeology
+how they can go about using
+remote sensing and gis so with this i
+will start
+about my book so with or without
+our consent details from our daily lives
+are being captured and stored in masked
+digital databases
+if humanity were to vanish tomorrow and
+alien historians
+chanced upon these databases
+centuries from now they would have
+incredibly rich resources for studying
+humanity's past
+as humans in the 21st century trying to
+understand
+our own past we have no comparably
+detailed database to tap into instead we
+must scavenge for traces
+of past human activities that have
+survived from material
+form and develop expertise in
+interrogating these material
+before their secrets fade into oblivion
+we rely on archaeologists to scrutinize
+ancient material
+once again my slide is not moving i'm
+just checking
+yeah we uh rely on archaeologists to
+scrutinize ancient material
+ranging from small scale fragments of
+poetry
+and bricks to large-scale artifacts such
+as individual buildings
+and a whole landscape or settlement in
+each of these domains scholars have
+benefited from scientific developments
+that are constantly expanding the kind
+of ancient
+material that are interrogable and
+technological advances that
+enhance our ability to extract useful
+information from them
+this book is an introduction to a branch
+of archaeology
+that scrutinizes landscapes
+such as this for instance at nalanda
+humans
+necessarily scar the landscape when they
+construct
+structures forts canals
+tanks and road networks these scars
+which can survive for many centuries are
+also material records
+of past human activities and are
+therefore worthy of
+study however these cars are difficult
+to discern at ground level
+and their value was largely unrecognized
+until
+they were observed from aerial
+perspective initially from aircrafts and
+more recently from satellites
+lieutenant colonel beasley a sapper of
+the royal engineers in mesopotamia
+during the first world war spotted
+distinct lines as you can see in the
+center of this photo
+black and white photograph there is a
+rectangular pattern
+that is very different in orientation
+from the
+surrounding patterns so he spotted
+distinct outlines of an ancient canal
+in the course of his repeated flights
+over the tigris and euphrates plain
+enemy territory at the time while
+carrying out a survey of contested area
+beyond
+baghdad he wrote the remains of an
+ancient city were disclosed
+which would not have otherwise have been
+discovered in all
+probability it was the old samara
+a more recent example here is a false
+color
+image of bangalore and here is a
+map of bangalore from
+made in 1791 this map
+shows a four cornered settlement and an
+oval citation
+on its south if you carefully analyze
+the satellite image
+we can identify where exactly was the
+old settlement
+i now request you to carefully look at
+the point
+i'm highlighting
+though it's fully overgrown but still
+the imprints or the traces of the
+patterns
+are still discernible we can still see
+this
+pattern of the old settlement apart from
+such
+images analysis analysts can put
+together spatial data from
+other sources including old maps
+here for instance there is a map of
+the portuguese town of kohilan
+or um what is known as column today
+made in 18 1630 here is another map
+of the same location made in 1635
+here is a third map the first two maps
+were made by portuguese and the third
+one made by
+dutch uh which looks very different it
+might be very difficult for you
+for the viewer to even believe it is the
+same place
+uh this third map made in 80 1687
+then there are drawings made by
+people who visited some artists to show
+how the scene looked and so on
+but what's interesting if we carefully
+examine we can identify the common
+buildings
+and also we can identify the currently
+protected
+um piece of wall we belong
+actually to this very building because
+that's the only building which had
+three stories and the remains of the
+of this fort fortress which is
+right now protected also has three
+stories now we can also identify on
+satellite images
+uh which part of column belonged
+to dutch and which part belong to
+portuguese by analyzing
+these images
+this coherent spatial view allows an
+analyst to hunt for visual patterns in a
+landscape in a manner
+akin to an art historian examining a
+painting through an appropriate
+historical lens
+furthermore just as a modern art
+historian uses technology to scrutinize
+what lies
+beneath the topmost layer of paint
+advances in technology of remote sensing
+permits satellites to view landscape in
+different wavelengths and
+reveal hidden layers of human artefacts
+i'm sure in the last few
+uh last week you would have been
+acquainted with such
+technologies that is available with
+remote sensing
+so here i have shown an arrow to show
+the location of this particular building
+uh which remains and also it shows in
+context
+of what was the um dutch
+fortification which is marked in yellow
+and the portuguese fortification market
+pink in this google earth imagery
+the purpose of such analysis is to
+identify and understand
+conserve and protect remnants of our
+past this field therefore brings
+together knowledge from archaeology
+history art history architectural
+history
+heritage science geo-archaeology
+geomorphology remote sensing
+geographic information system and
+cultural heritage conservation and
+management although i am not an expert
+in all these domains my research group
+has brought elements from each of these
+domains to bear in
+investigating landscapes surrounding
+several archaeological sites so here is
+a map
+which shows all the sites that my book
+touches in one way or another not all
+sites we have done in a very great
+detail
+but we uh in in even if it is
+mentioned or given as an example
+this map shows the location of all those
+cells
+while all these sites are situated in
+the indian subcontinent
+my research has helped me recognize and
+articulate universal principles that i
+am
+excited to present in this book i hope
+this book will be of interest to
+at least three groups of readers i will
+elaborate on these groups of audiences
+for my book after a brief
+on the chapters the book has seven
+chapters
+chapter one is an introduction to the
+field and should be of interest to all
+readers
+it begins with definition of cultural
+heritage adopted from unesco's
+definition
+and highlighting that the primary focus
+is on built heritage
+these structures constitute the known
+remnants of built heritage at the site
+and it is possible that history unknown
+remnants associated with the site
+still exists in its vicinity
+consider the vicinity of nalanda for
+instance
+when we visit the site protected by
+archaeological survey of india
+we see these sacred temple structures
+called chaithyas there are six of them
+and there are ten dwelling structures
+monasteries called vihara each has a
+central hall surrounded by monastic
+cells
+this infrared image shows the protected
+site of nalanda
+and the area immediately around it
+notice how four temples in the protected
+region lie at ir rely at regular
+intervals along a straight
+not south line sure enough the infrared
+image
+suggests the presence of one unexplored
+mound to the south
+and one to the north in the north one
+can also see
+two crop marks at exactly the intervals
+we are expecting
+so here the black or the gray dotted
+line shows the protected area
+and the within it are the protected
+monuments but outside it shows
+marks of location identified through
+crop marks
+which indicate places where there would
+have been past
+such monuments because they are fall
+they fall in a
+line with the existing ones and those
+marks indicate
+locations of old settlements
+here is one more in the southern area
+just to show what is its condition
+at present the central thesis of this
+book is that a careful study of a site's
+vicinity
+or special context i call the site's
+vicinity in the book as special context
+so context can lead to two important
+types of discovery that
+may improve our overall understanding of
+the site and
+inform our strategy for its protection
+firstly the discovery of further
+instances or attributes of built
+heritage
+and secondly the discovery of artifacts
+such as former water bodies canals
+mounds associated with past human
+activity in the site so the
+other things like water bodies canals
+may not be direct indication but it is
+definitely indirect indication
+chapter 2 describes how landscapes
+evolve
+over time and discuss the implications
+of this evolution
+for the analyst seeking to identify
+archaeological features from above
+for instance the well-known
+example of crop patterns in the field
+first observed in aerial photos of world
+war
+one and two here you can see a circular
+pattern in a field turned out to be
+surface
+impressions of buried fourth wall and
+adjacent
+mode so here is a diagram showing
+how a fort wall and mode would have
+existed at the
+time of it was in use and here
+it is showing how over time if there is
+cultivation happening in that place how
+a buried
+moat and buried fort wall should would
+show difference in
+crop color but this is only one
+of many ways a landscape
+sorry landscape can morph itself which
+depends on what has been happening
+subsequently on the surface
+so here is an example how there are many
+different ways
+a landscape can morph depending what's
+happening there
+even in an urban jungle like cities one
+can see
+traces of the past layout which are
+inscribed as
+roads or land use patterns a ruined
+disused wall
+becomes hindrance in mobility and people
+and goods
+move along it along it creating
+paths which over time become roots and
+remains as a permanent scar
+even if land use on either side keep
+changing
+for instance let us take an example of
+old delhi jama masjid and the red fort
+known also as lal killa are easy to find
+on google earth image
+lal killer was the citadel of a much
+larger fort encircling
+jaanabad which no longer exists now
+but can we still see its scars
+let me cheat by overlaying the satellite
+image
+with this 19th century map of delhi
+which shows the surrounding fort now
+i hide the map
+and suddenly you see where the fort lay
+this is an example of how a site looks
+in an urban area
+similarly the manifestation of sites in
+different kinds of land surfaces
+are discussed in the second chapter with
+examples
+in the book we refer to the landscape
+and the vicinity of the site
+as its spatial context for a given site
+we would like to identify features and
+satellite images
+of its spatial context that may provide
+new archaeological insights
+for that site when we look at a site
+spatial context today
+we see only the present point in its
+evolutionary trajectory
+for some sites we may have historical
+spatial records that provide multiple
+snapshots
+of these special contacts as they change
+over time
+these records we did from few years ago
+if we are using google earth images to a
+few decades ago
+if we are using older satellite image
+images including corona images
+corona has a different meaning today but
+i mean corona satellite images
+to a few centuries ago such as using of
+old maps paintings and spatial
+descriptions in historical text like the
+column example
+even with multiple snapshots of a site
+our data is generally
+too sparse to precisely infer the
+sequence of gradual
+changes to its spatial context this lack
+of data forces
+us to guess how the spatial context
+evolved
+and to use these guesses to explain why
+we cannot
+observe certain features images may
+directly show certain
+surface features well some subsurface
+features may only be visible indirectly
+through morphological extreme
+expressions
+for example here is a 19th century map
+of lalcott and khilarai
+then an image of 1965
+this is a image from corona series of
+satellite
+then a recent image
+in most cases recent image is what we
+have
+and we have to hypothesize the reverse
+order
+which is sometimes aided by bold images
+maps
+records thus this chapter 2 provides the
+basis for answering critical questions
+such
+as what kind of features should i be
+looking for
+in satellite images and why can't i see
+what i'm looking for
+in a particular image for instance
+so here is just to give an example how
+we have to infer the reverse order
+chapter 3 describes the various types of
+imaging technologies that are
+operational on contemporary and
+retired earth observation satellites
+this chapter helps the analyst answer
+the question
+is this type of satellite image likely
+to be
+useful for my analysis for instance
+look at these images of landscape of
+baylor in karnataka
+the one on the left shows the circular
+mote
+you can see a red circular circular
+shape red pattern
+in the center of the image so the one on
+the left shows the circular mote that
+surrounded the old
+settlement whereas the natural color
+image on the right
+though of higher resolution doesn't show
+the circular pattern so clearly
+the chapter also reveals some of the
+science behind these technologies to
+help answer the
+inevitable follow-up question why and
+why not
+such as this diagram
+showing how light of visible wavelength
+versus infrared variants
+is reflected of a leaf causing this
+bright
+vegetation pattern in infrared imagery
+so as you can see the visible
+wavelengths
+are reflected off the top of the leaf
+whereas the infrared
+goes further deep and diffuses much more
+and therefore we were able to see much
+brighter or much more difference in good
+good quality and not so good quality
+vegetation or healthier
+and less healthy vegetation in infrared
+image
+chapter 4 answers the question how is
+gis
+used for archaeological investigation in
+short
+gis enables overlaying multiple layers
+and extracting information from them
+our present presentation in this chapter
+is deliberately limited to the
+application
+domain that is archaeology and at a
+scale that covers the spatial context of
+the site to avoid overwhelming readers
+who are unfamiliar with gis with
+complexities that a general introduction
+to gis
+must necessarily address here in this
+figure is
+just show how an old map of agra this is
+the
+bend of river jamuna at
+agra uh so how um
+overlaying geo-referencing and
+overlaying multiple imageries
+makes it easy for us to analyze the
+changes
+chapter five presents five case studies
+so there are five
+sites for which more detailed analysis
+has been presented in the book
+whereas there are many other sites which
+we give as example of a particular kind
+of
+interpretation that we discuss so why
+have we selected
+five case well have i selected five case
+studies is
+to demonstrate that there is no fixed
+answer to the question
+how should i conduct geospatial analysis
+for site
+of interest that means i don't have one
+equation or one formula to say
+this is the way you have to do for any
+sites in the country so there is no
+one formula for that this chapter also
+re-emphasizes
+the core ideas presented in chapter 2 3
+and 4 in more complex
+settings in our experience there is no
+fixed or formulaic approach to
+geospatial analysis of archaeological
+sites
+because the process of analysis is
+sensitive
+to variation between the sites these
+variations can be grouped into
+five principal categories number one
+variation in the features of interests
+this will vary across
+sites in terms of their scale their
+architectural sites
+for instance mobile sites have a
+specific kinds of patterns
+and buddhist sites can have a different
+kind of patterns
+so every site based on its cultural
+background
+will have a different pattern that is
+visible number two
+variations in the natural setting and
+subsequent natural changes
+sites vary in terms of that terrain
+whether it's
+in flat plains hills etc as well as
+their exposure
+to natural processes such as weathering
+floods
+etc number three anthropogenic changes
+such as sites will vary in terms of
+subsequent human
+activities and their impacts sites may
+be in cities
+or sites maybe somewhere where a dam was
+built or sites maybe somewhere
+where harbor was built and so on
+number four satellite imagery data from
+satellites may be plentiful in some
+sites but limited for others
+this difference is very low i mean the
+variation in this
+might be the most low especially the
+satellite imagery this may differ if it
+is lidar and so on
+number five historical spatial records
+that is the quality and quantity of such
+records may similarly vary across
+sites some sites may be well studied
+there may be excavation that have
+happened there may
+be many reports some sites may not have
+so that
+kind of background information also can
+vary the purpose of this chapter is to
+illustrate how the process of analysis
+responds to this variation these
+variations thus we have carefully chosen
+five sites so that there are significant
+variations across these sites in each of
+these five categories
+the five sites are
+nalanda which of which i already spoke a
+bit about
+um what this figure shows is apart from
+the um immediate surroundings features
+in the immediate surrounding of the
+protected area which i already discussed
+uh we also were able to see a pattern of
+water bodies in the
+larger area plus a paleo channel that
+connected these water bodies
+to the nearest river so water was drawn
+from the nearest river towards this
+water body so this is one uh one of the
+case studies
+agra agra was the mughal capital as we
+know and probably
+most of us if not all of us have been at
+least once in our life
+to taj mahal here is a
+map of agra made in 1720.
+and this shows a layout of agra where
+it had about 50 riverfront gardens you
+can see the small
+squares that surround both sides of the
+river
+and today what we have is a very few
+compared to
+this number of 50 50 gardens plus it
+also had two
+city walls so here is a result of our
+analysis
+in yellow we have marked number 20 is
+taj mahal 28 is agar fort and
+a few more which are protected locations
+but we also have been able to identify
+all these around 50 gardens that
+actually were flanking the river
+of course most of it is built over now
+but there are some especially on the
+inner curve
+that are still sort of um in a
+in a plantation mode and also we were
+able to do geos
+through a geospatial analysis identify
+where the
+fort was or the city walls existed
+larabar palace garden at sri lanka the
+famous one in south india is the
+bangalore lala but
+there was a namesake talas garden in
+srirangapatna as well which was laid out
+by tripus
+and using old maps and satellite imagery
+and also some
+hints from ground some ruins which we
+could see from ground and
+hints from some uh old paintings we were
+able to identify
+where this lal bark palace garden was
+and what was its layout
+talakadu is the site that i worked
+started working first
+it is a site which is in the inner curve
+of
+river kaveri and it's a very unusual
+site as there is a huge
+point bar sand deposit that has got
+accumulated burying the old settlement
+and uh using satellite imagery we were
+able to identify
+the um canal which connected uh which
+drew water from
+the uh nearby dam to the settlement and
+also
+a wall um enclosure wall
+and the an area which had uh
+cultivation and also a reservoir so
+these are the larger
+layout patterns uh for this particular
+site especially we were able to give
+this input
+to um a group from um
+mysore university and karnataka state
+archaeology department who were
+excavating
+this site and they were able to also
+perform excavation on the
+location that we identified and one
+location that we identified
+mahabalipuram uh is another very uh
+unique site of course i have not given
+the dates of each of this site
+they are famous enough but we also try
+to make it as
+varied as possible though we haven't
+really gone looking into prehistoric
+sites so far
+i hope i will be able to do uh in future
+nalanda was active between 4th and 12th
+century agra of course
+much later 16th 17th 18th century
+nalbagh
+palace was active uh in 18th century
+talakadu from 5th century onwards
+and mahabalipuram 8th century onward so
+in mahabalipuram we were able to use
+a portal and chart or a maritime chart
+which marks some monuments
+and it marks a very different kind of
+shoreline which
+we used as a indicator to see where
+these monuments that gave the site the
+name seven pagodas
+were stands because the popular
+assumption
+is that the seven out of the seven
+monuments only one stands which is the
+shore temple
+remaining have got uh gone underwater
+but actually what has happened is the
+water has received
+um receded and the actual seven pagodas
+are standing further
+inland
+chapter 6 explores the question how can
+geospatial analysis be used for
+preserving conserving and managing
+cultural heritage sites
+it is titled site protection boundaries
+a double-edged sword ah to demonstrate
+that if one did not have protection
+boundaries
+for instance
+here is an unprotected site affected
+by widening of airport road in bangalore
+can you see how it was in early 2000s
+and how it has become
+now so
+boundaries are important if we don't
+have boundaries this is what will happen
+here is another example
+an armory from tibu sultan's time
+had to be removed spending crores
+or had to be moved spending crows to
+make way for doubling of
+railway but see this is this is the
+problem when there is no boundaries
+set for protecting these sites because
+because of the
+premium on land and need for land for
+other public and maybe private purposes
+many
+sites get destroyed or damaged or moved
+in the interest of other reasons so when
+we don't have set boundaries
+again in this case the railway doubling
+project was
+taken up when the
+the knowledge of this particular armory
+was not there and then it was too late
+to take
+so when we don't have boundaries this
+happens
+but let me show you what happens when we
+have boundaries
+here is
+but see what's what ha what having
+boundaries can do look at the amount of
+urbanization in the landscape of
+both gaia from around the time it
+attained world heritage tag
+to now it arranged attained world
+heritage tag in 2002
+and look at the most uh it's not the
+most recent image but recent enough to
+see
+the changes one wonders is recognition
+really protecting the site
+nalanda uh was one nalanda was tagged as
+world heritage by unesco in 2016.
+with a core and a buffer zone
+core zone of 0.2 23 kilometer square and
+buffer zone of point
+50.58 kilometer square
+but look at the expanse of its remains
+one wonders will this landscape see the
+same fate as both kaira
+in the next two decades so chapter 6
+examines some of the limitations of
+current approaches and proposes gis
+enabled alternatives that
+address these limitations as we saw
+putting boundaries is necessary
+but we need to put adequate boundaries
+if inadequate boundaries are put
+then putting boundaries suggest that we
+don't have control
+outside this so development can happen
+outside
+so therefore it is very important to
+consider all the
+uh landscape remains that are there
+before putting this boundary otherwise
+the popularity of the site
+like both will become the reason for its
+destruction because once you put down
+a smaller boundary there will be and it
+becomes the site becomes world heritage
+site there'll be lot of
+demand for land in the vicinity to build
+hotels
+make wider roads and so on so its own
+popularity can become
+its um you know the site can become a
+victim of its own popularity
+so the last chapter finally chapter 7
+provides an affirmative answer to the
+question can geospatial analysis of
+archaeological sites
+contribute to research in other
+disciplines
+through three case studies the first one
+archaeo astronomy demonstrated by
+studying
+orientation of sacred structures at
+nalanda and other buddhist sites
+so the the structures marked in red are
+the sacred structures chaithyas
+so our analysis as archaeoastronomical
+analysis
+have found that all these structures
+which are actually facing east but not
+exactly east it is slightly tilted we
+are able to uh measure this tilt using
+satellite image
+and we are able to identify that they
+are connected to some
+astronomical phenomena rising of a
+particular star which changes over time
+and using that we
+have tried also to date these structures
+the second discipline is military
+history here is an example where
+we have used old maps and satellite
+imagery this old map marks
+a particular event in 1799
+where the british several army of the
+british as you can see there is bombay
+army led by steward madras army led by
+harris wellesley's army and so on
+so where several where british attacked
+sri patna and following this event
+actually a few days later
+sudan was killed it was around that time
+so there is a map military map showing
+uh
+this these attacks and this was also a
+famous attack because when british
+attacked srirangapatna
+tipu sultan's army had
+made a counter-attack using tippu's
+the famous mysorian rockets ortipus
+rockets
+and they were taken aback because the
+british were taken aback because at that
+time
+they didn't know what was the range of
+mysore
+rockets they thought they had placed
+their armies sufficiently
+distant but the range of mysore rockets
+was much higher
+so using satellite imagery and old map
+and geo-referencing them
+we were able to identify where the
+mysore army had their
+um you know had stayed from where this
+rockets were shot
+and the where where the rockets landed
+and therefore also
+measure this um
+range of the rockets so measuring range
+of tipu sultan's rocket by analyzing
+satellite images together with gold maps
+and records
+the third one coastal geomorphology
+looking at old maritime chats for
+studying cultural heritage also yielded
+understanding how of how the course has
+changed
+so what happens with coastal maps in
+general
+most of the time they mark course but
+they also marks
+locations that were prominent in the
+past which are now archaeological
+sites so we can use these locations as
+reference to
+understand how the cost has changed
+apart from these examples of
+contributions to other research area
+this last chapter also discusses future
+direction for this body of research so i
+refer to the three potential groups
+that this book is aimed at earlier so
+the three potential groups of readers i
+refer to before
+are
+the first group comprises students and
+budding or established researchers in
+the field such as archaeology history
+art history
+who see potential value in analyzing the
+landscape in their region
+of interest readers in this group
+typically have little or no exposure to
+the fundamentals of remote sensing and
+gis
+and i hope that this book will flatten
+the seemingly daunting learning curve
+that they face i was once part of this
+group
+and i now recognize that my initial
+hesitancy in adopting remote sensing gis
+was rooted
+in a cultivated fear of science and
+technology
+i was fortunate to have mentors to guide
+me past this mental hurdle
+i was also a student in iirs and
+i hope that my book will similarly draw
+curious minds
+from this group into this fascinating
+field of research by providing
+them an accessible pathway
+the second group of readers who i hope
+to interest are authorities concerned
+with protection of cultural heritage
+readers from this group are part of
+international
+organizations such as unesco as well as
+national and subnational agencies
+in india these agencies include
+archaeological survey of india and each
+state's department of archaeology
+their mandate includes defining property
+boundaries for protection
+protecting archaeological sites and
+regulating
+changes to land use in their vicinity
+this book
+aims to stimulate discussion among this
+community of
+professionals on how best practices in
+their field
+could be updated in response to
+availability of remote sensing and gis
+technologies
+finally i hope this book will appear to
+readers from non-government
+non-governmental bodies and private
+professionals who are involved
+in making maps and master plans for
+cultural heritage protection and
+conservation
+i hope that the techniques presented in
+this book will help readers from this
+group
+develop more efficient and effective
+processes as they
+scramble to document and protected
+thousands of immoral cultural heritage
+artifacts
+before these are consumed by expanding
+cities
+industries transportation networks and
+other hallmarks of
+rapid development
+um i want to thank my institution where
+i work
+right now because this is the
+institution i did my
+phd as well so where we were able to
+start
+this area of research and also
+development into a
+um somewhat of a larger group uh
+than it was before now and i thank you
+one
+and all for giving me this opportunity
+and i look forward to interacting with
+you
+thank you
+bring a book and unfortunately it was
+very expensive
+i therefore don't feel like telling the
+cost of the book
+uh but do get in touch with me i can
+share with you which libraries it will
+be available
+and so on so my email is
+m b r a j a
+so do share with me i can help you with
+where you can access the book
+thank you
+i would request the participants if they
+have any further questions you can ask
+mr
+if there are any further questions you
+can ask
+there is one question about
+differentiate differences in the rock
+which is not necessarily
+archaeology if anyone else wants to
+answer uh
+uh dr hinna maybe you can take up this
+question
+one of our participants wants to uh ask
+that whether we can pick up the
+differences in the
+rock type or not
+right i'll take up that question i think
+it is more to do with
+uh geological interpretation which can
+easily be done
+using the spectral characteristics that
+we can see on the image
+so whatever manifestation the
+reflectance on the back scatter
+gives on the image if we study that and
+the spectral reflectance curve and
+characteristics
+uh based on which region of the spectrum
+we are looking at the feature
+or the rock type in we can easily make
+such interpretations
+and as i think dr rajali must also have
+highlighted about crop marks
+and soil marks and the anomalies that we
+can see
+then we can connect that to the
+archaeological features
+thank you dr hinna any further questions
+there is a question about corona images
+um so corona images are
+about there were three stages these were
+corona satellite series were actually
+u.s satellites they were spy satellites
+uh which were um operational between six
+in sixties and seventies
+and they were declassified in three
+stages
+uh this the class uh t class one two and
+three
+uh in the late 90s and early 2000s so
+these are available quite a lot of them
+are available open source
+in usgs website where you have to go and
+select for d
+class data there are some which are paid
+once
+which are also not very expensive so you
+can
+access them through usgs usgs website
+any other uh doubt if you have regarding
+how geospatial technology can be used
+for
+archaeological um
+studies especially for built monuments
+there is one question on sar data sets
+for band combination it says what is the
+band combination for sar data sets for
+sites in south india
+for instance like khaledo and
+mahabalipuram
+i don't have myself applied far data
+even in the book i only refer to it as
+another technology
+in i have myself not worked on our
+datasets
+again it is not so much about south
+indian sites or specific sites
+it is more on what is the surface
+condition
+moisture and so on um maybe somebody
+else
+can also um add to this answer
+so a site like mahabalipuram is a
+coastal science
+site like halebiru is a site
+in in karnataka so
+it's uh it's sort of
+dominantly cultivated site
+so i since i have not myself applied
+i can't really uh say what what is the
+best
+way to do it if somebody else wants to
+answer that question
+yeah thank you dr rajni i think uh dr
+shashi has joined
+the panel discussion so dr shashi there
+was a question regarding sar data
+which type of sar images can be used for
+archaeological excavation
+especially i think the participant wants
+to know which particular wavelength
+is required
+uh actually if uh
+to do
+the mapping
+and like
+uh
+uh
+for all the users so one will have to
+pay for the data set
+but when the ni
+when it will be launched so the data set
+will be really available for the
+thank you dr shashi i would request
+if there are any further questions
+that the resource persons can take up
+if you have any further doubts
+um can i there's one question on nalanda
+specifically
+yeah i think it must say you can answer
+it best
+okay so uh there is um one question
+on uh if the fourth uh was recognized i
+just missed
+one second
+is there further studies done at nalanda
+to identify the fortification of
+monastery
+yes i know what uh this uh is a
+reference to because there is
+uh uh shuang sang who visited nalanda in
+the
+um seventh century uh mentions of
+a wall that surrounded nalanda it had
+only only one gate
+and all the uh monks who wanted to go
+and had to
+you know go through an entrance exam and
+that sort of thing
+that reference is there and we have i
+have myself tried
+analyzing the data of different kinds to
+identify this wall but
+we haven't found any evidence of a wall
+either in data or
+also in any of the excavations that have
+been reported in the last
+150 years naland is a site that has been
+interested for our
+uh archaeologists have been interested
+since 1860s
+so so far there is no evidence of this
+that has been found
+there is one more question on what could
+be the technical reason for sand at
+colocado on its bank spread over a wide
+area so there are a few
+theories uh about it one is that uh
+talakadu is in a very sort of uh sharp
+hairpin bend of the river
+uh it's a regular geological process
+that the inner curve of a sharp vent
+accumulates sand it is called point bar
+and um also um a
+geologist such as uh professor valdiya
+has worked on the site and he has
+suggested
+because this particular bend faces
+southwest
+and the southwest monsoon winds blow
+this exposed sand onto the site
+and that's how it has spread
+there is also another suggestion he has
+made that the talakadu area itself
+is active
+with very mild tectonic
+movements and therefore it has subsided
+slightly and
+the flood waters and behaves like a pool
+collecting flood waters so all these are
+suggestions the other one is there is a
+a barrier a dam just upstream
+and that dam has also caused the
+discharge of the water reduce
+reduce and therefore more of sand from
+the river bed being exposed and blown
+over to the site so these are the
+uh different explanations that are
+provided for the
+accumulation of sand in that area so far
+thank you dr rajni is there any further
+question
+which
+[Music]
+um there is one question
+um i'm curious as to how you can apply
+such methods on paleolithic sites which
+have no monuments as such yes
+this is an area that i haven't studied
+very much as i i just wanted
+to mention um when i started uh this
+field we didn't know what it was
+whether i started working in the street
+we didn't know what kind of results we
+would get so obviously
+attracted towards sites that more things
+are visible
+such as uh historic sites where big
+buildings were built
+and probably their remains are still
+there and so on so
+regarding prehistoric and paleolithic i
+haven't uh
+worked very much but one that
+is very promising is if not remote
+sensing definitely gis
+if the site is big and there are
+materials collected from the site
+if those can be locations can be taken
+and a distribution
+can be seen it is definitely something
+that can
+that lot of people in the world have
+work work towards
+but i don't have any examples to show
+you from my work
+um and also now since uh better and
+better higher resolution images are
+available
+we can actually see um with high
+resolution images smaller
+burial or some features on with
+some crop marks features which also
+suggest so but
+yeah it is it's an area that's worth
+exploring and not
+very much explored remote sensing
+applications of paleolithic sites
+uh maybe uh i would like to add a bit on
+this
+uh that with high resolution data now
+coming up and
+being used for civilian applications
+then
+uh the patterns in the uh
+the stone patterns and all also can be
+picked up by the satellite data and that
+can be an indicator of
+such sites
+so that means we at uh
+we in india i think have not worked much
+on that
+but anyhow we will definitely now since
+the high resolution satellite data is
+freely available
+to all of us we would like to explore uh
+into this domain also
+and uh i would just like to uh tell all
+our participants i think
+all my panelists would agree with this
+that
+uh archaeology is a very site-specific
+science so uh with geospatial technology
+um so many tools and technologies are
+available
+now which site require what type of
+device which site required what type of
+technological studies
+so that depends on the site itself
+so we cannot generalize the entire the
+methodology to
+oils around the country or maybe around
+the world also
+so i would like i would request dr rajni
+to
+maybe elaborate more on this
+yeah well in my book also there is a
+chapter
+which has a long preamble to say what
+you were just saying that we don't have
+one formulaic approach for every site uh
+every site has variations uh natural and
+cultural variations
+they are diff they are located in
+different natural settings
+there could be planes mountains river
+you know
+river banks and that sort of thing there
+could be
+uh you know natural changes that has
+happened since then
+there are different cultural settings
+that are they belong to different
+dynasties different kinds of
+architecture
+and there are different cultural changes
+that has happened since then i mean even
+when the
+site was active they would have been
+renovations and things like that
+so there are all these reasons why
+it's very difficult to say that even two
+sites are just
+you know one same so every site is
+unique in that way so
+for every site the methodology will be
+slightly more
+will have to be modified so first one
+thing is to learn
+application of remote sensing gis and
+being able to do but another thing
+is to for er based on the demands that a
+site puts or based on
+the challenges that the sites put to
+choose the right kind of technologies
+and right kind of analysis
+techniques for each site so in that way
+there is no
+set methods um it's not like a
+you know sort of um a tool that you just
+put
+take that and it gives you answers it is
+a science in itself
+thank you dr rajni um are there any
+further questions or uh
+shall we wind up this session
+i just want to answer one question uh
+what is
+it why is it important to save cultural
+heritage through digital preservation
+uh of course this is a long-standing
+debate uh
+you might wonder even i have wondered i
+feel um
+with remote sensing and gis and the kind
+of
+expertise i have developed i can
+definitely see a lot more
+heritage than we will have resources to
+preserve i mean is it important to
+preserve everything that is available or
+identifiable i don't know but i think it
+is
+important enough to map everything and
+it is probably in that way it
+it will give us uh good reasons to see
+uh
+do we have 10 or examples of the same
+kind of temple then maybe
+only the you know the top two is we can
+preserve the
+rest we can let go kind of kind of
+discussion can happen only when we have
+that kind of
+mapping and documentation but uh
+this question is not necessarily only
+for remote sensing gis kind of digital
+technologies but it could also be for
+other kind of digital technologies like
+such as 3d scanning and
+things like that i think um very
+recently there was this uh
+uh um occasion when uh a fire
+uh had destroyed a church in europe
+and because they had digitally preserved
+the
+uh the you know scan the structure they
+were able to reconstruct
+so in some cases maybe such uh
+reconstruction won't be a possibility
+but even to know such things
+existed at a particular you know in the
+past and they were
+important you know for the heritage
+uh in that for those purpose i think
+digital preservation
+is is important because not always we
+can
+preserve everything in physical space
+yeah the church that you were talking i
+think it was notre dame cathedral
+in paris they have completely rebuilt
+the entire structure
+so thank you for giving us such a
+insight into the area of
+archaeology and how geospatial
+technology
+can be used for archaeological
+exploration
+and preservation of built monuments
+thank you dr rajni thank you so much for
+sharing your experiences and especially
+about your recent book
+with all our participants
+yeah to the participants i would just
+want to say
+that thank you for joining this course
+this was a unique course
+first time uh we have conducted such
+type of course at iaers
+and as the course finishes today
+in the e-class you can the option for
+giving the feedback would become
+activated
+i would request all of you who have
+participated in this course
+to please give your feedback about the
+course also
+do write us in the feedback in the
+comment section please write
+how you felt about the course in
+particular
+what changes should do you suggest
+could have been made uh i know that we
+have
+first of all announced this course for
+two weeks but because of some
+health issues with our senior resource
+persons
+at iars we have to compress this course
+so maybe next time we will come up with
+a longer duration course on the same
+topic
+but for organizing and for
+making that course available i would
+request all of you to provide your
+feedback about this course
+so thank you one and all do provide your
+feedback to us
+thank you all for joining in this
+session and i thank all my resource
+persons dr hina
+pandey dr shashi kumar dr
+mb rajni for sharing their
+experiences with our participants i
+especially thank dr
+shefali agrawal she is not present with
+us at this moment
+because of some health reasons but she
+has guided us a lot
+towards organizing this course thank you
+one and all
+thank you
+you
+ 
+
+

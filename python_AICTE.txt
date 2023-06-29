@@ -1,0 +1,2258 @@
+print("Hello All")
+print("Guvi")
+print(25)
+myCar="Honda Civic"
+print(myCar)
+year=2021
+print(year)
+chemistry=78
+maths=80
+physics=85
+english=88
+computerScience=98
+total=chemistry + maths + physics + english + computerScience
+print(total/5)
+yourSpeed=70,52,60
+speedLimit=60
+if yourSpeed>speedLimit :
+	print("You are going over speed limit");
+elif yourSpeed==speedLimit :
+	print("You are travelling in the exact speed limit");
+else:
+	print("You are travelling in a safe speed");
+
+friend1="Joey"
+friend2="John"
+friend3="Lizzy"
+friend4="Edward"
+friend5="David"
+print(friend1,friend2,friend3,friend4,friend5);
+myFriends=["Joey","John","Lizzy","Edward","David"]
+print(myFriends[0])
+if "John" in myFriends :
+	print("John is my friend")
+else :
+	print("Edison is not in my friend's list)
+current_lift_floor=0
+lift_button_pressed=5
+while current_lift_floor=lift_button_pressed:
+	print(current_lift_floor)
+	current_lift_floor = current_lift_floor+1;
+print(current_lift_floor)
+print("You have reached your floor");
+myfriends=["Joey","John","Lizzy","Edward","David"];
+print("My friends with letter J are...")
+for item in myfriends:
+	if item[0]=='J'
+		print(item)
+myPhonebook={'John':6677909,'Joey:986769,'Jack':9686,'Lizzy:97856,'Edward':864590,'David':968688,'Dravid':88690}
+for item in myPhonebook:
+	if item[0]=='D':
+		print(item,myPhonebook[item]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def trial(x,y):
+print(x +" "+y)
+trial("hello","world")
+list=['car','bus','bike','scooter']
+def loop(x):
+print(x*3)
+loop(list)
+def map_simple(crazy,list):
+for items in list:
+crazy(items)
+map_simple(loop,list)
+list=["car",'bike',30,40,3.0,True)
+print(list)
+print(len(list))
+print(type(list))
+print(list[0])
+print(list[2:5])
+list[2]="scooters"
+print(list)
+list[1:3]=["Scooters","watermelon"]
+print(list)
+list.insert(3,"Jeep")
+print(list)
+list.append("Oranges")
+print(list)
+tuple={"car",'bike',30,40,3.0,True,'bike'}
+print(tuple)
+print(type(tuple))
+print(len(tuple))
+tuple={"car",}
+print(type(tuple))
+tuple={"car",'bike',30,40,3.0,True,'bike'}
+print(tuple[2])
+print(tuple[2:])
+z={"car",'bike',30,40,3.0,True,'bike'}
+y=list(z)
+y[1]="Oranges"
+x=tuple(y)
+print(x)
+dictt={"name":"raj","age":26,"vehicle":"Ford Endevor","DOB":"12-12-12","vehicle":"Bike"}
+print(dictt)
+print(len(dictt))
+dictt={"name":"raj","age":26,"vehicle":"Ford Endevor","fruits":["Oranges","Pineapple","Bleberries"]}
+x=dictt["vehicle"]
+print(x)
+x=dictt.get("vehicle")
+print(x)
+dictt["vehicle"]="Bike"
+print(dictt)
+dictt.update({"name":"Prakash"})
+print(dict)
+dictt["colour"]="Black"
+print(dictt)
+dictt.pop("vehicle")
+print(dictt)
+fruits=["apples","bananas","kiwi","mangoes"];
+newfruit=[]
+for x in fruits:
+if "a" in x:
+newfruit.append(x)
+print(newfruit)
+for x in fruits:
+if "i" in x:
+newfruit.append(x)
+print(newfruit)
+newfruit[x for x in fruits if "i" in x]
+print(newfruit)
+newfruit[x for x in fruits if x!="bananas"]
+print(newfruit)
+newfruit[x for x in range(10) if x<6]
+print(newfruit)
+newfruit[x.upper() for x in fruits]
+print(newfruit)
+newfruit[x if x!="bananas" else "oranges" for x in fruits]
+print(newfruit)
+f=open("trial.txt","r")
+print(f.read())
+print(f.read(30))
+print(f.readLine())
+print(f.readLine(5))
+for x in f:
+print(x)
+f.close()
+f=open("trial.txt","a")
+f.write("A new line now")
+f.close()
+f=open("trial.txt","r")
+print(f.read())
+f=open("trial.txt","w")
+f.write("A new line now")
+f.close()
+f=open("trial.txt","r")
+print(f.read())
+f=open("newFILE.txt","x")
+f=open("newFILE.txt","w")
+import os
+os.remove("new.txt")
+if os.path.exists("NewFILE.txt"):
+os.remove("NewFILE.txt")
+else:
+print("File not present")
+os.remove("trial.txt")
+import random
+def GenerateRandom(upper):
+r=random.randint(1,upper)
+return r
+def main():
+program=True
+num1=GenerateRandom(10)
+num2=GenerateRandom(10)
+result=num1*num2
+while program:
+ans=input("What is" +str(num1)+"x"+str(num2)+"+")
+if ans.isdidit():
+if int(ans)==result:
+printf("correct);
+program=False
+else:
+print("Incorrect")
+else:
+print("Answer must be positive")
+x=10
+for x in range(10):
+main()
+class Human:
+x=5
+h1=Human()
+print(h1.x)
+class Human:
+def __init__(self,name,age):
+self.name=name
+self.age=age
+def methods(self):
+print
+("Hi my name is "+self.name)
+h1=Human("Sherlock",6)
+print(h1.name)
+print(h1.age)
+h2=Human("Rahul",50)
+h1.methods()
+h2.methods()
+h1.name="Rahul"
+h1.age=40
+h1.methods()
+del h1
+h.name="Rahul"
+h1.age=40
+h1.methodds()
+class Name:
+pass
+def trialfunction():
+print("Hello","World!")
+trialfunction()
+def trialfunction(x,y):
+print(x+" "+y);
+trialfunction("Black","Bear")
+def trialfunction(x):
+print(x," World!")
+trialfunction("Yellow")
+if 5>3:
+print("Hello")
+x=str(5)
+y=int(5)
+z=float(5)
+print(x,y,z)
+x,y,z="Bananas","Cherry","Oranges"
+print(x)
+print(y)
+print(z)
+x=y=z="Oranges"
+print(x)
+print(y)
+print(z)
+x="""Oranges ARE 
+ORANGE 
+IN COLOR
+"""
+print(x)
+x="Hello, World!"
+print(x[10])
+for a in x:
+print(a)
+print(len(x))
+x="Hello, from the World"
+print("the" in x)
+print(x[2:5])
+print(x[:5])
+print([:])
+print([-5:-2])
+print(x.upper())
+print(x.lower())
+x="Hello, from the World           "
+print(x.strip())
+print(x.replace("H","Y"))
+print(x.split(","))
+a="Hello"
+b="World"
+print(a+" "+b)
+import mysql.connector
+mydb=mysql.connector.connect(host="localhost",user="root",password="qwerty", database="PYTHON_PROGRAMMING")
+print(mydb)
+mycursor=mydb.cursor()
+mycursor.exexute("CREATE DATABASE PYTHON_PROGRAMMING")
+mycursor.execute("SHOW DATABASES")
+for x in mycursor:
+print(x)
+mycursor.execute("CREATE TABLE Customers (name VARCHAR(255), address VARCHAR(255))
+mycursor.execute("SHOW TABLES")
+for x in mycursor:
+print(x)
+mycursor.execute("SELECT* FROM actor")
+myresult=mycursor.fetchall()
+for x in myresult:
+print(x)
+myresult=mycursor.fetchone()
+for x in myresult:
+print(x)
+x=lambda a:a+20
+print(x(5))
+x=lambda a,b:a+b
+print(x(5,30))
+def f1(n):
+return lambda a:a*n
+doub=f1(2)
+print(doub(11))
+def prime(x):
+for n in range(2,x):
+if x%n==0:
+return false
+else:
+return true
+filtered=filter(prime,range(10))
+print("Prime numbers are: ",list(filtered))
+def square(x):
+return x*x
+numbers=[1,2,3,4,5]
+listsquares=map(square,numbers)
+print(list(listsquares))
+import xlrd
+loc=("c:\\Book1.xlsx")
+wb=xlrd.open_workbook(loc)
+sheet=wb.sheet_by_index(0)
+print(sheet.cell_value(0,0))
+print(sheet.ncols)
+print(sheet.nrows)
+tuple1=("car","bike","train")
+myit=iter(tuple1)
+print(next(myit))
+tuple1="apples"
+myit=iter(tuple1)
+print(next(myit))
+tuple1=("car","bike","train")
+for x in tuple1:
+print(x)
+class MyNumbers:
+def __iter__(self):
+self.a=1
+return swlf
+def __next__(self):
+x=self.a
+self.a+=1
+return x
+myclass=MyNumbers()
+myiter=iter(myclass)
+print(next(myiter))
+import pickle
+mydict={1:'a',2:'b'}
+picle_file=open("piclefile.txt","wb")
+pickle.dump(mydict,picklefile)
+pickle_file=open("picklefile.txt","rb")
+new_dict=pickle.load(pickle_file)
+print(new_dict)
+import json
+person='{"name""Bob","Languages":["English","French"]}'
+person_dict=json.loads(person)
+prin(person_dict)
+prints(person_dict['languages'])
+import json
+with open("data.json") as f:
+	data=json.load(f)
+print(data)
+import json
+person='{"name":"Bob","age":12,"Languages":"English"}'
+person_json=json.dumps(person)
+print(person_json)
+import json
+person='{"name":"Bob","age":12,"Languages":"English"}'
+with open("person.txt","w") as json_file:
+json.dump(person,json_file)
+import json
+with open("data.json") as f:
+data=json.load(f)
+print(data)
+print(json.dumps(data, indent=4,sort_keys=True))
+print(json.dumps(data, indent=4,sort_keys=False))
+
+
+
+
+
+Python Eduonix
+import web
+urls=(
+    '/(.*)','index'
+)
+app=web.application(urls,globals())
+class index:
+	def GET(self,name):
+ 		return "<h1>Hello "+name+'.</h1>  How are you today?'
+if -_name__=="__main()__"::
+	app.run()
+
+$def with (name,age)
+<h1>Name: $name</h1>
+<p> Your age is: $age</p>	
+import web
+urls=(
+    '/(.*)/(.*)','index'
+)
+render=web.template.render("resources/")
+app=web.application(urls,globals())
+class index:
+	def GET(self,name,age):
+ 		return render.main(name,age)
+if -_name__=="__main()__"::
+	app.run()	
+
+import web
+urls=('/','home')
+app=web.application(urls,globals())
+class home:
+	def GET(self):
+		return "home"
+if __name=="__main()__":
+	app.run()
+
+<br/><br/><br/>
+<div class="container">
+	<h1>Hello Codeword</h1>
+</div>
+$def with (page)
+$var css:static/css/bootstrap.min.css static/css/bootstrap-material-design.min.css
+$var js: static/js/jquery-3.1.0.min.js static/js/material.min.js static/js/ripples.min.js static/js/scripty.js
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>CodedWizard</title>
+	$if self.css:
+		$for style in self.css.split():
+			<link rel="stylesheet" href="$style"/>
+</head>
+<body>
+	<div id="app">
+		<div class="navbar navbar-info navbar-fixed-top">
+			<div class="navbar-header">
+				<a claa="navbar-brand">CodeWizard</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a class="waves-effect" href="/">Home Feed<div class="ripple-container"></div></a></li>
+				<li><a href="/discover">Discover<div class="ripple-container"></div></a></li>
+				<li><a href="/profile">Profile<div class="ripple-container"></div></a></li>
+				<li><a href="/settings">Settings<div class="ripple-container"></div></a></li>
+			</ul>
+			<div class="pull-right">
+				<a href="/register" class="btn btn-raised btn-default waves-effect">Register</a>&nbsp &nbsp;
+			</div>
+		</div>
+		<br/><br/>br/>
+		$:page
+	</div>
+	if self.js:
+		$for script in self.js.split():
+ 			<script src="$script"></script>
+</body>
+</html>
+
+$.material.init();
+
+import web
+urls=['/','home','/register','Register','/postregistration','PostRegistration']
+render=web.template.render("Views/Templates",base="Mainlayout")
+app=web.application(urls,globals())
+class Home:
+	def GET(self):
+		return render.Home()
+class register:
+	def GET(self):
+		return render.Register()
+calss PostRegistration:
+	def POST(self):
+		data=web.input()
+		return data.username
+<div class="container">
+	<h2>Register Account</h2>
+	<br/><br/><br/>
+ 	<form id="register-form">
+	<div class="form-group label-static is-empty">
+		<label for="username" class="control-label">Username</label>
+		<input id="username" name="username" class="form-control" type="text" placeholder="Choose a username"/>
+	</div>
+	<div class="form-group label-static is-empty">
+		<label for="display_name" class="control-label">Full Name</label>
+		<input id="display_name" name="name" class="form-control" type="text" placeholder="Enter your full name"/>
+	</div>
+	<div class="form-group label-static is-empty">
+		<label for="email" class="control-label">Email Address</label>
+		<input id="email" name="email" class="form-control" type="email" placeholder="Enetr your email"/>
+	</div>
+	<div class="form-group label-static is-empty">
+		<label for="password" class="control-label">Password</label>
+		<input id="password" name="password" class="form-control" type="password" placeholder="Enter a password"/>
+	</div>
+	<button type="submit" class="btn btn-info waves-effect ripple">Submit<div class="ripple-container"></div></button>
+</form>
+</div>
+$(document).ready(function(){
+	$.material.init();
+	$(document).on("submit", "#register-form",function(c){
+		c.preventDefault()
+		console.log("form submitted")
+		var form=$('register-form').serialize();
+		$.ajax({
+			url:'/postregistration',type='POST',data:form,success:function(response){
+			console.log(response);
+});
+});
+});
+
+import pymongo
+from pymongo import MongoClient
+class RegisterModel:
+	def __init__(self):
+		self.client=MongoClient()
+	self.db=self.client.codewizard
+		self.Users=self.db.users
+	define insert_user(self,data):
+		id=self.Users.insert({"username":data.username,"name":data.name,"password=":data.password,"email:data.email})
+		print("sid ",id)
+import web
+from Models import RegisterModel
+urls=['/','Home','/register','Register','/postregistration','PostRegistration']
+render=web.template.render("Views/Templates",base="Mainlayout")
+app=web.application(urls,globals())
+class Home:
+	def GET(self):
+		return render.Home()
+class register:
+	def GET(self):
+		return render.Register()
+class PostRegistration:
+	def POST(self):
+		data=web.input()
+		reg_model=registerModel.registerModel()
+		reg_model.insert_user(data)		
+		return data.username
+
+import pymongo
+from pymongo import MongoClient
+import bcrypt
+class RegisterModel:
+	def __init__(self):
+		self.client=MongoClient()
+	self.db=self.client.codewizard
+		self.Users=self.db.users
+	define insert_user(self,data):
+		hashed=bcrypt.hashpw(data.password.encode(),bcrypt.gensalt())
+		id=self.Users.insert({"username":data.username,"name":data.name,"password=":data.password,"email:data.email})
+		print("sid ",id)
+		myuser=self.Users.find_one({"username":data.username})
+		if bcrypt.checkpw("avocado1".encode(),myuser["password"]):
+			print("this matches")
+
+<div class="container">
+	<h2>Login</h2>
+	<form id="login form">
+		<form id="register-form">
+	<div class="form-group label-static is-empty">
+		<label for="username" class="control-label">Username</label>
+		<input id="username" name="username" class="form-control" type="text" placeholder="Choose a username"/>
+	<div class="form-group label-static is-empty">
+		<label for="password" class="control-label">Password</label>
+		<input id="password" name="password" class="form-control" type="password" placeholder="Enter a password"/>
+	</div>
+	<button class="btn btn-raised btn-nfo wave-effects></button>
+	</form>
+</div>
+import web
+from Models import RegisterModel
+urls=['/','Home','/register','Register','/login','Login','/postregistration','PostRegistration']
+render=web.template.render("Views/Templates",base="Mainlayout")
+app=web.application(urls,globals())
+class Home:
+	def GET(self):
+		return render.Home()
+class register:
+	def GET(self):
+		return render.Register()
+class Login:
+	def GET(self):
+		return render.Login()
+class PostRegistration:
+	def POST(self):
+		data=web.input()
+		reg_model=registerModel.registerModel()
+		reg_model.insert_user(data)		
+		return data.username
+$def with (page)
+$var css:static/css/bootstrap.min.css static/css/bootstrap-material-design.min.css
+$var js: static/js/jquery-3.1.0.min.js static/js/material.min.js static/js/ripples.min.js static/js/scripty.js
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>CodedWizard</title>
+	$if self.css:
+		$for style in self.css.split():
+			<link rel="stylesheet" href="$style"/>
+</head>
+<body>
+	<div id="app">
+		<div class="navbar navbar-info navbar-fixed-top">
+			<div class="navbar-header">
+				<a claa="navbar-brand">CodeWizard</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a class="waves-effect" href="/">Home Feed<div class="ripple-container"></div></a></li>
+				<li><a href="/discover">Discover<div class="ripple-container"></div></a></li>
+				<li><a href="/profile">Profile<div class="ripple-container"></div></a></li>
+				<li><a href="/settings">Settings<div class="ripple-container"></div></a></li>
+			</ul>
+			<div class="pull-right">
+				<a href="/login" class="btn btn-link waves-effect">Login</a>&nbsp ;
+				<a href="/register" class="btn btn-raised btn-default waves-effect">Register</a>&nbsp &nbsp;
+			</div>
+		</div>
+		<br/><br/>br/>
+		$:page
+	</div>
+	if self.js:
+		$for script in self.js.split():
+ 			<script src="$script"></script>
+</body>
+</html>
+$(document).ready(function(){
+	$.material.init();
+	$(document).on("submit", "#register-form",function(c){
+		c.preventDefault()
+		console.log("form submitted")
+		var form=$('register-form').serialize();
+		$.ajax({
+			url:'/postregistration',type='POST',data:form,success:function(response){
+			console.log(response);
+});
+});
+$(document).on('submit','#login-form',function(g){
+		c.preventDefault()
+		var form=$this.serialized();
+		$ajax([url:'/check-login',type='POST',data:form,success: function(res){
+			if(res=="error"){
+				alert("Could not login")
+			}else{
+				console.log("Login as: ,res);
+			}
+		}
+});
+
+import web
+from Models import RegisterModel,LoginModel
+urls=['/','Home','/register','Register','/login','Login','/postregistration','PostRegistration','/check-login','checkLogin']
+render=web.template.render("Views/Templates",base="Mainlayout")
+app=web.application(urls,globals())
+class Home:
+	def GET(self):
+		return render.Home()
+class register:
+	def GET(self):
+		return render.Register()
+class checkLogin:
+	def POST(self):
+		data=web.input()
+			login=LoginModel.LoginModel()
+		login.check_user(data)
+		return "error"
+class Login:
+	def GET(self):
+		return render.Login()
+class PostRegistration:
+	def POST(self):
+		data=web.input()
+		reg_model=registerModel.registerModel()
+		reg_model.insert_user(data)		
+		return data.username
+import pymongo,bcrypt
+from pymongo import MongoClient
+class LoginModel:
+	def __init__(self):
+		self.client=MongoClient()
+	self.db=self.client.codewizard
+		self.Users=self.db.users
+ 	def check_user(self,data):
+		user=self.Users.find_one({"username":data.username})
+	if user:	
+		if bcrypt.checkpw(data.password.encode(),user["passowrd"]):
+			return user
+		else:
+			return false
+	else:
+		return false
+import web
+from Models import RegisterModel,LoginModel
+urls=['/','Home','/register','Register','/login','Login','/postregistration','PostRegistration','/check-login','checkLogin']
+render=web.template.render("Views/Templates",base="Mainlayout")
+app=web.application(urls,globals())
+class Home:
+	def GET(self):
+		return render.Home()
+class register:
+	def GET(self):
+		return render.Register()
+class checkLogin:
+	def POST(self):
+		data=web.input()
+			login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			return isCorrect
+		return "error"
+class Login:
+	def GET(self):
+		return render.Login()
+class PostRegistration:
+	def POST(self):
+		data=web.input()
+		reg_model=registerModel.registerModel()
+		reg_model.insert_user(data)		
+		return data.username
+
+
+import web
+from Models import RegisterModel,LoginModel
+web.config.debug=False
+urls=['/','Home','/register','Register','/login','Login','/logout','Logout','/postregistration','PostRegistration','/check-login','checkLogin']
+
+app=web.application(urls,globals())
+session=web.session.Session(app,web.session.DiskStore("sessions"),initializer{'user':'none'})
+render=web.template.render("Views/Templates",base="Mainlayout",globals={'sessions':session_data,'current_user':seesion_data['user']})
+session_data=session_initializer
+
+class Home:
+	def GET(self):
+		return render.Home()
+class register:
+	def GET(self):
+		return render.Register()
+class checkLogin:
+	def POST(self):
+		data=web.input()
+			login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data['user']=isCorrect
+			return isCorrect
+		return "error"
+class Logout:
+	def GET(self):
+		session.kill()
+		return "Success"
+class Login:
+	def GET(self):
+		return render.Login()
+class PostRegistration:
+	def POST(self):
+		data=web.input()
+		reg_model=registerModel.registerModel()
+		reg_model.insert_user(data)		
+		return data.username
+<div class="container">
+	$if session['user']=='none':
+		<h1>Hello CodeWizard</h1>
+	<h1>Hello Session{user}['name']</h1>
+</div>
+
+$(document).ready(function(){
+	$.material.init();
+	$(document).on("submit", "#register-form",function(c){
+		c.preventDefault()
+		console.log("form submitted")
+		var form=$('register-form').serialize();
+		$.ajax({
+			url:'/postregistration',type='POST',data:form,success:function(response){
+			console.log(response);
+});
+});
+$(document).on('submit','#login-form',function(g){
+		c.preventDefault()
+		var form=$this.serialized();
+		$ajax([url:'/check-login',type='POST',data:form,success: function(res){
+			if(res=="error"){
+				alert("Could not login")
+			}else{
+				console.log("Login as: ,res);
+				window.location.href="/";
+			}
+		}
+});
+});
+});
+
+import web
+from Models import RegisterModel,LoginModel
+web.config.debug=False
+urls=['/','Home','/register','Register','/login','Login','/logout','Logout','/postregistration','PostRegistration','/check-login','checkLogin']
+
+app=web.application(urls,globals())
+session=web.session.Session(app,web.session.DiskStore("sessions"),initializer{'user':None})
+render=web.template.render("Views/Templates",base="Mainlayout",globals={'sessions':session_data,'current_user':seesion_data['user']})
+session_data=session_initializer
+
+class Home:
+	def GET(self):
+		return render.Home()
+class register:
+	def GET(self):
+		return render.Register()
+class checkLogin:
+	def POST(self):
+		data=web.input()
+			login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data['user']=isCorrect
+			return isCorrect
+		return "error"
+class Logout:
+	def GET(self):
+		session["user"]=None
+		session_data["user"]=None
+		session.kill()
+		return "Success"
+class Login:
+	def GET(self):
+		return render.Login()
+class PostRegistration:
+	def POST(self):
+		data=web.input()
+		reg_model=registerModel.registerModel()
+		reg_model.insert_user(data)		
+		return data.username
+
+<div class="container">
+	$if session['user']==None:
+		<h1>Hello CodeWizard</h1>
+	<h1>Hello Session{user}['name']</h1>
+</div>
+
+$def with (page)
+$var css:static/css/bootstrap.min.css static/css/bootstrap-material-design.min.css
+$var js: static/js/jquery-3.1.0.min.js static/js/material.min.js static/js/ripples.min.js static/js/scripty.js
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>CodedWizard</title>
+	$if self.css:
+		$for style in self.css.split():
+			<link rel="stylesheet" href="$style"/>
+</head>
+<body>
+	<div id="app">
+		<div class="navbar navbar-info navbar-fixed-top">
+			<div class="navbar-header">
+				<a class="navbar-brand">CodeWizard</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a class="waves-effect" href="/">Home Feed<div class="ripple-container"></div></a></li>
+				<li><a href="/discover">Discover<div class="ripple-container"></div></a></li>
+				<li><a href="/profile">Profile<div class="ripple-container"></div></a></li>
+				<li><a href="/settings">Settings<div class="ripple-container"></div></a></li>
+			</ul>
+			<div class="pull-right">
+				$if session["user"]==None:
+					<a href="/login" class="btn btn-link waves-effect">Login</a>&nbsp ;
+					<a href="/register" class="btn btn-raised btn-default waves-effect">Register</a>&nbsp &nbsp;
+				$else:
+					<a id="logout-link" class="btn btn-raised btn-default waves-effect">Logout</a>&nbsp; &nbsp;
+			</div>
+		</div>
+		<br/><br/>br/>
+		$:page
+	</div>
+	if self.js:
+		$for script in self.js.split():
+ 			<script src="$script"></script>
+</body>
+</html>
+
+$(document).ready(function(){
+	console.log("loaded");
+	$.material.init();
+	$(document).on("submit", "#register-form",function(c){
+		c.preventDefault()
+		var form=$('register-form').serialize();
+		$.ajax({
+			url:'/postregistration',type='POST',data:form,success:function(response){
+			console.log(response);}
+});
+});
+$(document).on('submit','#login-form',function(g){
+		c.preventDefault()
+		var form=$(this).serialized();
+		$ajax([url:'/check-login',type='POST',data:form,success: function(res){
+			if(res=="error"){
+				alert("Could not login")
+			}else{
+				console.log("Login as: ,res);
+				window.location.href="/";
+			}
+		}
+});
+});
+$(document).on('click','#logout-link',function(g){
+	g.preventDefault();
+	$.ajax({url:'/logout',type:'GET',success:function(res){
+		if(res=="success"){
+			window.location.href='/login';
+		else
+		{
+			alert("Something went wrong");
+		}
+	}
+	})
+});
+});
+
+import web
+from Models import RegisterModel,LoginModel
+web.config.debug=False
+urls=['/','Home','/register','Register','/login','Login','/logout','Logout','/postregistration','PostRegistration','/check-login','checkLogin']
+
+app=web.application(urls,globals())
+session=web.session.Session(app,web.session.DiskStore("sessions"),initializer{'user':None})
+render=web.template.render("Views/Templates",base="Mainlayout",globals={'sessions':session_data,'current_user':seesion_data['user']})
+session_data=session_initializer
+
+class Home:
+	def GET(self):
+		data=type("obj",(object,),{"username":"nick1","password":"avocado1"})
+		login=loginModel.loginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		return render.Home()
+class register:
+	def GET(self):
+		return render.Register()
+class checkLogin:
+	def POST(self):
+		data=web.input()
+			login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data['user']=isCorrect
+			return isCorrect
+		return "error"
+class Logout:
+	def GET(self):
+		session["user"]=None
+		session_data["user"]=None
+		session.kill()
+		return "Success"
+class Login:
+	def GET(self):
+		return render.Login()
+class PostRegistration:
+	def POST(self):
+		data=web.input()
+		reg_model=registerModel.registerModel()
+		reg_model.insert_user(data)		
+		return data.username
+
+import pymongo,bcrypt
+from pymongo import MongoClient
+class Posts:
+	def __init(self):
+		self.client=MongoClient()
+		self.db=self.client.codewizard
+		self.Users=self.db.users
+		self.Posts=self.db.posts
+	def insert_post(self,data):
+		inserted=self.Posts.insert({"username":data.username,"content":datat.content})
+		return True
+		
+$(document).on('submit','#login-form',function(g){
+		c.preventDefault()
+		var form=$(this).serialized();
+		$ajax([url:'/check-login',type='POST',data:form,success: function(res){
+			if(res=="error"){
+				alert("Could not login")
+			}else{
+				console.log("Login as: ,res);
+				window.location.href="/";
+			}
+		}
+});
+});
+$(document).on('click','#logout-link',function(g){
+	g.preventDefault();
+	$.ajax({url:'/logout',type:'GET',success:function(res){
+		if(res=="success"){
+			window.location.href='/login';
+		else
+		{
+			alert("Something went wrong");
+		}
+	}
+	})
+});
+$(document).on('submit','#post-activity',function(g){
+	f.preventDefault()
+	form=$(this).serialize()
+	$.ajax({url:'/post-activity',type='POST',data:form,success:function(res){
+		console.log(res);
+}
+});
+});
+});
+
+import web
+from Models import RegisterModel,LoginModel
+web.config.debug=False
+urls=['/','Home','/register','Register','/login','Login','/logout','Logout','/postregistration','PostRegistration','/check-login','checkLogin','/post-activity','PostActivity']
+
+app=web.application(urls,globals())
+session=web.session.Session(app,web.session.DiskStore("sessions"),initializer{'user':None})
+render=web.template.render("Views/Templates",base="Mainlayout",globals={'sessions':session_data,'current_user':seesion_data['user']})
+session_data=session_initializer
+
+class Home:
+	def GET(self):
+		data=type("obj",(object,),{"username":"nick1","password":"avocado1"})
+		login=loginModel.loginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		return render.Home()
+class register:
+	def GET(self):
+		return render.Register()
+class checkLogin:
+	def POST(self):
+		data=web.input()
+			login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data['user']=isCorrect
+			return isCorrect
+		return "error"
+class Logout:
+	def GET(self):
+		session["user"]=None
+		session_data["user"]=None
+		session.kill()
+		return "Success"
+class Login:
+	def GET(self):
+		return render.Login()
+class PostActivity:
+	def POST(self):
+		data=web.input()
+		data.username=session_data['user']['username']
+		post_model=Posts.Posts()
+		post_model.insert-post(data)
+		return "success"
+class PostRegistration:
+	def POST(self):
+		data=web.input()
+		reg_model=registerModel.registerModel()
+		reg_model.insert_user(data)		
+		return data.username
+
+import pymongo,bcrypt
+from pymongo import MongoClient
+class Posts:
+	def __init(self):
+		self.client=MongoClient()
+		self.db=self.client.codewizard
+		self.Users=self.db.users
+		self.Posts=self.db.posts
+	def insert_post(self,data):
+		inserted=self.Posts.insert({"username":data.username,"content":datat.content})
+		return True
+	def get_all_posts(self):			new_posts=[]
+		all_posts=self.Posts.find()
+		for post in all_posts:
+			post["user"]=self.Users.find_one({"username":post["username"]})
+			new_posts.append(post)
+		return new_posts
+
+import web
+from Models import RegisterModel,LoginModel
+web.config.debug=False
+urls=['/','Home','/register','Register','/login','Login','/logout','Logout','/postregistration','PostRegistration','/check-login','checkLogin','/post-activity','PostActivity']
+
+app=web.application(urls,globals())
+session=web.session.Session(app,web.session.DiskStore("sessions"),initializer{'user':None})
+render=web.template.render("Views/Templates",base="Mainlayout",globals={'sessions':session_data,'current_user':seesion_data['user']})
+session_data=session_initializer
+
+class Home:
+	def GET(self):
+		data=type("obj",(object,),{"username":"nick1","password":"avocado1"})
+		login=loginModel.loginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		post_model=Posts.Posts()
+		posts=post_model.get_all_posts()	
+		return render.Home(posts)
+class register:
+	def GET(self):
+		return render.Register()
+class checkLogin:
+	def POST(self):
+		data=web.input()
+			login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data['user']=isCorrect
+			return isCorrect
+		return "error"
+class Logout:
+	def GET(self):
+		session["user"]=None
+		session_data["user"]=None
+		session.kill()
+		return "Success"
+class Login:
+	def GET(self):
+		return render.Login()
+class PostActivity:
+	def POST(self):
+		data=web.input()
+		data.username=session_data['user']['username']
+		post_model=Posts.Posts()
+		post_model.insert-post(data)
+		return "success"
+class PostRegistration:
+	def POST(self):
+		data=web.input()
+		reg_model=registerModel.registerModel()
+		reg_model.insert_user(data)		
+		return data.username
+
+$def with (posts)
+<div class="container">
+	$if session['user']==None:
+		<h1>Hello CodeWizard</h1>
+	$else:
+		<div class="row">
+			<ul class="sidebar">
+				<li class="active"><a href="#"><span class="mdi mdi-home"></span>Home Feed</a></li>
+				<li><a href="#"><span class="mdi mdi-account-circle"></span>Profile</a></li>
+				<li><a href="#"><span class="mdi mdi-email"></span>Messages</a></li>
+				<li> <a href="#"><span class="mdi mdi-circles-group"></span>Friends</a></li>
+				<li><a href="#><span class="mdi mdi-google-circles-communities"></span>Communities</a></li>
+				<li><a href="#"><span class="mdi mdi-bell"></span>Notifications</a></li>
+				<li class="separator"></li>
+				<li><a href="#"><span class="mdi mdi-settings"></span>Settings</a></li>
+				<li><a href="#"><span class="mdi mdi-help-circle"></span>Help</a></li>
+			</ul>
+		<div class="col-md-6">
+		<div class="post-box">
+			<form id="post-activity">
+				<textarea name="content" class="post-input" placeholder="What's new, $session['user']['name']?"></textarea>
+			<button id="post-button" class="btn btn-info btn-raised waves-effect" type="submit"><span class="mdi mdi-send"></span>Post Activity</button>
+		</form>
+	</div>
+	$for post in posts:
+		<div class="post-card">
+			<div class="header">
+				<div class="avatar"></div>
+				<a href="/profile">$post['user']['name']</a>
+			</div>
+			<div class="content">
+				$post['content']
+			</div>
+			<div class="footer">
+
+$(document).ready(function(){
+	console.log("loaded");
+	$.material.init();
+	$(document).on("submit", "#register-form",function(c){
+		c.preventDefault()
+		var form=$('register-form').serialize();
+		$.ajax({
+			url:'/postregistration',type='POST',data:form,success:function(response){
+			console.log(response);}
+});
+});
+$(document).on('submit','#login-form',function(g){
+		c.preventDefault()
+		var form=$(this).serialized();
+		$ajax([url:'/check-login',type='POST',data:form,success: function(res){
+			if(res=="error"){
+				alert("Could not login")
+			}else{
+				console.log("Login as: ,res);
+				window.location.href="/";
+			}
+		}
+});
+});
+$(document).on('click','#logout-link',function(g){
+	g.preventDefault();
+	$.ajax({url:'/logout',type:'GET',success:function(res){
+		if(res=="success"){
+			window.location.href='/login';
+		else
+		{
+			alert("Something went wrong");
+		}
+	}
+	})
+});
+});
+$(document).on('submit','#post-activity',function(g){
+	f.preventDefault()
+	form=$(this).serialize()
+	$.ajax({url:'/post-activity',type='POST',data:form,success:function(post){
+		console.log(post);
+		if(post){
+			window.location.href=window.location.href
+		}
+}
+});
+});
+${document).on('submit','#settings-form',function(g){
+	g.preventDefault();
+	var form=$(this).serialize();
+	$.ajax({url:'/update-settings',type:'POST',data:form,success:function(res){
+		window.location.href=window.location.href;
+	}
+	else{
+		alert(res);
+	}
+});
+
+import web
+from Models import RegisterModel,LoginModel
+web.config.debug=False
+urls=['/','Home','/register','Register','/login','Login','/logout','Logout','/postregistration','PostRegistration','/check-login','checkLogin','/post-activity','PostActivity','/profile/(.*)/info',"UserInfo",'/settings',"UserSettings",'/update-settings',"UpdateSettings",'/profile/(.*)',"UserProfile"]
+
+app=web.application(urls,globals())
+session=web.session.Session(app,web.session.DiskStore("sessions"),initializer{'user':None})
+render=web.template.render("Views/Templates",base="Mainlayout",globals={'sessions':session_data,'current_user':seesion_data['user']})
+session_data=session_initializer
+
+class Home:
+	def GET(self):
+		data=type("obj",(object,),{"username":"nick1","password":"avocado1"})
+		login=loginModel.loginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		post_model=Posts.Posts()
+		posts=post_model.get_all_posts()	
+		return render.Home(posts)
+class UserProfile:
+	def GET(self,user):
+		data=type('obj',(object,),{"username":"nick1","password":"avocado1"})
+		login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		post_model=Posts.Posts()
+		posts=post_model.get_user_posts(user)
+		return render.Profile(posts)
+
+class UserInfo:
+	def GET(self,user):
+		data=type('obj',(object,),("username":"nick1","password":"avocado1"})
+		login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+	return render.Info()
+
+class register:
+	def GET(self):
+		return render.Register()
+class checkLogin:
+	def POST(self):
+		data=web.input()
+			login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data['user']=isCorrect
+			return isCorrect
+		return "error"
+class Logout:
+	def GET(self):
+		session["user"]=None
+		session_data["user"]=None
+		session.kill()
+		return "Success"
+class Login:
+	def GET(self):
+		return render.Login()
+class PostActivity:
+	def POST(self):
+		data=web.input()
+		data.username=session_data['user']['username']
+		post_model=Posts.Posts()
+		post_model.insert-post(data)
+		return "success"
+class UserSettings:
+	def GET(self):
+		data=type('obj',(object,),{"username":"nick1","password":"avocado1"})
+		login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		return render.Settings()
+class UpdateSettings:
+	def PUSH(self):
+		data=web.input()
+		data.username=session_data["user
+"]["username"]
+		settings_model=LoginModel.LoginModel()
+		if settings_model.update_info(data):
+			return "success"
+		else
+		{
+			alert("Fatal Error!")
+		}
+		
+class PostRegistration:
+	def POST(self):
+		data=web.input()
+		reg_model=registerModel.registerModel()
+		reg_model.insert_user(data)		
+		return data.username
+
+
+import pymongo,bcrypt
+from pymongo import MongoClient
+class Posts:
+	def __init(self):
+		self.client=MongoClient()
+		self.db=self.client.codewizard
+		self.Users=self.db.users
+		self.Posts=self.db.posts
+	def insert_post(self,data):
+		inserted=self.Posts.insert({"username":data.username,"content":datat.content})
+		return True
+	def get_all_posts(self):			new_posts=[]
+		all_posts=self.Posts.find()
+		for post in all_posts:
+			print(post)
+			post["user"]=self.Users.find_one({"username":post["username"]})
+			new_posts.append(post)
+		return new_posts
+	def get_user_posts(self,user):
+		all_posts=self.Posts.find({"username":user}).sort("date_added",-1)
+		new_posts=[]
+		for post in all_posts:
+			print(post)
+			post["user"]=self.Users.find_one({"username":post["username"]})
+			new_posts.append(post)
+		return new_posts 
+
+import pymongo. bcrypt
+from pymongo import MongoClient
+class LoginModel:
+	def __init__(self):
+		self.client=MongoClient()
+		self.db=self.client.codewizard
+		self.Users=self.db.users
+	def check_user(self,data):
+		user=self.Users.find_one({"usrename":data.username})
+		if user:
+			if bcrypt.checkpw(data.password.encode(),user["password"]):
+				return user
+			else:
+				return False
+		else:
+			return False
+	def update_info(self,data):
+		updated=self.Users.update_one({"username":data["username"]},{"$set":data})
+		return True
+	def get_profile(self,user)
+		user_info=self.Users.find_one({"username":user})
+		return user_info
+
+import web
+from Models import RegisterModel,LoginModel
+web.config.debug=False
+urls=['/','Home','/register','Register','/login','Login','/logout','Logout','/postregistration','PostRegistration','/check-login','checkLogin','/post-activity','PostActivity','/profile/(.*)/info',"UserInfo",'/settings',"UserSettings",'/update-settings',"UpdateSettings",'/profile/(.*)',"UserProfile"]
+
+app=web.application(urls,globals())
+session=web.session.Session(app,web.session.DiskStore("sessions"),initializer{'user':None})
+render=web.template.render("Views/Templates",base="Mainlayout",globals={'sessions':session_data,'current_user':seesion_data['user']})
+session_data=session_initializer
+
+class Home:
+	def GET(self):
+		data=type("obj",(object,),{"username":"nick1","password":"avocado1"})
+		login=loginModel.loginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		post_model=Posts.Posts()
+		posts=post_model.get_all_posts()	
+		return render.Home(posts)
+class UserProfile:
+	def GET(self,user):
+		data=type('obj',(object,),{"username":"nick1","password":"avocado1"})
+		login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		post_model=Posts.Posts()
+		posts=post_model.get_user_posts(user)
+		return render.Profile(posts)
+
+class UserInfo:
+	def GET(self,user):
+		data=type('obj',(object,),("username":"nick1","password":"avocado1"})
+		login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+	return render.Info()
+
+class register:
+	def GET(self):
+		return render.Register()
+class checkLogin:
+	def POST(self):
+		data=web.input()
+			login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data['user']=isCorrect
+			return isCorrect
+		return "error"
+class Logout:
+	def GET(self):
+		session["user"]=None
+		session_data["user"]=None
+		session.kill()
+		return "Success"
+class Login:
+	def GET(self):
+		return render.Login()
+class PostActivity:
+	def POST(self):
+		data=web.input()
+		data.username=session_data['user']['username']
+		post_model=Posts.Posts()
+		post_model.insert-post(data)
+		return "success"
+class UserSettings:
+	def GET(self):
+		data=type('obj',(object,),{"username":"nick1","password":"avocado1"})
+		login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		return render.Settings()
+class UpdateSettings:
+	def PUSH(self):
+		data=web.input()
+		data.username=session_data["user
+"]["username"]
+		settings_model=LoginModel.LoginModel()
+		if settings_model.update_info(data):
+			return "success"
+		else
+		{
+			alert("Fatal Error!")
+		}
+		
+class PostRegistration:
+	def POST(self):
+		data=web.input()
+		reg_model=registerModel.registerModel()
+		reg_model.insert_user(data)		
+		return data.username
+//remove 1st to iscorrect check in controller.py
+
+import pymongo,bcrypt
+from pymongo import MongoClient
+class Posts:
+	def __init(self):
+		self.client=MongoClient()
+		self.db=self.client.codewizard
+		self.Users=self.db.users
+		self.Posts=self.db.posts
+	def insert_post(self,data):
+		inserted=self.Posts.insert({"username":data.username,"content":datat.content,"date_added":datetime.datetime.now()})
+		post=self.Posts.find_one({"_id":inserted})
+		new_post={}
+		new_post["name"]=self.Users.find_one({"username":post["username"]})["name"]
+		new_post["content"]=post["content"]
+		return post
+	def get_all_posts(self):
+		all_posts=self.Posts.find().sort("date_added",-1)
+		new_posts=[]
+		for post in all_posts:
+			print(post)
+			post["user"]=self.Users.find_one({"username":post["username"]})
+			post["timestamp"]=humanize.naturaldatetime(datetime.datetime.now()-post["date_added"])						new_posts.append(post)
+		return new_posts
+	def get_user_posts(self,user):
+		all_posts=self.Posts.find({"username":user}).sort("date_added",-1)
+		new_posts=[]
+		for post in all_posts:
+			print(post)
+			post["user"]=self.Users.find_one({"username":post["username"]})
+			new_posts.append(post)
+		return  new_posts
+
+$(document).ready(function(){
+	console.log("loaded");
+	$.material.init();
+	$(document).on("submit", "#register-form",function(c){
+		c.preventDefault()
+		var form=$('register-form').serialize();
+		$.ajax({
+			url:'/postregistration',type='POST',data:form,success:function(response){
+			console.log(response);}
+});
+});
+$(document).on('submit','#login-form',function(g){
+		c.preventDefault()
+		var form=$(this).serialized();
+		$ajax([url:'/check-login',type='POST',data:form,success: function(res){
+			if(res=="error"){
+				alert("Could not login")
+			}else{
+				console.log("Login as: ,res);
+				window.location.href="/";
+			}
+		}
+});
+});
+$(document).on('click','#logout-link',function(g){
+	g.preventDefault();
+	$.ajax({url:'/logout',type:'GET',success:function(res){
+		if(res=="success"){
+			window.location.href='/login';
+		else
+		{
+			alert("Something went wrong");
+		}
+	}
+	})
+});
+});
+$(document).on('submit','#post-activity',function(g){
+	f.preventDefault()
+	form=$(this).serialize()
+	$.ajax({url:'/post-activity',type='POST',data:form,success:function(post){
+		console.log(post);
+		if(post){
+			window.location.href=window.location.href
+		}
+}
+});
+});
+${document).on('submit','#settings-form',function(g){
+	g.preventDefault();
+	var form=$(this).serialize();
+	$.ajax({url:'/update-settings',type:'POST',data:form,success:function(res){
+		window.location.href=window.location.href;
+	}
+	else{
+		alert(res);
+	}
+});
+$(document).on("submit",".comment-form",function(g){
+	g.preventDefault();
+	var form=$(this).serialize();
+	$.ajax({
+		url:"/submit-comment",type:"POST",data:form,dataType:"json",success:function(res){
+			console.log(res);
+		}
+	})
+});
+
+import web
+from Models import RegisterModel,LoginModel
+web.config.debug=False
+urls=['/','Home','/register','Register','/login','Login','/logout','Logout','/postregistration','PostRegistration','/check-login','checkLogin','/post-activity','PostActivity','/profile/(.*)/info',"UserInfo",'/settings',"UserSettings",'/update-settings',"UpdateSettings",'/profile/(.*)',"UserProfile",'/submit-comment','SubmitComment']
+
+app=web.application(urls,globals())
+session=web.session.Session(app,web.session.DiskStore("sessions"),initializer{'user':None})
+render=web.template.render("Views/Templates",base="Mainlayout",globals={'sessions':session_data,'current_user':seesion_data['user']})
+session_data=session_initializer
+
+class Home:
+	def GET(self):
+		data=type("obj",(object,),{"username":"nick1","password":"avocado1"})
+		login=loginModel.loginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		post_model=Posts.Posts()
+		posts=post_model.get_all_posts()	
+		return render.Home(posts)
+class UserProfile:
+	def GET(self,user):
+		data=type('obj',(object,),{"username":"nick1","password":"avocado1"})
+		login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		post_model=Posts.Posts()
+		posts=post_model.get_user_posts(user)
+		return render.Profile(posts)
+
+class UserInfo:
+	def GET(self,user):
+		data=type('obj',(object,),("username":"nick1","password":"avocado1"})
+		login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+	return render.Info()
+
+class register:
+	def GET(self):
+		return render.Register()
+class checkLogin:
+	def POST(self):
+		data=web.input()
+			login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data['user']=isCorrect
+			return isCorrect
+		return "error"
+class Logout:
+	def GET(self):
+		session["user"]=None
+		session_data["user"]=None
+		session.kill()
+		return "Success"
+class Login:
+	def GET(self):
+		return render.Login()
+class PostActivity:
+	def POST(self):
+		data=web.input()
+		data.username=session_data['user']['username']
+		post_model=Posts.Posts()
+		post_model.insert-post(data)
+		return "success"
+class UserSettings:
+	def GET(self):
+		data=type('obj',(object,),{"username":"nick1","password":"avocado1"})
+		login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		return render.Settings()
+class SubmitComment
+	def POST(self):
+		data=web.input()
+		data.username=session_data["user"]["username"]
+		post_model=Posts.Posts()
+		added_comment=post_model.add_comment(data)
+		if added_comment:
+			return added_comment
+		else:
+		 	return "ERROR 403"
+class UpdateSettings:
+	def PUSH(self):
+		data=web.input()
+		data.username=session_data["user
+"]["username"]
+		settings_model=LoginModel.LoginModel()
+		if settings_model.update_info(data):
+			return "success"
+		else
+		{
+			alert("Fatal Error!")
+		}
+		
+class PostRegistration:
+	def POST(self):
+		data=web.input()
+		reg_model=registerModel.registerModel()
+		reg_model.insert_user(data)		
+		return data.username
+import pymongo,bcrypt
+from pymongo import MongoClient
+class Posts:
+	def __init(self):
+		self.client=MongoClient()
+		self.db=self.client.codewizard
+		self.Users=self.db.users
+		self.Posts=self.db.posts
+	def insert_post(self,data):
+		inserted=self.Posts.insert({"username":data.username,"content":datat.content,"date_added":datetime.datetime.now()})
+		post=self.Posts.find_one({"_id":inserted})
+		new_post={}
+		new_post["name"]=self.Users.find_one({"username":post["username"]})["name"]
+		new_post["content"]=post["content"]
+		return post
+	def get_all_posts(self):
+		all_posts=self.Posts.find().sort("date_added",-1)
+		new_posts=[]
+		for post in all_posts:
+			print(post)
+			post["user"]=self.Users.find_one({"username":post["username"]})
+			post["timestamp"]=humanize.naturaldatetime(datetime.datetime.now()-post["date_added"])		
+			post["old_comments"]=self.Comments.find({"post_id":str(post["_id"])})	
+			post["comments"]=[]
+			for comment in post["old_comments"]:
+				print(comment)
+				comment["user"]=self.Users.find_one({"username":comment["username"]})
+				comment["timestamp"]=humanize.naturaltime(datetime.datetime.now()-comment["date_added"])
+				post["comments"].append("comment")
+		new_posts.append(post)
+		return new_posts
+	def get_user_posts(self,user):
+		all_posts=self.Posts.find({"username":user}).sort("date_added",-1)
+		new_posts=[]
+		for post in all_posts:
+			print(post)
+			post["user"]=self.Users.find_one({"username":post["username"]})
+			new_posts.append(post)
+		return  new_posts
+	def add_comment(self,comment):
+		inserted=self.Comments.insert({"post_id":comment["post_id"],"content":comment["comment-text"],"date_added":datetime.datetime.now(),"username":comment["username"]})
+		return inserted
+
+import web
+from Models import RegisterModel,LoginModel
+web.config.debug=False
+urls=['/','Home','/register','Register','/login','Login','/logout','Logout','/postregistration','PostRegistration','/check-login','checkLogin','/post-activity','PostActivity','/profile/(.*)/info',"UserInfo",'/settings',"UserSettings",'/update-settings',"UpdateSettings",'/profile/(.*)',"UserProfile",'/submit-comment','SubmitComment']
+
+app=web.application(urls,globals())
+session=web.session.Session(app,web.session.DiskStore("sessions"),initializer{'user':None})
+render=web.template.render("Views/Templates",base="Mainlayout",globals={'sessions':session_data,'current_user':seesion_data['user']})
+session_data=session_initializer
+
+class Home:
+	def GET(self):
+		data=type("obj",(object,),{"username":"nick1","password":"avocado1"})
+		login=loginModel.loginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		post_model=Posts.Posts()
+		posts=post_model.get_all_posts()	
+		return render.Home(posts)
+class UserProfile:
+	def GET(self,user):
+		data=type('obj',(object,),{"username":"nick1","password":"avocado1"})
+		login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		post_model=Posts.Posts()
+		posts=post_model.get_user_posts(user)
+		return render.Profile(posts)
+
+class UserInfo:
+	def GET(self,user):
+		data=type('obj',(object,),("username":"nick1","password":"avocado1"})
+		login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+	return render.Info()
+
+class register:
+	def GET(self):
+		return render.Register()
+class checkLogin:
+	def POST(self):
+		data=web.input()
+			login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data['user']=isCorrect
+			return isCorrect
+		return "error"
+class Logout:
+	def GET(self):
+		session["user"]=None
+		session_data["user"]=None
+		session.kill()
+		return "Success"
+class Login:
+	def GET(self):
+		return render.Login()
+class PostActivity:
+	def POST(self):
+		data=web.input()
+		data.username=session_data['user']['username']
+		post_model=Posts.Posts()
+		post_model.insert-post(data)
+		return "success"
+class UserSettings:
+	def GET(self):
+		data=type('obj',(object,),{"username":"nick1","password":"avocado1"})
+		login=LoginModel.LoginModel()
+		isCorrect=login.check_user(data)
+		if isCorrect:
+			session_data["user"]=isCorrect
+		return render.Settings()
+class SubmitComment
+	def POST(self):
+		data=web.input()
+		data.username=session_data["user"]["username"]
+		post_model=Posts.Posts()
+		added_comment=post_model.add_comment(data)
+		if added_comment:
+			return added_comment
+		else:
+		 	return "ERROR 403"
+class UpdateSettings:
+	def PUSH(self):
+		data=web.input()
+		data.username=session_data["user
+"]["username"]
+		settings_model=LoginModel.LoginModel()
+		if settings_model.update_info(data):
+			return "success"
+		else
+		{
+			alert("Fatal Error!")
+		}
+		
+class PostRegistration:
+	def POST(self):
+		data=web.input()
+		reg_model=registerModel.registerModel()
+		reg_model.insert_user(data)		
+		return data.username
+class UploadImage:
+	def POST(self,type):
+		file=web.input(avatar={},background={})
+		file_dir=os.getcwd()+"/static/uploads/"+session_data["user"]["username"]
+		if not os.path.exists(file_dir):
+			os.mkdir(file_dir)
+		if "avatar" or "background" in file:
+			filepath=file[type].filename.replace('\\','/')
+			filename=filepath.split("/")[-1]
+			f=open(file_dir+"/"+filename+'wb')
+			f.write(file[type].file.read())
+			f.close()
+			update={}
+			update["type"]=type
+			update["img"]='/static/upload'+session_data["user"]["username"]+"/"+filename
+			update["username"]=session_data["user"]["username"]
+			account_model=LoginModel.LoginModel()
+			update_avatar=account_model.update_image(update)
+		raise web.seeother("/settings")
+
+if __name__=="__main__()":
+	app.run()
+
+import pymongo,bcrypt
+from pymongo import MongoClient
+class LoginModel:
+	def __init__(self):
+		self.client=MongoClient()
+		self.db=self.client.codewizard
+		self.Users=self.db.users
+	def check_user(self,data):
+		user=self.Users.find_one({"username":data.username})
+		if user:
+			if bcrypt.checkpw(data.password.encode(),user["password"]);
+				return user
+			else:
+				return False
+		else:
+			return False
+	def update_info(self,data):
+		updated=self.Users.update_one({"username":data["username"]},{"$set":data})
+		return True
+	def get_profiel(self,user)
+		user_info=self.Users.find_one({"username":user})
+		return user_info
+	def update_image(self,update):
+		updated=self.Users.update_one({"username":update["username"]},{"set":{update[type]:update["img"]}})
+		return updated	
+
+
+from django.db import models
+from django.core.urlresolvers import reverse
+class Post(models.Model):
+	title=models.CharField(max_length=255)
+	slug=models.SlugField(max_length=255,unique=True)
+	summary=models.CharField(max_length=300)
+	content=model.TextField()
+	published=models.BooleanField(default=True)
+	created=models.DateTimeField(auto_now_add=True)
+	calss Meta:
+		ordering=['-created']
+		def __unicode__(self):
+			return u'%s'% self.title
+		def get_absolute_url(self):
+			return reverse('blog.views.post',args=[self.slug])
+	
+
+from django.contrib import admin
+from .models import Post
+admin.site.register(Post)
+
+
+from django.conf.urls import url
+from django.contrib import admin
+from blog import views as blog_views
+urlpatterns=[url(r'^post/$',blog_views.post),url(r'^$',blog_views.index),url(r'^admin/',admin.site.urls)]
+
+
+from django.shortcuts import render
+from django.http import HttpResponse
+def index(request):
+	return HttpResponse('Hey There.')
+def post(request):
+	return HttpResponse("I'm a single post page.")
+
+
+
+<h1>I'm an index page</h1>
+
+
+from django.shortcuts import render
+from django.http import HttpResponse
+def index(request):
+	return render(request,'index.html',{})
+def post(request):
+	return HttpResponse("I'm a single post page.")
+
+
+from django.shortcuts import render
+from django.http import HttpResponse
+from .models import Post
+def index(request):
+	return render(request,'index.html',{'posts':posts})
+def post(request):
+	return HttpResponse("I'm a single post page.")
+
+
+<h1>I'm an index page</h1>
+{% for post in posts%}
+	<div>
+		<h2><a href="/post/{{post.slug}}">{{post.title}}</h2>
+		<p>{{post.summary}}</a></p>
+	</div>
+{% endfor %}
+
+
+
+from django.shortcuts import render,render_to_response,get_object_or_484
+from django.http import HttpResponse
+from .models import Post
+def index(request):
+	return render(request,'index.html',{'posts':posts})
+def post(request,slug):
+	print(slug)
+	return render_to_response('post.html',{'post':get_object_or_484(Post,slug=slug)})
+
+
+
+<a href="/"><- Back to index</a><br /><br />
+<h2>{{post.title}}</h2>
+<div>
+	{{post.content}}
+</div>
+
+
+from django.conf.urls import url
+from django.contrib import admin
+from blog import views as blog_views
+urlpatterns=[url(r'^post/$',blog_views.post),url(r'^about/$',blog_views.about),url(r'^$',blog_views.index),url(r'^admin/',admin.site.urls)]
+
+
+from django.shortcuts import render,render_to_response,get_object_or_484
+from django.http import HttpResponse
+from .models import Post
+def index(request):
+	return render(request,'index.html',{'posts':posts})
+def post(request,slug):
+	print(slug)
+	return render_to_response('post.html',{'post':get_object_or_484(Post,slug=slug)})
+def about(request):
+	return render(request,'about.html',{})
+
+
+<h1>Static Page</h1>
+
+
+
+{%load static%}
+<link rel="stylesheet" type="text/css" href="{%static 'css/style.css'%}"/>
+{%load bootstrap3%}
+{%bootstrap_css%}
+{%bootstrap_javascript%}
+<h1>I'm an index page</h1>
+{% for post in posts%}
+	<div>
+		<h2><a href="/post/{{post.slug}}">{{post.title}}</h2>
+		<p>{{post.summary}}</a></p>
+	</div>
+{% endfor %}
+
+
+
+body
+{
+	background:#f100 !important;
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{%load static%}
+<link rel="stylesheet" type="text/css" href="{%static 'css/style.css'%}"/>
+{%load bootstrap3%}
+{%bootstrap_css%}
+{%bootstrap_javascript%}
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MyStyle</title>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle=collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar></span>
+		<span class="icon-bar"</span>
+		</button>
+		<a class="navbar-brand" href="#">My Site</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav">
+		<li class="active"><a href="#">Home</a></li>
+		<li><a href="#">Random Post</a></li>
+		<li><a href="#">My Profile</a></li>
+		<li><a href="#">Settings</a></li>
+		</ul>	
+	</div>
+	</div>
+	</nav>
+	<div id="content">
+		{%block content%}			This is a fallback text
+		{%endblock%}
+	</div>
+	</body>
+</html>
+
+
+
+{%extends 'base.html'%}
+{%block content%}
+<h1>I'm an index page</h1>
+{% for post in posts%}
+	<div>
+		<h2><a href="/post/{{post.slug}}">{{post.title}}</h2>
+		<p>{{post.summary}}</a></p>
+	</div>
+{% endfor %}
+{%endblock%}
+
+
+
+
+{%extends 'base.html'%}
+{%block title%}{{post.title}}{%endblock%}
+{%block content%}
+<a href="/"><- Back to index</a><br /><br />
+<h2>{{post.title}}</h2>
+<div>
+	{{post.content}}
+</div>
+{%endblock%}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{%load static%}
+<link rel="stylesheet" type="text/css" href="{%static 'css/style.css'%}"/>
+{%load bootstrap3%}
+{%bootstrap_css%}
+{%bootstrap_javascript%}
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{%block title%}My Site{%endblock%}</title>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle=collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar></span>
+		<span class="icon-bar"</span>
+		</button>
+		<a class="navbar-brand" href="#">My Site</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav">
+		<li class="active"><a href="#">Home</a></li>
+		<li><a href="#">Random Post</a></li>
+		<li><a href="#">My Profile</a></li>
+		<li><a href="#">Settings</a></li>
+		</ul>	
+	</div>
+	</div>
+	</nav>
+	<div id="content">
+		{%block content%}			This is a fallback text
+		{%endblock%}
+	</div>
+	</body>
+</html>
+
+
+
+{%extends 'base.html'%}
+{%block title%}My Site:{{post.title}}{%endblock%}
+{%block content%}
+<a href="/"><- Back to index</a><br /><br />
+<h2>{{post.title}}</h2>
+<div>
+	{{post.content}}
+</div>
+{%endblock%}
+
+
+
+from django.db import models
+from django.core.urlresolvers import reverse
+class Post(models.Model):
+	title=models.CharField(max_length=255)
+	slug=models.SlugField(max_length=255,unique=True)
+	summary=models.CharField(max_length=300)
+	content=model.TextField()
+	published=models.BooleanField(default=True)
+	created=models.DateTimeField(auto_now_add=True)
+	image=models.ImageField(upload_to='img')
+	class Meta:
+		ordering=['-created']
+		def __unicode__(self):
+			return u'%s'% self.title
+		def get_absolute_url(self):
+			return reverse('blog.views.post',args=[self.slug])
+	
+
+
+
+{%extends 'base.html'%}
+{%block content%}
+	<div class="container">
+	<div class="col-md-3">
+	{%for post in posts%}
+		<div>
+		<div class="summary-title"><a href="/post/{{post.slug}}">{{post.title}}</div>
+		<div class="summary">{{post.summary}}</div>
+		</div>
+	{%endfor%}
+	</div>
+	<div class="col-md-9">
+		{%block entry%}{%endblock%}
+	</div>
+	</div>
+{%endblock%}
+
+
+
+{%extends 'single-template.html'%}
+{%block title%}My Site: {{post.title}}{%endblock%}
+{%block entry%}
+	<h2>{{post.title}}</h2>
+	<div>
+		{{post.content|linebreaks}}
+	</div>
+{%endblock%}
+
+
+
+from PyQt5.QtCore import *
+from PyQt5.QtWidgets import *
+class Page(QWidget):
+	def __init__(self,parent=None):
+		super(Page,self).__init__(parent)
+		my_label=QLabel("This is my label")
+		layout=QVBoxLayout()
+		layout.addWidget(my_label)		
+		mainLayout=QGridLayout()
+		mainLayout.addLayout(layout,0,1)
+		self.setLayout(mainLayout)
+		self.setWindowTitle("My first QT App")
+if __name__=="__main__":
+	import sys
+	app=QApplication(sys.argv)
+	window=Page()
+	window.show()
+	sys.exit(app.exec_())
+
+
+	
+#!/usr/bin/python3
+import os,sys
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtQuick import *
+from PyQt5.Qt import *
+if __name__=="__main__":
+	app=QGuiApplication(sys.argv)
+	engine=QQmlApplicationEngine()
+	engine.load(QUrl.fromLocalFile("main.qml"))
+	window=engine.rootObjects(0)
+	window.show()
+	sys.exit(app.exec_())
+
+
+
+import QtQuick 2.7
+import QtQuick.Window 2.2
+import QtQuick.Controls 1.4
+import QtGraphicalEffects 1.0
+ApplicationWindow{
+	id:mainWindow
+	height:160
+	width:300
+	visible:true
+	title:"My Window"
+	Item{
+		id:page
+		visible:true
+		width:parent.width
+		Rectangle{
+			id:myrectangle
+			height:{
+				console.log("I\'m a comment")
+				return 160
+			}
+			width:parent.width
+			color:"#ff0000"
+			Text{
+				id:mainText
+				text:"I am some regular text"	
+				height:50
+				width:parent.width
+				font.pixelSize:12
+				horizontalAlignment=Text.AlignHCenter
+				color:"#aaa"
+			}
+			Button{
+				id:mainbutton
+				text:"Push Me"
+				anchors.top=mainText.button
+				onClicked:{
+				console.log(myrectangle.color)
+						if(myrectangle.color=="#000000"){
+					myrectangle.color="#f00"
+				}
+				else{
+					myrectangle.color="#000"
+				}
+			}
+		}
+	}
+}
+
+
+

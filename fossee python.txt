@@ -1,0 +1,908 @@
+In [1]: x=linspace(0,2*pi,50)
+
+In [2]: plot(x,sin(x))
+Out[2]: [<matplotlib.lines.Line2D at 0x20d5e8f6f88>]
+
+In [3]: x[0]
+Out[3]: 0.0
+
+In [4]: x[49]
+Out[4]: 6.283185307179586
+
+In [5]: xlabel('x')
+Out[5]: Text(0.5, -7.827777777777783, 'x')
+
+In [6]: ylabel('sin(x)')
+Out[6]: Text(19.59722222222222, 0.5, 'sin(x)')
+
+In [7]: clf()
+
+In [8]: y=linspace(0,2*pi,50)
+
+In [9]: plot(y,sin(2*y))
+Out[9]: [<matplotlib.lines.Line2D at 0x20d5e840948>]
+
+In [10]: xlabel('y')
+Out[10]: Text(0.5, -7.827777777777783, 'y')
+
+In [11]: ylabel('sin(2y)')
+Out[11]: Text(19.59722222222222, 0.5, 'sin(2y)')
+
+In [12]: plo
+------------------------------------------------
+NameError      Traceback (most recent call last)
+<ipython-input-12-30566d7c847c> in <module>
+----> 1 plo
+
+NameError: name 'plo' is not defined
+
+In [13]: title('Sinusoids')
+Out[13]: Text(0.5, 1.0, 'Sinusoids')
+
+In [14]: legend(['sin(2y)'])
+Out[14]: <matplotlib.legend.Legend at 0x20d61c05688>
+
+In [15]: legend(['sin(2y)'],loc='center')
+Out[15]: <matplotlib.legend.Legend at 0x20d5efc4b48>
+
+In [16]: plot(y,cos(y),'r')
+Out[16]: [<matplotlib.lines.Line2D at 0x20d61be72c8>]
+
+In [17]: clf()
+
+In [18]: plot(y,sin(y),'g',linewidth=2)
+Out[18]: [<matplotlib.lines.Line2D at 0x20d5e8c0648>]
+
+In [19]: annotate('local max',xy=(1.5,1))
+Out[19]: Text(1.5, 1, 'local max')
+
+In [20]: savefig('sine.png')
+
+In [21]: close()
+
+In [22]: y=linspace(0,2*pi,50)
+
+In [23]: clf()
+
+In [24]: plot(y,sin(y))
+Out[24]: [<matplotlib.lines.Line2D at 0x20d624e8ac8>]
+
+In [25]: plot(y,cos(y))
+Out[25]: [<matplotlib.lines.Line2D at 0x20d6217b088>]
+
+In [26]: xlabel('y')
+Out[26]: Text(0.5, 23.52222222222222, 'y')
+
+In [27]: ylabel('f(y)')
+Out[27]: Text(22.347222222222214, 0.5, 'f(y)')
+
+In [28]: legend(['sin(y)','cos(y)'])
+Out[28]: <matplotlib.legend.Legend at 0x20d6236bac8>
+
+In [29]: clf()
+
+In [30]: figure(1)
+Out[30]: <Figure size 640x480 with 0 Axes>
+
+In [31]: plot(y,sin(y))
+Out[31]: [<matplotlib.lines.Line2D at 0x20d6217db08>]
+
+In [32]: figure(2)
+Out[32]: <Figure size 640x480 with 0 Axes>
+
+In [33]: plot(y,cos(y))
+Out[33]: [<matplotlib.lines.Line2D at 0x20d5e2cd148>]
+
+In [34]: savefig('cosine.png')
+
+In [35]: figure(1)
+Out[35]: <Figure size 640x480 with 1 Axes>
+
+In [36]: title('sin(y)')
+Out[36]: Text(0.5, 1.0, 'sin(y)')
+
+In [37]: savefig('sine.png')
+
+In [38]: close()
+
+In [39]: close()
+
+In [40]:
+(pyth) C:\Users\Dipak>ipython --pylab
+Python 3.7.10 (default, Feb 26 2021, 13:06:18) [MSC v.1916 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.24.1 -- An enhanced Interactive Python. Type '?' for help.
+Using matplotlib backend: TkAgg
+
+In [1]: xmin,xmax=xlim()
+
+In [2]: ymin,ymax=ylim()
+
+In [3]: print(xmin,xmax)
+0.0 1.0
+
+In [4]: xlim(xmin,2*pi)
+Out[4]: (0.0, 6.283185307179586)
+
+In [5]: ylim(ymin-0.2,ymax+0.2)
+Out[5]: (-0.2, 1.2)
+
+x=linspace(-5*pi,5*pi,500)
+plot(x,x,'b')
+plot(x,-x,'b')
+plot(x,sin(x),'g',linewidth=2)
+plot(x,x*sin(x),'r',linewidth=3)
+legend(['x','-x','sin(x)','xsin(x)'])
+annotate('origin',xy=(0,0))
+xlim(-5*pi,5*pi)
+ylim(-5*pi,5*pi)
+%hist
+
+%run -i four_plot.py
+%save four_plot.py 16-26
+
+
+In [1]: time=[0.,1.,2.,3.]
+
+In [2]: distance=[7.,11,15,19]
+
+In [3]: plot(time,distance)
+Out[3]: [<matplotlib.lines.Line2D at 0x1a14f11efc8>]
+
+In [4]: xlabel('time')
+Out[4]: Text(0.5, 23.52222222222222, 'time')
+
+In [5]: ylabel('distance')
+Out[5]: Text(46.972222222222214, 0.5, 'distance')
+
+In [6]: clf()
+
+In [7]: plot('time','distance','o')
+Out[7]: [<matplotlib.lines.Line2D at 0x1a150e14fc8>]
+
+In [8]: clf()
+
+In [9]: plot(time,distance,'.')
+Out[9]: [<matplotlib.lines.Line2D at 0x1a14f8483c8>]
+
+In [10]: plot('time','distance','o')
+Out[10]: [<matplotlib.lines.Line2D at 0x1a14f842788>]
+
+In [11]: clf()
+
+In [12]: plot('time','distance','o')
+Out[12]: [<matplotlib.lines.Line2D at 0x1a14f8cfa08>]
+
+In [13]: clf()
+
+In [14]: plot('time','distance','--')
+Out[14]: [<matplotlib.lines.Line2D at 0x1a14f932fc8>]
+
+In [15]: plot('time','distance','.')
+Out[15]: [<matplotlib.lines.Line2D at 0x1a150f78d88>]
+
+In [16]: clf()
+
+In [17]: plot('time','distance','--')
+Out[17]: [<matplotlib.lines.Line2D at 0x1a14f98d248>]
+
+In [18]: time=[0.,1.,2.,3.]
+
+In [19]: distance=[7.,11,15,19]
+
+In [20]: mtList=[]
+
+In [21]: p=[2,3,5,7]
+
+In [22]: p[1]
+Out[22]: 3
+
+In [23]: p[0]+p[1]+p[-1]
+Out[23]: 12
+
+In [24]: p=[2,3,5,7]
+
+In [25]: p[1:3]
+Out[25]: [3, 5]
+
+In [26]: p[-:-1]
+  File "<ipython-input-26-1197df117544>", line 1
+    p[-:-1]
+       ^
+SyntaxError: invalid syntax
+
+
+In [27]: p[0:-1]
+Out[27]: [2, 3, 5]
+
+In [28]: p[1:3]
+Out[28]: [3, 5]
+
+In [29]: p[0:-1]
+Out[29]: [2, 3, 5]
+
+In [30]: p[1:]
+Out[30]: [3, 5, 7]
+
+In [31]: p[0:4:2]
+Out[31]: [2, 5]
+
+In [32]: p[0::2]
+Out[32]: [2, 5]
+
+In [33]: p[::2]
+Out[33]: [2, 5]
+
+In [34]: p[::3]
+Out[34]: [2, 7]
+
+In [35]: p[::-1]
+Out[35]: [7, 5, 3, 2]
+
+In [36]: p[1::2]
+Out[36]: [3, 7]
+
+In [37]: p[1:-1:2]
+Out[37]: [3]
+
+In [38]: b=[11,13,17]
+
+In [39]: c=p+b
+
+In [40]: c
+Out[40]: [2, 3, 5, 7, 11, 13, 17]
+
+In [41]: p.append(11)
+
+In [42]: p
+Out[42]: [2, 3, 5, 7, 11]
+
+In [43]: c
+Out[43]: [2, 3, 5, 7, 11, 13, 17]
+
+In [41]: p.append(11)
+
+In [42]: p
+Out[42]: [2, 3, 5, 7, 11]
+
+In [43]: c
+Out[43]: [2, 3, 5, 7, 11, 13, 17]
+
+In [44]: L=[0.2,0.3,0.4,0.5,0.6,0.7,0.8]
+
+In [45]: t=[0.90,1.19,1.30,1.47,1.58,1.77,1.83]
+    ...:
+
+In [46]: print(len(L),len(t))
+7 7
+
+In [47]: for time in t:
+    ...:     print(ttime*time)
+    ...:
+------------------------------------------------
+NameError      Traceback (most recent call last)
+<ipython-input-47-b22032bc97b9> in <module>
+      1 for time in t:
+----> 2     print(ttime*time)
+      3
+
+NameError: name 'ttime' is not defined
+
+In [48]: for time in t:
+    ...:     print(time*time)
+    ...:
+    ...:
+0.81
+1.4161
+1.6900000000000002
+2.1609
+2.4964000000000004
+3.1329000000000002
+3.3489000000000004
+
+In [49]: tsq=[]
+
+In [50]: for time in t:
+    ...:     tsq.append(time*time)
+    ...:
+
+In [51]: print(len(L),len(t),len(tsq))
+7 7 7
+
+In [52]: plot(L,tsq)
+Out[52]: [<matplotlib.lines.Line2D at 0x1a150f9bb88>]
+
+In [53]: def sqr(arr):
+    ...:     result=[]
+    ...:     for x in arr:
+    ...:         result.append(x*x)
+    ...:     return result
+    ...:
+
+In [54]: tsq=sqr(t)
+
+In [55]: def f(x):
+    ...:     return x*x
+    ...:
+
+In [56]: f(1)
+Out[56]: 1
+
+In [57]: f(2)
+Out[57]: 4
+
+In [58]: def sum(a,b):
+    ...:     return a+b
+    ...:
+    ...:
+
+In [59]: sum(1,2)
+Out[59]: 3
+
+In [60]: sum([1,2],[2.3])
+Out[60]: [1, 2, 2.3]
+
+In [61]: sum([1,2],[2,3])
+Out[61]: [1, 2, 2, 3]
+
+
+In [62]: t=array(t)
+
+In [63]: tsq=t*t
+
+In [64]: print(tsq)
+[0.81   1.4161 1.69   2.1609 2.4964 3.1329 3.3489]
+
+In [65]: plot(L,tsq)
+Out[65]: [<matplotlib.lines.Line2D at 0x1a14fb25448>]
+
+In [66]: t=range(1000000)
+
+In [67]: tsq=sqr(t)
+
+In [68]: t=array(t)
+
+In [69]: tsq=t*t
+
+In [70]: %timeit sqr(t)
+C:\Users\Dipak\.conda\envs\pyth\Scripts\ipython:4: RuntimeWarning: overflow encountered in long_scalars
+------------------------------------------------
+KeyboardInterruptTraceback (most recent call last)
+<ipython-input-70-581fa113ebe4> in <module>
+----> 1 get_ipython().run_line_magic('timeit', 'sqr(t)')
+
+c:\users\dipak\.conda\envs\pyth\lib\site-packages\IPython\core\interactiveshell.py in run_line_magic(self, magic_name, line, _stack_depth)
+   2346                 kwargs['local_ns'] = self.get_local_scope(stack_depth)
+   2347             with self.builtin_trap:
+-> 2348                 result = fn(*args, **kwargs)
+   2349             return result
+   2350
+
+<decorator-gen-54> in timeit(self, line, cell, local_ns)
+
+c:\users\dipak\.conda\envs\pyth\lib\site-packages\IPython\core\magic.py in <lambda>(f, *a, **k)
+    185     # but it's overkill for just that one bit of state.
+    186     def magic_deco(arg):
+--> 187         call = lambda f, *a, **k: f(*a, **k)
+    188
+    189         if callable(arg):
+
+c:\users\dipak\.conda\envs\pyth\lib\site-packages\IPython\core\magics\execution.py in timeit(self, line, cell, local_ns)
+   1171                     break
+   1172
+-> 1173         all_runs = timer.repeat(repeat, number)
+   1174         best = min(all_runs) / number
+   1175         worst = max(all_runs) / number
+
+c:\users\dipak\.conda\envs\pyth\lib\timeit.py in repeat(self, repeat, number)
+    203         r = []
+    204         for i in range(repeat):
+--> 205             t = self.timeit(number)
+    206             r.append(t)
+    207         return r
+
+c:\users\dipak\.conda\envs\pyth\lib\site-packages\IPython\core\magics\execution.py in timeit(self, number)
+    167         gc.disable()
+    168         try:
+--> 169             timing = self.inner(it, self.timer)
+    170         finally:
+    171             if gcold:
+
+<magic-timeit> in inner(_it, _timer)
+
+<ipython-input-53-83146e8a3904> in sqr(arr)
+      2     result=[]
+      3     for x in arr:
+----> 4         result.append(x*x)
+      5     return result
+      6
+
+KeyboardInterrupt:
+
+In [71]: def sqr(arr):
+    ...:     result=[]
+    ...:     for c in arr:
+    ...:         result.append(x*x)
+    ...:     return result
+    ...:
+
+In [72]: t=range(1000000)
+
+In [73]: t=array(t)
+
+In [74]: len(t)
+Out[74]: 1000000
+
+In [75]: $timeit t*t
+  File "<ipython-input-75-6fb406de700f>", line 1
+    $timeit t*t
+    ^
+SyntaxError: invalid syntax
+
+
+In [76]: %timeit t*t
+10.4 ms ± 516 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+
+In [77]: %timeit sqr(t)
+------------------------------------------------
+NameError      Traceback (most recent call last)
+<ipython-input-77-581fa113ebe4> in <module>
+----> 1 get_ipython().run_line_magic('timeit', 'sqr(t)')
+
+c:\users\dipak\.conda\envs\pyth\lib\site-packages\IPython\core\interactiveshell.py in run_line_magic(self, magic_name, line, _stack_depth)
+   2346                 kwargs['local_ns'] = self.get_local_scope(stack_depth)
+   2347             with self.builtin_trap:
+-> 2348                 result = fn(*args, **kwargs)
+   2349             return result
+   2350
+
+<decorator-gen-54> in timeit(self, line, cell, local_ns)
+
+c:\users\dipak\.conda\envs\pyth\lib\site-packages\IPython\core\magic.py in <lambda>(f, *a, **k)
+    185     # but it's overkill for just that one bit of state.
+    186     def magic_deco(arg):
+--> 187         call = lambda f, *a, **k: f(*a, **k)
+    188
+    189         if callable(arg):
+
+c:\users\dipak\.conda\envs\pyth\lib\site-packages\IPython\core\magics\execution.py in timeit(self, line, cell, local_ns)
+   1167             for index in range(0, 10):
+   1168                 number = 10 ** index
+-> 1169                 time_number = timer.timeit(number)
+   1170                 if time_number >= 0.2:
+   1171                     break
+
+c:\users\dipak\.conda\envs\pyth\lib\site-packages\IPython\core\magics\execution.py in timeit(self, number)
+    167         gc.disable()
+    168         try:
+--> 169             timing = self.inner(it, self.timer)
+    170         finally:
+    171             if gcold:
+
+<magic-timeit> in inner(_it, _timer)
+
+<ipython-input-71-ac96feb0df84> in sqr(arr)
+      2     result=[]
+      3     for c in arr:
+----> 4         result.append(x*x)
+      5     return result
+      6
+
+NameError: name 'x' is not defined
+
+In [78]: %timeit sqr
+305 ns ± 80.3 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each)
+
+
+In [1]: a=array([1,2,3,4])
+
+In [2]: b=array([2,3,4,5])
+
+In [3]: print(a[0],a[-1])
+1 4
+
+In [4]: a[0]
+Out[4]: 1
+
+In [5]: a+b
+Out[5]: array([3, 5, 7, 9])
+
+In [6]: a*b
+Out[6]: array([ 2,  6, 12, 20])
+
+In [7]: a/b
+Out[7]: array([0.5       , 0.66666667, 0.75      , 0.8       ])
+
+In [8]: a[0]
+Out[8]: 1
+
+In [9]: a[0]=1
+
+In [10]: a=array([1.,2,3,4])
+
+In [11]: a/b
+Out[11]: array([0.5       , 0.66666667, 0.75      , 0.8       ])
+
+In [12]: x=linspace(0.0,10.0,200)
+
+In [13]: x*=2*pi/10
+
+In [14]: y=sin(x)
+
+In [15]: y=cos(x)
+
+In [16]: x[0]=-1
+
+In [17]: print(x[0],x[-1])
+-1.0 6.283185307179586
+
+In [18]: x=array([1.,2,3,4])
+
+In [19]: size(x)
+Out[19]: 4
+
+In [20]: x.dtype
+Out[20]: dtype('float64')
+
+In [21]: x.shape
+Out[21]: (4,)
+
+In [22]: rank(x)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-22-a81492092f07> in <module>
+----> 1 rank(x)
+
+NameError: name 'rank' is not defined
+
+In [23]: x.rank(x)
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-23-bf5862ce308b> in <module>
+----> 1 x.rank(x)
+
+AttributeError: 'numpy.ndarray' object has no attribute 'rank'
+
+In [24]: x.itemsize
+Out[24]: 8
+
+In [25]: rank()
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-25-a4584df954d0> in <module>
+----> 1 rank()
+
+NameError: name 'rank' is not defined
+
+In [26]: a=array([[0,1,2,3],[10,11,12,13]])
+
+In [27]: a.shape
+Out[27]: (2, 4)
+
+In [28]: a[1,3]
+Out[28]: 13
+
+In [29]: a[1,3]=-1
+
+In [30]: a[1]
+Out[30]: array([10, 11, 12, -1])
+
+In [31]: a[1]=0
+
+In [32]: a
+Out[32]:
+array([[0, 1, 2, 3],
+       [0, 0, 0, 0]])
+
+In [33]: a=array([[1,2,3],[4,5,6],[7,8,9]])
+
+In [34]: a[0,1:3]
+Out[34]: array([2, 3])
+
+In [35]: a[1:,1:]
+Out[35]:
+array([[5, 6],
+       [8, 9]])
+
+In [36]: a
+Out[36]:
+array([[1, 2, 3],
+       [4, 5, 6],
+       [7, 8, 9]])
+
+In [37]: a[:,2]
+Out[37]: array([3, 6, 9])
+
+In [38]: a=array([[1,2,3],[4,5,6],[7,8,9]])
+
+In [39]: a[0::2.0::2]
+  File "<ipython-input-39-f969d66624bb>", line 1
+    a[0::2.0::2]
+            ^
+SyntaxError: invalid syntax
+
+
+In [40]: a[0::2,0::2]
+Out[40]:
+array([[1, 3],
+       [7, 9]])
+
+In [41]: ones(10)
+Out[41]: array([1., 1., 1., 1., 1., 1., 1., 1., 1., 1.])
+
+In [42]: ones(10,1010)
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-42-a0a89ee0260c> in <module>
+----> 1 ones(10,1010)
+
+c:\users\dipak\.conda\envs\pyth\lib\site-packages\numpy\core\numeric.py in ones(shape, dtype, order, like)
+    201         return _ones_with_like(shape, dtype=dtype, order=order, like=like)
+    202
+--> 203     a = empty(shape, dtype, order)
+    204     multiarray.copyto(a, 1, casting='unsafe')
+    205     return a
+
+TypeError: Cannot interpret '1010' as a data type
+
+In [43]: ones(10,10)
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-43-c4fefbf752ac> in <module>
+----> 1 ones(10,10)
+
+c:\users\dipak\.conda\envs\pyth\lib\site-packages\numpy\core\numeric.py in ones(shape, dtype, order, like)
+    201         return _ones_with_like(shape, dtype=dtype, order=order, like=like)
+    202
+--> 203     a = empty(shape, dtype, order)
+    204     multiarray.copyto(a, 1, casting='unsafe')
+    205     return a
+
+TypeError: Cannot interpret '10' as a data type
+
+In [44]: ones(100)
+Out[44]:
+array([1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+       1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+       1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+       1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+       1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+       1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.])
+
+In [45]: a=array([1,2,3],dtype=float)
+
+In [46]: ones_like(a)
+Out[46]: array([1., 1., 1.])
+
+In [47]: ones((2,3))
+Out[47]:
+array([[1., 1., 1.],
+       [1., 1., 1.]])
+
+In [48]: identity(3)
+Out[48]:
+array([[1., 0., 0.],
+       [0., 1., 0.],
+       [0., 0., 1.]])
+
+In [49]: import numpy
+
+
+x=loadtxt('pendulum.txt')
+x.shape
+x,y=loadtxt('pendulum.txt',unpack=True)
+x.shape
+
+
+L,t=loadtxt('pendulum.txt',unpack=True)
+plot(L,t*t,'.')
+x=loadtxt('pendulum.txt')
+L,t=x[:,0],x[:,1]
+plot(L,t*t,'.')
+
+mean(L)
+std(L)
+
+
+
+In [53]: c=array([[11,12,13],[21,22,23],[31,32,33]])
+
+In [54]: c
+Out[54]:
+array([[11, 12, 13],
+       [21, 22, 23],
+       [31, 32, 33]])
+
+In [55]: ones((3,5))
+Out[55]:
+array([[1., 1., 1., 1., 1.],
+       [1., 1., 1., 1., 1.],
+       [1., 1., 1., 1., 1.]])
+
+In [56]: ones_like((1,2,3,4))
+Out[56]: array([1, 1, 1, 1])
+
+In [57]: identity(2)
+Out[57]:
+array([[1., 0.],
+       [0., 1.]])
+
+In [58]: c.shape
+Out[58]: (3, 3)
+
+
+In [64]: a=imread('C:\\Users\\Dipak\\Desktop\\Photo1.png')
+
+In [65]: imshow(a)
+Out[65]: <matplotlib.image.AxesImage at 0x1f47dcfe288>
+
+In [66]: a.shape
+Out[66]: (1200, 1200, 4)
+
+In [67]: b=a[:600,:600,4]
+---------------------------------------------------------------------------
+IndexError                                Traceback (most recent call last)
+<ipython-input-67-f8cf6cdbb944> in <module>
+----> 1 b=a[:600,:600,4]
+
+IndexError: index 4 is out of bounds for axis 2 with size 4
+
+In [68]: b=a[:600,:600]
+
+In [69]: b.shape
+Out[69]: (600, 600, 4)
+
+In [70]: b=[:600,:600,:]
+  File "<ipython-input-70-0040195d6ccf>", line 1
+    b=[:600,:600,:]
+       ^
+SyntaxError: invalid syntax
+
+
+In [71]: b=a[:600,:600,:]
+
+In [72]: imshow(b)
+Out[72]: <matplotlib.image.AxesImage at 0x1f47dce4288>
+
+In [73]: imshow(a[:600,:600])
+Out[73]: <matplotlib.image.AxesImage at 0x1f47ee10148>
+
+In [74]: imshow(a[300,400,300:400])
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-74-e4c4334feb8c> in <module>
+----> 1 imshow(a[300,400,300:400])
+
+c:\users\dipak\.conda\envs\pyth\lib\site-packages\matplotlib\pyplot.py in imshow(X, cmap, norm, aspect, interpolation, alpha, vmin, vmax, origin, extent, filternorm, filterrad, resample, url, data, **kwargs)
+   2907         filternorm=filternorm, filterrad=filterrad, resample=resample,
+   2908         url=url, **({"data": data} if data is not None else {}),
+-> 2909         **kwargs)
+   2910     sci(__ret)
+   2911     return __ret
+
+c:\users\dipak\.conda\envs\pyth\lib\site-packages\matplotlib\__init__.py in inner(ax, data, *args, **kwargs)
+   1359     def inner(ax, *args, data=None, **kwargs):
+   1360         if data is None:
+-> 1361             return func(ax, *map(sanitize_sequence, args), **kwargs)
+   1362
+   1363         bound = new_sig.bind(ax, *args, **kwargs)
+
+c:\users\dipak\.conda\envs\pyth\lib\site-packages\matplotlib\axes\_axes.py in imshow(self, X, cmap, norm, aspect, interpolation, alpha, vmin, vmax, origin, extent, filternorm, filterrad, resample, url, **kwargs)
+   5607                               resample=resample, **kwargs)
+   5608
+-> 5609         im.set_data(X)
+   5610         im.set_alpha(alpha)
+   5611         if im.get_clip_path() is None:
+
+c:\users\dipak\.conda\envs\pyth\lib\site-packages\matplotlib\image.py in set_data(self, A)
+    708                 or self._A.ndim == 3 and self._A.shape[-1] in [3, 4]):
+    709             raise TypeError("Invalid shape {} for image data"
+--> 710                             .format(self._A.shape))
+    711
+    712         if self._A.ndim == 3:
+
+TypeError: Invalid shape (0,) for image data
+
+In [75]: imshow(a[300:400,300:400])
+Out[75]: <matplotlib.image.AxesImage at 0x1f47ed9df88>
+
+In [76]: imshow(a[::2,::2])
+Out[76]: <matplotlib.image.AxesImage at 0x1f47eee2948>
+
+In [77]: a=[[1,2],[2,3]]
+
+In [78]: b=[[3,2],[4,5]]
+
+In [79]: a*b
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-79-8ce765dcfa30> in <module>
+----> 1 a*b
+
+TypeError: can't multiply sequence by non-int of type 'list'
+
+In [80]: b=array([[3,2],[4,5]])
+
+In [81]: a=array([[1,2],[2,3]])
+
+In [82]: b*a
+Out[82]:
+array([[ 3,  4],
+       [ 8, 15]])
+
+In [83]: dot(a,b)
+Out[83]:
+array([[11, 12],
+       [18, 19]])
+
+In [84]: inv(a)
+Out[84]:
+array([[-3.,  2.],
+       [ 2., -1.]])
+
+
+L,t=loadtxt('pendulum.txt',unpack=True)
+tsq=t*t
+A=array([L,ones_like(L)])
+A=A.T
+result=lstsq(A,tsq)
+coef=result[0]
+Tline=coef[0]*L+coef[1]
+Tline.shape
+plot(L,Tline,'r')
+plot(L,tsq,'o')
+
+
+In [86]: import numpy
+
+In [87]: numpy.random
+Out[87]: <module 'numpy.random' from 'c:\\users\\dipak\\.conda\\envs\\pyth\\lib\\site-packages\\numpy\\random\\__init__.py'>
+
+In [88]: x=random.random(size=100)
+
+In [89]: y=random.random(size=100)
+
+In [90]: scatter(x,y)
+Out[90]: <matplotlib.collections.PathCollection at 0x1f47dd1e288>
+
+In [91]: x,y=random.normal(size=(2,100))
+
+In [92]: clf()
+
+In [93]: scatter(x,y)
+Out[93]: <matplotlib.collections.PathCollection at 0x1f47efae1c8>
+
+In [94]: clf()
+
+In [95]: img=random.random(size=(200,200))
+
+In [96]: clf()
+
+In [97]: imshow(img)
+Out[97]: <matplotlib.image.AxesImage at 0x1f47f073e88>
+
+In [98]: colorbar
+Out[98]: <function matplotlib.pyplot.colorbar(mappable=None, cax=None, ax=None, **kw)>
+
+In [99]: colorbar()
+Out[99]: <matplotlib.colorbar.Colorbar at 0x1f47f8a3f88>
+
+In [100]: b=identity(200)
+
+In [101]: clf()
+
+In [102]: imsahow(b)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-102-a433eef8e015> in <module>
+----> 1 imsahow(b)
+
+NameError: name 'imsahow' is not defined
+
+In [103]: imshow(b)
+Out[103]: <matplotlib.image.AxesImage at 0x1f47ece1508>
+
+In [104]: colorbar()
+Out[104]: <matplotlib.colorbar.Colorbar at 0x1f47f0ec848>
+
+
